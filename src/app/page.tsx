@@ -74,25 +74,43 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Take Action</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <h3 className="font-bold text-xl mb-4">Upcoming Votes</h3>
-              <p className="mb-4">Stay informed about important votes in your area.</p>
-              <Link href="/votes" className="text-blue-500 hover:underline">View Upcoming Votes</Link>
-            </div>
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <h3 className="font-bold text-xl mb-4">Contact Representatives</h3>
-              <p className="mb-4">Make your voice heard on important issues.</p>
-              <Link href="/contact" className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
-                Contact Now
-              </Link>
-            </div>
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <h3 className="font-bold text-xl mb-4">Voter Registration</h3>
-              <p className="mb-4">Ensure you are ready to vote in upcoming elections.</p>
-              <Link href="/register" className="bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 transition duration-300">
-                Register to Vote
-              </Link>
-            </div>
+            {[
+              { 
+                title: "Upcoming Votes", 
+                description: "Stay informed about important votes in your area.", 
+                image: "/upcomingvotes.jpg",
+                link: "/votes",
+                linkText: "View Upcoming Votes"
+              },
+              { 
+                title: "Contact Representatives", 
+                description: "Make your voice heard on important issues.", 
+                image: "/rep.jpg",
+                link: "/contact",
+                linkText: "Contact Now"
+              },
+              { 
+                title: "Voter Registration", 
+                description: "Ensure you're ready to vote in upcoming elections.", 
+                image: "/register.jpg",
+                link: "/register",
+                linkText: "Register to Vote"
+              }
+            ].map((item, index) => (
+              <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl">
+                <Image src={item.image} alt={item.title} width={800} height={600} className="w-full h-48 object-cover" />
+                <div className="p-4">
+                  <h3 className="font-bold text-xl mb-2">{item.title}</h3>
+                  <p className="text-gray-600 mb-4">{item.description}</p>
+                  <Link 
+                    href={item.link} 
+                    className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+                  >
+                    {item.linkText}
+                  </Link>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
