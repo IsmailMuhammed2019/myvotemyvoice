@@ -1,7 +1,9 @@
+import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Navigation */}
@@ -23,7 +25,10 @@ export default function Home() {
               <Link href="/signup" className="py-2 px-2 font-medium text-white bg-blue-500 rounded hover:bg-blue-400 transition duration-300">Sign Up</Link>
             </div>
             <div className="md:hidden flex items-center">
-              <button className="outline-none mobile-menu-button">
+            <button 
+  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+  className="outline-none mobile-menu-button"
+>
                 <svg className="w-6 h-6 text-gray-500 hover:text-blue-500"
                      fill="none"
                      strokeLinecap="round"
@@ -39,7 +44,7 @@ export default function Home() {
           </div>
         </div>
         {/* Mobile menu, toggle classes based on menu state */}
-        <div className="hidden mobile-menu">
+        <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} mobile-menu`}>
           <ul className="">
             <li><Link href="/learn" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Learn</Link></li>
             <li><Link href="/fact-check" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Fact Check</Link></li>
@@ -53,7 +58,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="relative bg-blue-600 h-[70vh]">
-        <Image src="/hero-image.jpg" alt="Democracy" layout="fill" objectFit="cover" className="mix-blend-overlay" />
+        <Image src="https://source.unsplash.com/random/1920x1080/?vote" alt="Democracy" layout="fill" objectFit="cover" className="mix-blend-overlay" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Empower Your Voice, Inform Your Vote</h1>
@@ -68,18 +73,19 @@ export default function Home() {
       {/* Featured Content */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Featured Content</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Learn & Engage</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "Understanding the Electoral College", image: "/policies.jpg" },
-              { title: "Climate Change Policies Explained", image: "/gavel-scaled.jpg" },
-              { title: "How to Attend a Town Hall Meeting", image: "/townhall.jpg" }
+              { title: "Interactive Explainer Videos", description: "Understand complex political processes in simple terms", image: "https://source.unsplash.com/random/800x600/?video" },
+              { title: "Policy Breakdowns", description: "Get unbiased explanations of current policy debates", image: "https://source.unsplash.com/random/800x600/?policy" },
+              { title: "Civic Engagement Guides", description: "Learn how to effectively participate in your democracy", image: "https://source.unsplash.com/random/800x600/?community" }
             ].map((item, index) => (
               <div key={index} className="bg-gray-100 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl">
                 <Image src={item.image} alt={item.title} width={800} height={600} className="w-full h-48 object-cover" />
                 <div className="p-4">
                   <h3 className="font-bold text-xl mb-2">{item.title}</h3>
-                  <Link href="#" className="text-blue-500 hover:underline">Learn More</Link>
+                  <p className="text-gray-600 mb-4">{item.description}</p>
+                  <Link href="#" className="text-blue-500 hover:underline">Explore More</Link>
                 </div>
               </div>
             ))}
@@ -87,23 +93,74 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Action Center */}
+      {/* Fact-Checking Platform */}
       <section className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Take Action</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Fact-Checking Platform</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="font-bold text-xl mb-4">Upcoming Votes</h3>
-              <p className="mb-4">Infrastructure Bill on July 30</p>
-              <Link href="/votes" className="text-blue-500 hover:underline">View All Upcoming Votes</Link>
+              <h3 className="font-bold text-xl mb-4">Verify Information</h3>
+              <p className="mb-4">Search our database of fact-checked statements and claims.</p>
+              <input type="text" placeholder="Search for a claim or statement" className="w-full p-2 border rounded mb-4" />
+              <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                Search Facts
+              </button>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="font-bold text-xl mb-4">Latest Fact Checks</h3>
+              <ul className="space-y-2">
+                <li><Link href="#" className="text-blue-500 hover:underline">Claim about recent economic policy</Link></li>
+                <li><Link href="#" className="text-blue-500 hover:underline">Statement on environmental regulations</Link></li>
+                <li><Link href="#" className="text-blue-500 hover:underline">Viral social media post on healthcare</Link></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Action Center */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Take Action</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+              <h3 className="font-bold text-xl mb-4">Upcoming Votes</h3>
+              <p className="mb-4">Stay informed about important votes in your area.</p>
+              <Link href="/votes" className="text-blue-500 hover:underline">View Upcoming Votes</Link>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 className="font-bold text-xl mb-4">Contact Representatives</h3>
-              <p className="mb-4">Make your voice heard on important issues</p>
+              <p className="mb-4">Make your voice heard on important issues.</p>
               <Link href="/contact" className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
                 Contact Now
               </Link>
             </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+              <h3 className="font-bold text-xl mb-4">Voter Registration</h3>
+              <p className="mb-4">Ensure you're ready to vote in upcoming elections.</p>
+              <Link href="/register" className="bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 transition duration-300">
+                Register to Vote
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Elected Officials Database */}
+      <section className="py-20 bg-gray-100">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Elected Officials Database</h2>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <p className="mb-4">Search for information on your elected representatives at all levels of government.</p>
+            <div className="flex flex-col md:flex-row gap-4">
+              <input type="text" placeholder="Enter your address" className="flex-grow p-2 border rounded" />
+              <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                Find My Representatives
+              </button>
+            </div>
+          </div>
+          <div className="mt-8 text-center">
+            <Link href="/officials" className="text-blue-500 hover:underline">View Full Database of Elected Officials</Link>
           </div>
         </div>
       </section>
@@ -112,11 +169,12 @@ export default function Home() {
       <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Our Impact</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             {[
               { number: "1,000,000+", label: "Informed Voters" },
               { number: "50,000+", label: "Fact-Checked Statements" },
-              { number: "100,000+", label: "Constituent Messages Sent" }
+              { number: "100,000+", label: "Constituent Messages Sent" },
+              { number: "5,000+", label: "Elected Officials Tracked" }
             ].map((stat, index) => (
               <div key={index}>
                 <p className="text-4xl font-bold mb-2">{stat.number}</p>
@@ -124,6 +182,17 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-4">Ready to Make a Difference?</h2>
+          <p className="text-xl mb-8">Join My Vote My Voice today and become an informed, engaged citizen.</p>
+          <Link href="/signup" className="bg-blue-500 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300">
+            Sign Up Now
+          </Link>
         </div>
       </section>
 
