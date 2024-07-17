@@ -1,64 +1,15 @@
-import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Navigation from '../components/Navigation'
 
 export default function Home() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   return (
     <div className="min-h-screen bg-gray-100">
-      {/* Navigation */}
-      <nav className="bg-white shadow-lg">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex justify-between">
-            <div className="flex items-center space-x-4">
-              <Link href="/" className="flex items-center py-4 px-2">
-                <Image src="/myvotemyvoice.jpg" alt="Logo" width={50} height={50} className="h-10 w-auto" />
-                <span className="font-bold text-xl text-blue-600 ml-2">My Vote My Voice</span>
-              </Link>
-            </div>
-            <div className="hidden md:flex items-center space-x-1">
-              <Link href="/learn" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Learn</Link>
-              <Link href="/fact-check" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Fact Check</Link>
-              <Link href="/action-center" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Action Center</Link>
-              <Link href="/officials" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Elected Officials</Link>
-              <Link href="/login" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-blue-500 hover:text-white transition duration-300">Log In</Link>
-              <Link href="/signup" className="py-2 px-2 font-medium text-white bg-blue-500 rounded hover:bg-blue-400 transition duration-300">Sign Up</Link>
-            </div>
-            <div className="md:hidden flex items-center">
-            <button 
-  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-  className="outline-none mobile-menu-button"
->
-                <svg className="w-6 h-6 text-gray-500 hover:text-blue-500"
-                     fill="none"
-                     strokeLinecap="round"
-                     strokeLinejoin="round"
-                     strokeWidth="2"
-                     viewBox="0 0 24 24"
-                     stroke="currentColor"
-                >
-                  <path d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-        {/* Mobile menu, toggle classes based on menu state */}
-        <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} mobile-menu`}>
-          <ul className="">
-            <li><Link href="/learn" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Learn</Link></li>
-            <li><Link href="/fact-check" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Fact Check</Link></li>
-            <li><Link href="/action-center" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Action Center</Link></li>
-            <li><Link href="/officials" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Elected Officials</Link></li>
-            <li><Link href="/login" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Log In</Link></li>
-            <li><Link href="/signup" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Sign Up</Link></li>
-          </ul>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* Hero Section */}
       <div className="relative bg-blue-600 h-[70vh]">
-        <Image src="https://source.unsplash.com/random/1920x1080/?vote" alt="Democracy" layout="fill" objectFit="cover" className="mix-blend-overlay" />
+        <Image src="/hero-image.jpg" alt="Democracy" layout="fill" objectFit="cover" className="mix-blend-overlay" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Empower Your Voice, Inform Your Vote</h1>
@@ -76,9 +27,9 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">Learn & Engage</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "Interactive Explainer Videos", description: "Understand complex political processes in simple terms", image: "https://source.unsplash.com/random/800x600/?video" },
-              { title: "Policy Breakdowns", description: "Get unbiased explanations of current policy debates", image: "https://source.unsplash.com/random/800x600/?policy" },
-              { title: "Civic Engagement Guides", description: "Learn how to effectively participate in your democracy", image: "https://source.unsplash.com/random/800x600/?community" }
+              { title: "Interactive Explainer Videos", description: "Understand complex political processes in simple terms", image: "/policies.jpg" },
+              { title: "Policy Breakdowns", description: "Get unbiased explanations of current policy debates", image: "/gavel-scaled.jpg" },
+              { title: "Civic Engagement Guides", description: "Learn how to effectively participate in your democracy", image: "/townhall.jpg" }
             ].map((item, index) => (
               <div key={index} className="bg-gray-100 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl">
                 <Image src={item.image} alt={item.title} width={800} height={600} className="w-full h-48 object-cover" />
@@ -137,7 +88,7 @@ export default function Home() {
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 className="font-bold text-xl mb-4">Voter Registration</h3>
-              <p className="mb-4">Ensure you're ready to vote in upcoming elections.</p>
+              <p className="mb-4">Ensure you are ready to vote in upcoming elections.</p>
               <Link href="/register" className="bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 transition duration-300">
                 Register to Vote
               </Link>
