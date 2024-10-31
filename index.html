@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MyVoteMyVoice - Civic Engagement Platform</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="fonts/css/fontawesome.min.css" rel="stylesheet" >
+	<link href="fonts/css/brands.min.css" rel="stylesheet" />
+    <link href="fonts/css/solid.min.css" rel="stylesheet" />
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+<section id="top" class="bg_blue">
+	<div class="container-xl">
+	 <div class="row top_1">
+		<div class="col-md-6">
+		  <div class="top_1l">
+			 <ul class="mb-0 font_14">
+			<li class="text-white d-inline-block fw-bold"><i class="fa fa-map-marker me-1 fs-6 align-middle col_red"></i> 
+	Location: <span class="fw-normal">Washington, DC</span> </li>
+	<li class="text-white d-inline-block ms-4 fw-bold"><i class="fa fa-phone me-1 col_red"></i> 
+	Contact: <span class="fw-normal">info@myvotemyvoice.us</span> </li>
+		</ul>
+		  </div>
+		</div>
+		<div class="col-md-6">
+		  <div class="top_1r float-end">
+			  <ul class="mb-0 font_14">
+	  <li><a class="d-block text-center" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+	 <li><a class="d-block text-center" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+	 <li><a class="d-block text-center" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+	 <li><a class="d-block text-center" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+	 <li><a class="d-block text-center" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	 </div>
+	</div>
+	</section>
+	
+	<section id="header">
+	<nav class="navbar navbar-expand-md navbar-light p-0" id="navbar_sticky">
+	  <div class="container-xl">
+		<a class="p-0 navbar-brand fw-bold col_blue" href="index.html"><i class="fa-solid fa-check-to-slot col_red me-1"></i> MyVote <span class="col_red">MyVoice</span></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		   <ul class="navbar-nav mb-0 ms-auto">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			</li>
+			 
+			<li class="nav-item">
+			  <a class="nav-link" href="about.html">About Us</a>
+			</li>
+			
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				News
+			  </a>
+			  <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+				<li><a class="dropdown-item" href="blog.html"> News</a></li>
+				<li><a class="dropdown-item border-0" href="blog_detail.html"> News Detail</a></li>
+			  </ul>
+			</li>
+			
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				Team
+			  </a>
+			  <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+				<li><a class="dropdown-item" href="team.html"> Team</a></li>
+				<li><a class="dropdown-item border-0" href="team_detail.html"> Team Detail</a></li>
+			  </ul>
+			</li>
+			
+			<li class="nav-item">
+			  <a class="nav-link" href="faq.html">Faq </a>
+			</li>
+			
+			<li class="nav-item">
+			  <a class="nav-link" href="contact.html">Contact </a>
+			</li>
+			
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				Others
+			  </a>
+			  <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+				<li><a class="dropdown-item" href="services.html"> Services</a></li>
+				<li><a class="dropdown-item" href="Donation.html"> Donation</a></li>
+				<li><a class="dropdown-item" href="register.html"> Register</a></li>
+				<li><a class="dropdown-item border-0" href="login.html"> Login</a></li>
+			  </ul>
+			</li>
+	
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle dropdown_search nav_hide" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				<i class="fa fa-search"></i>
+			  </a>
+			  <ul class="dropdown-menu drop_2 drop_1 p-3 bg_blue" aria-labelledby="navbarDropdown">
+				<li>
+				  <div class="input-group">
+					<input type="text" class="form-control rounded-0 font_14" placeholder="SEARCH HERE">
+					<span class="input-group-btn">
+						<button class="btn btn-primary bg_red rounded-0 p-2 px-3 border-0 font_14" type="button">
+							SEARCH </button>
+					</span>
+			</div>
+				</li>
+			  </ul>
+			</li>
+			
+			<li class="nav-item">
+			  <a class="button font_14" href="donation.html">CONTRIBUTE </a>
+			</li>
+			
+		  </ul>
+		  
+		</div>
+	  </div>
+	</nav>
+	</section>
+
+<section id="center" class="center_home">
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="" aria-current="true"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-md-block">
+		<h1 class="font_70 text-uppercase family_1">Your Voice <br> Your <span class="col_red">Vote</span></h1>
+		<p class="mt-3 w-50 text-light fs-5">Empowering citizens with knowledge and tools to strengthen democracy through informed participation and accountability.</p>
+       <h6 class="mb-0 mt-4"><a class="button" href="register-vote.html">Register to Vote</a></h6>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-md-block">
+         <h1 class="font_70 text-uppercase family_1">Track Your <span class="col_red">Representatives</span></h1>
+		<p class="mt-3 w-50 text-light fs-5">Access verified voting records, policy positions, and tools to hold elected officials accountable to their campaign promises.</p>
+       <h6 class="mb-0 mt-4"><a class="button" href="dashboard.html">View Dashboard</a></h6>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-md-block">
+	<h1 class="font_70 text-uppercase family_1">Get <span class="col_red">Involved</span></h1>
+		<p class="mt-3 w-50 text-light fs-5">Join our community of engaged citizens working to strengthen democratic institutions through education and accountability.</p>
+       <h6 class="mb-0 mt-4"><a class="button" href="get-involved.html">Learn More</a></h6>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<section id="serv_pg" class="p_3">
+<div class="container-xl">
+ <div class="row serv_pg1">
+     <div class="col-md-3 col-sm-6">
+	   <div class="serv_pg1l">
+	     <div class="serv_pg1li row">
+		   <div class="col-md-3">
+		     <div class="serv_pg1lil">
+			   <span class="font_50 col_red lh-1"><i class="fa fa-graduation-cap"></i></span>
+			 </div>
+		   </div>
+		   <div class="col-md-9">
+		     <div class="serv_pg1lir">
+			   <h5>EDUCATION</h5>
+			   <h6 class="mb-0">Civic Knowledge</h6>
+			 </div>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+	 <div class="col-md-3 col-sm-6">
+	   <div class="serv_pg1l">
+	     <div class="serv_pg1li row">
+		   <div class="col-md-3">
+		     <div class="serv_pg1lil">
+			   <span class="font_50 text-warning lh-1"><i class="fa fa-check-circle"></i></span>
+			 </div>
+		   </div>
+		   <div class="col-md-9">
+		     <div class="serv_pg1lir">
+			   <h5>FACT-CHECKING</h5>
+			   <h6 class="mb-0">Verified Information</h6>
+			 </div>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+	 <div class="col-md-3 col-sm-6">
+	   <div class="serv_pg1l">
+	     <div class="serv_pg1li row">
+		   <div class="col-md-3">
+		     <div class="serv_pg1lil">
+			   <span class="font_50 text-info lh-1"><i class="fa fa-users"></i></span>
+			 </div>
+		   </div>
+		   <div class="col-md-9">
+		     <div class="serv_pg1lir">
+			   <h5>ENGAGEMENT</h5>
+			   <h6 class="mb-0">Take Action</h6>
+			 </div>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+	 <div class="col-md-3 col-sm-6">
+	   <div class="serv_pg1l">
+	     <div class="serv_pg1li row">
+		   <div class="col-md-3">
+		     <div class="serv_pg1lil">
+			   <span class="font_50 col_blue lh-1"><i class="fa fa-balance-scale"></i></span>
+			 </div>
+		   </div>
+		   <div class="col-md-9">
+		     <div class="serv_pg1lir">
+			   <h5>ACCOUNTABILITY</h5>
+			   <h6 class="mb-0">Track Progress</h6>
+			 </div>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+ </div>
+  <div class="row serv_pg2 mt-5 text-center mb-4">
+    <div class="col-md-12">
+	   <h6><span class="me-2 col_red fw-bold fs-5 align-middle">|</span> Strengthening Democracy Together</h6>
+			 <h2 class="mt-3 mb-0">Empowering citizens with knowledge and tools <br> to hold representatives accountable</h2>
+	</div>
+  </div>
+  <div class="row serv_pg3">
+    <div class="col-md-4">
+      <div class="serv_pg3l">
+	      <div class="serv_pg3l1 position-relative">
+	       <div class="serv_pg3l1i">
+		     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/7.jpg" class="w-100" alt="Education"></a>
+				  </figure>
+			  </div>
+		   </div>
+		   <div class="serv_pg3l1i1 position-absolute">
+		       <h6 class="mb-0"><a class="d-inline-block p-2 px-3 font_14 bg_blue text-white" href="education.html">LEARN MORE</a></h6>
+		   </div>
+	     </div>
+	      <div class="serv_pg3l2 shadow_box p-4">
+	       <h3><a href="#">Civic Education</a></h3>
+		   <p class="font_14 mt-3">Interactive resources and guides to understand democratic processes and your role as a citizen.</p>
+		   <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div>
+		<h5 class="font_14 mt-3">GOAL: <span class="fw-normal">10,000 Users</span> <span class="float-end">CURRENT: <span class="fw-normal">7,500 Users</span></span>
+</h5>
+<h6 class="mb-0 mt-4 text-center"><a class="button_2 text-center" href="#">View Resources</a></h6>
+	     </div>
+	  </div>
+	</div>
+	<div class="col-md-4">
+      <div class="serv_pg3l">
+	      <div class="serv_pg3l1 position-relative">
+	       <div class="serv_pg3l1i">
+		     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/8.jpg" class="w-100" alt="Fact Checking"></a>
+				  </figure>
+			  </div>
+		   </div>
+		   <div class="serv_pg3l1i1 position-absolute">
+		       <h6 class="mb-0"><a class="d-inline-block p-2 px-3 font_14 bg_red text-white" href="factcheck.html">EXPLORE DATA</a></h6>
+		   </div>
+	     </div>
+	      <div class="serv_pg3l2 shadow_box p-4 serv_pg3l2o">
+	       <h3><a href="#">Fact-Checking Platform</a></h3>
+		   <p class="font_14 mt-3">Verified information about elected officials' voting records, statements, and policy positions.</p>
+		   <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 82%;" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">82%</div>
+</div>
+		<h5 class="font_14 mt-3">OFFICIALS TRACKED: <span class="fw-normal">535</span> <span class="float-end">VERIFIED RECORDS: <span class="fw-normal">12,000+</span></span>
+</h5>
+<h6 class="mb-0 mt-4 text-center"><a class="button text-center" href="#">Search Database</a></h6>
+	     </div>
+	  </div>
+	</div>
+	<div class="col-md-4">
+      <div class="serv_pg3l">
+	      <div class="serv_pg3l1 position-relative">
+	       <div class="serv_pg3l1i">
+		     <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/9.jpg" class="w-100" alt="Action Center"></a>
+				  </figure>
+			  </div>
+		   </div>
+		   <div class="serv_pg3l1i1 position-absolute">
+		       <h6 class="mb-0"><a class="d-inline-block p-2 px-3 font_14 bg_blue text-white" href="action-center.html">TAKE ACTION</a></h6>
+		   </div>
+	     </div>
+	      <div class="serv_pg3l2 shadow_box p-4">
+	       <h3><a href="#">Action Center</a></h3>
+		   <p class="font_14 mt-3">Tools and resources to contact representatives, track legislation, and make your voice heard.</p>
+		   <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+</div>
+		<h5 class="font_14 mt-3">ACTIONS TAKEN: <span class="fw-normal">25,000</span> <span class="float-end">ACTIVE USERS: <span class="fw-normal">5,000</span></span>
+</h5>
+<h6 class="mb-0 mt-4 text-center"><a class="button_2 text-center" href="#">Get Started</a></h6>
+	     </div>
+	  </div>
+	</div>
+  </div>
+</div>
+</section>
+
+<section id="spec" class="bg_blue pt-5 pb-5">
+	<div class="container-xl">
+	 <div class="row spec_1">
+	   <div class="col-md-3 col-sm-6">
+		 <div class="spec_1i">
+		   <h1 class="text-white font_60">50,000+</h1>
+		   <h6 class="mb-0 text-white-50 mt-3"><i class="fa fa-bullhorn fs-3 align-middle col_red me-2"></i> Registered Voters</h6>
+		 </div>
+	   </div>
+	   <div class="col-md-3 col-sm-6">
+		 <div class="spec_1i">
+		   <h1 class="text-white font_60">1,200+</h1>
+		   <h6 class="mb-0 text-white-50 mt-3"><i class="fa fa-clock fs-3 align-middle col_red me-2"></i> Bills Tracked</h6>
+		 </div>
+	   </div>
+	   <div class="col-md-3 col-sm-6">
+		 <div class="spec_1i">
+		   <h1 class="text-white font_60">535</h1>
+		   <h6 class="mb-0 text-white-50 mt-3"><i class="fa fa-user fs-3 align-middle col_red me-2"></i> Officials Monitored</h6>
+		 </div>
+	   </div>
+	   <div class="col-md-3 col-sm-6">
+		 <div class="spec_1i">
+		   <h1 class="text-white font_60">25,000+</h1>
+		   <h6 class="mb-0 text-white-50 mt-3"><i class="fa fa-check fs-3 align-middle col_red me-2"></i> Verified Records</h6>
+		 </div>
+	   </div>
+	 </div>
+	</div>
+</section>
+
+<section id="goal" class="p_3">
+	<div class="container-xl">
+	  <div class="goal_1 row mb-4 text-center">
+	   <div class="col-md-12">
+		  <h1 class="col_blue">Our Mission & Impact</h1>
+		   <p class="mb-0">MyVoteMyVoice empowers citizens with verified information and tools to make informed decisions and actively participate in democracy.</p>
+	   </div>
+	  </div>
+	  <div class="goal_2 row">
+	   <div class="col-md-6">
+		 <div class="goal_2l position-relative">
+		   <div class="goal_2l1">
+			 <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="#"><img src="img/5.jpg" class="w-100" alt="Civic Engagement"></a>
+					  </figure>
+				  </div>
+		   </div>
+			<div class="goal_2l2 position-absolute w-100 h-100 top-0 bg_backo text-center">
+			  <span><a class="font_70 col_red" href="#"><i class="fa fa-play"></i></a></span>
+			</div>
+		 </div>
+	   </div>
+	   <div class="col-md-6">
+		 <div class="goal_2r">
+		   <h3 class="mb-3">Driving Informed Civic Participation</h3>
+		   <p>Through our comprehensive fact-checking platform and action center, we've helped over 50,000 citizens access verified information about their representatives and take meaningful civic action.</p>
+		   <p>Our tools have enabled constituents to track legislation, contact officials, and make their voices heard on issues that matter to their communities.</p>
+		   <img src="img/4.jpg" alt="Civic Impact">
+		 </div>
+	   </div>
+	  </div>
+	</div>
+</section>
+
+<section id="contri">
+	<div class="contri_m bg_back">
+	  <div class="container-xl">
+	  <div class="contri_1 row text-center">
+	   <div class="col-md-12">
+		  <h1 class="col_red">Make A Difference</h1>
+		   <h6 class="text-light">Support Informed Democracy</h6>
+		   <p class="mt-4 mx-auto text-light">Help us continue providing citizens with the tools and information they need for meaningful civic engagement. Your support enables us to maintain and expand our fact-checking platform, develop new civic engagement tools, and ensure accurate, non-partisan information remains freely accessible to all.</p>
+		   <h6 class="mb-0 mt-4"><a class="button" href="#">Support Our Mission</a></h6>
+	   </div>
+	  </div>
+	</div>
+	</div>
+</section>
+
+<section id="about_h" class="p_3 bg-light">
+	<div class="container-xl">
+	  <div class="about_h1 row">
+	   <div class="col-md-4">
+		  <div class="about_h1l text-end">
+			<h3>Fact-Checking Platform</h3>
+			<p>Comprehensive database of verified voting records, statements, and policy positions of elected officials at all levels of government.</p>
+			 <h3 class="mt-4">Action Center</h3>
+			<p>Tools and resources to help citizens contact representatives, track legislation, and participate in democratic processes.</p>
+			 <h3 class="mt-4">Data Transparency</h3>
+			<p class="mb-0">Clear sourcing and verification methods ensure trust and accountability in all our information.</p>
+		  </div>
+	   </div>
+	   <div class="col-md-4">
+		  <div class="about_h1m">
+			 <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="#"><img src="img/6.jpg" class="w-100" alt="Platform Features"></a>
+					  </figure>
+				  </div>
+		  </div>
+	   </div>
+	   <div class="col-md-4">
+		  <div class="about_h1l">
+			<h3>Real-Time Updates</h3>
+			<p>Stay informed with the latest legislative actions, voting records, and policy developments.</p>
+			 <h3 class="mt-4">Civic Education</h3>
+			<p>Resources to help understand political processes, policy issues, and civic responsibilities.</p>
+			 <h3 class="mt-4">Community Engagement</h3>
+			<p class="mb-0">Connect with other engaged citizens and share insights about local and national issues.</p>
+		  </div>
+	   </div>
+	  </div>
+	</div>
+</section>
+	
+	 <section id="work_home" class="p_3">
+		<div class="container-xl">
+		  <div class="goal_1 row mb-4 text-center">
+	   <div class="col-md-12">
+		  <h1>How We Work</h1>
+		   <p class="mb-0">MyVoteMyVoice empowers citizens through a systematic approach to civic engagement. <br> Here's how we help you make informed decisions and participate effectively in democracy.</p>
+	   </div>
+	  </div>
+		 <div class="work_home_2 row">
+			<div class="col-md-3">
+			 <div class="work_home_2_i text-center">
+			  <div class="work_home_2_ii text-center">
+			   <h1><span class="text-white">1</span></h1>
+			  </div>
+			   <h4 class="mt-3 mb-3">Research & Verification</h4>
+			   <p>We gather data from official sources and verify claims using rigorous fact-checking methods.</p>
+			 </div>
+			</div>
+			<div class="col-md-3">
+			 <div class="work_home_2_i text-center">
+			  <div class="work_home_2_ii work_home_2_iio text-center">
+			   <h1><span>2</span></h1>
+			  </div>
+			   <h4 class="mt-3 mb-3">Analysis & Context</h4>
+			   <p>Our experts analyze the information and provide essential context for better understanding.</p>
+			 </div>
+			</div>
+			<div class="col-md-3">
+			 <div class="work_home_2_i text-center">
+			  <div class="work_home_2_ii text-center">
+			   <h1><span class="text-white">3</span></h1>
+			  </div>
+			   <h4 class="mt-3 mb-3">Civic Education</h4>
+			   <p>We create educational resources to help citizens understand complex political issues.</p>
+			 </div>
+			</div>
+			<div class="col-md-3">
+			 <div class="work_home_2_i text-center">
+			  <div class="work_home_2_ii work_home_2_iio text-center">
+			   <h1><span>4</span></h1>
+			  </div>
+			   <h4 class="mt-3 mb-3">Engagement Tools</h4>
+			   <p>We provide tools for direct civic action and connecting with representatives.</p>
+			 </div>
+			</div>
+		  </div>
+		  <div class="work_home_3 text-center mt-3">
+		   <h6 class="mb-0"><a class="button" href="#">Learn More</a></h6>
+		  </div>
+		</div>
+	   </section>
+	   
+	   <section id="blog_h" class="p_3 bg-light">
+		<div class="container-xl">
+		  <div class="goal_1 row mb-4 text-center">
+	   <div class="col-md-12">
+		  <h1>Latest Updates</h1>
+		   <p class="mb-0">Stay informed with the latest developments in civic engagement and democracy. <br> Get updates on legislation, fact-checks, and opportunities for civic action.</p>
+	   </div>
+	  </div>
+		  <div class="row blog_h1">
+		 <div class="col-md-4">
+		   <div class="blog_h1i shadow_box">
+			<div class="blog_h1i1 position-relative">
+			   <div class="blog_h1i1i">
+				<div class="grid clearfix">
+			  <figure class="effect-jazz mb-0">
+				<a href="#"><img src="img/7.jpg" class="w-100" alt="Voting Rights"></a>
+			  </figure>
+		  </div>
+			   </div>
+			   <div class="blog_h1i1i1 text-center position-absolute w-100 h-100 bg_backo top-0">
+				 <span class="d-inline-block"><a href="#"><i class="fa fa-link"></i></a></span>
+			   </div>
+			</div>
+			 <div class="blog_h1i2 p-4 bg-white text-center">
+			 <ul>
+			  <li class="d-inline-block"><i class="fa fa-user me-1 col_red"></i> <a href="#">Fact Check Team</a> <span class="text-muted mx-2">|</span></li>
+			  <li class="d-inline-block"><i class="fa fa-clock me-1 col_red"></i> <a href="#">Latest Update</a> </li>
+			 </ul>
+			 <h4><a href="#">New Voting Rights Legislation Analysis</a></h4>
+			 <p>Comprehensive analysis of recent voting rights legislation and its potential impact on voters...</p>
+			 <h6 class="mb-0 fw-bold"><a href="#">Read Full Analysis <i class="fa fa-chevron-right ms-1 font_12"></i></a></h6>
+			</div>
+		  </div>
+		 </div>
+		 <div class="col-md-4">
+		   <div class="blog_h1i shadow_box">
+			<div class="blog_h1i1 position-relative">
+			   <div class="blog_h1i1i">
+				<div class="grid clearfix">
+			  <figure class="effect-jazz mb-0">
+				<a href="#"><img src="img/8.jpg" class="w-100" alt="Election Security"></a>
+			  </figure>
+		  </div>
+			   </div>
+			   <div class="blog_h1i1i1 text-center position-absolute w-100 h-100 bg_backo top-0">
+				 <span class="d-inline-block"><a href="#"><i class="fa fa-link"></i></a></span>
+			   </div>
+			</div>
+			 <div class="blog_h1i2 p-4 bg-white text-center">
+			 <ul>
+			  <li class="d-inline-block"><i class="fa fa-user me-1 col_red"></i> <a href="#">Research Team</a> <span class="text-muted mx-2">|</span></li>
+			  <li class="d-inline-block"><i class="fa fa-clock me-1 col_red"></i> <a href="#">Featured Report</a> </li>
+			 </ul>
+			 <h4><a href="#">Election Security Measures Explained</a></h4>
+			 <p>Understanding the latest developments in election security and verification processes...</p>
+			 <h6 class="mb-0 fw-bold"><a href="#">Read Full Report <i class="fa fa-chevron-right ms-1 font_12"></i></a></h6>
+			</div>
+		  </div>
+		 </div>
+		 <div class="col-md-4">
+		   <div class="blog_h1i shadow_box">
+			<div class="blog_h1i1 position-relative">
+			   <div class="blog_h1i1i">
+				<div class="grid clearfix">
+			  <figure class="effect-jazz mb-0">
+				<a href="#"><img src="img/9.jpg" class="w-100" alt="Civic Engagement"></a>
+			  </figure>
+		  </div>
+			   </div>
+			   <div class="blog_h1i1i1 text-center position-absolute w-100 h-100 bg_backo top-0">
+				 <span class="d-inline-block"><a href="#"><i class="fa fa-link"></i></a></span>
+			   </div>
+			</div>
+			 <div class="blog_h1i2 p-4 bg-white text-center">
+			 <ul>
+			  <li class="d-inline-block"><i class="fa fa-user me-1 col_red"></i> <a href="#">Engagement Team</a> <span class="text-muted mx-2">|</span></li>
+			  <li class="d-inline-block"><i class="fa fa-clock me-1 col_red"></i> <a href="#">Action Guide</a> </li>
+			 </ul>
+			 <h4><a href="#">Guide to Local Civic Engagement</a></h4>
+			 <p>Practical steps for getting involved in your local government and making your voice heard...</p>
+			 <h6 class="mb-0 fw-bold"><a href="#">View Guide <i class="fa fa-chevron-right ms-1 font_12"></i></a></h6>
+			</div>
+		  </div>
+		 </div>
+		</div>
+		</div>
+	   </section>
+	   
+	<section id="team_h" class="pt-4 pb-3">
+	<div class="container-xl">
+	  <div class="goal_1 row mb-4 text-center">
+	<div class="col-md-12">
+	  <h1>Popular Politicians</h1>
+	   <p class="mb-0">Stay informed about key political figures and track their voting records, statements and policy positions. <br> Get verified information to make informed decisions.</p>
+	</div>
+	</div>
+	  <div class="team_1 row">
+		<div class="col-md-3 col-sm-6">
+		 <div class="team_1i">
+		   <div class="team_1i1 position-relative">
+			  <div class="team_1i1i">
+			   <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="politician_detail.html"><img src="img/10.jpg" class="w-100" alt="Senator"></a>
+					  </figure>
+				  </div>
+			</div>
+			  <div class="team_1i1i1 position-absolute w-100 bottom-0">
+				<ul class="mb-0">
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-facebook"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-twitter"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-pinterest"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-instagram"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block" href="politician_detail.html"><i class="fa fa-share-alt"></i></a></li>
+				</ul>
+			</div>
+		 </div>
+		 <div class="team_1i2 mt-3">
+			 <h5><a href="politician_detail.html">John Smith</a></h5>
+			<h6 class="mb-0">U.S. Senator</h6>
+		 </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="team_1i">
+		   <div class="team_1i1 position-relative">
+			  <div class="team_1i1i">
+			   <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="politician_detail.html"><img src="img/11.jpg" class="w-100" alt="Representative"></a>
+					  </figure>
+				  </div>
+			</div>
+			  <div class="team_1i1i1 position-absolute w-100 bottom-0">
+				<ul class="mb-0">
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-facebook"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-twitter"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-pinterest"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-instagram"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block" href="politician_detail.html"><i class="fa fa-share-alt"></i></a></li>
+				</ul>
+			</div>
+		 </div>
+		 <div class="team_1i2 mt-3">
+			 <h5><a href="politician_detail.html">Sarah Johnson</a></h5>
+			<h6 class="mb-0">House Representative</h6>
+		 </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="team_1i">
+		   <div class="team_1i1 position-relative">
+			  <div class="team_1i1i">
+			   <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="politician_detail.html"><img src="img/12.jpg" class="w-100" alt="Governor"></a>
+					  </figure>
+				  </div>
+			</div>
+			  <div class="team_1i1i1 position-absolute w-100 bottom-0">
+				<ul class="mb-0">
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-facebook"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-twitter"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-pinterest"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-instagram"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block" href="politician_detail.html"><i class="fa fa-share-alt"></i></a></li>
+				</ul>
+			</div>
+		 </div>
+		 <div class="team_1i2 mt-3">
+			  <h5><a href="politician_detail.html">Michael Davis</a></h5>
+			<h6 class="mb-0">State Governor</h6>
+		 </div>
+		 </div>
+		</div>
+		<div class="col-md-3 col-sm-6">
+		 <div class="team_1i">
+		   <div class="team_1i1 position-relative">
+			  <div class="team_1i1i">
+			   <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="politician_detail.html"><img src="img/13.jpg" class="w-100" alt="Mayor"></a>
+					  </figure>
+				  </div>
+			</div>
+			  <div class="team_1i1i1 position-absolute w-100 bottom-0">
+				<ul class="mb-0">
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-facebook"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-twitter"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-pinterest"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block d-none" href="politician_detail.html"><i class="fa-brands fa-instagram"></i></a></li>
+				 <li><a class="bg_red text-center d-inline-block" href="politician_detail.html"><i class="fa fa-share-alt"></i></a></li>
+				</ul>
+			</div>
+		 </div>
+		 <div class="team_1i2 mt-3">
+			  <h5><a href="politician_detail.html">Lisa Wilson</a></h5>
+			<h6 class="mb-0">City Mayor</h6>
+		 </div>
+		 </div>
+		</div>
+	   </div>
+	</div>
+	</section>
+	
+	<section id="footer_t" class="pb-4">
+	<div class="container-xl">
+	  <div class="goal_1 row  text-center">
+	<div class="col-md-12">
+	  <h1 class="col_blue">We Work Transparent & Hard</h1>
+	   <p class="mb-0">Achievements are now made easy using Political Transparency Tools! Share the news and press  <br> releases to your focus group and complete causes using donations.</p>
+	</div>
+	</div>
+	</div>
+	</section>
+	
+	<section id="footer">
+	<div class="footer_m bg_backn1 pt-5 pb-5">
+	  <div class="container-xl">
+	  <div class="footer_1 row">
+		 <div class="col-md-7">
+		  <div class="footer_1l">
+			<ul class="nav nav-tabs mb-0 border-0">
+	<li class="nav-item d-inline-block">
+	<a href="#home" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+	<span class="d-md-block">GET INVOLVED</span>
+	</a>
+	</li>
+	<li class="nav-item d-inline-block">
+	<a href="#profile" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+	<span class="d-md-block">RESOURCES</span>
+	</a>
+	</li>
+	
+	<li class="nav-item d-inline-block">
+	<a href="#profile1" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+	<span class="d-md-block">SUPPORT US</span>
+	</a>
+	</li>
+	
+	</ul>
+			<div class="tab-content  p-4">
+	<div class="tab-pane active" id="home">
+	   <div class="footer_1li">
+		 <h5>Join Our Community of Engaged Citizens</h5>
+		 <p>Be part of a growing movement to strengthen democracy through informed civic participation. Join thousands of citizens using our platform to track representatives, verify information, and take meaningful action on issues that matter.</p>
+		 <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="#"><img src="img/15.jpg" class="w-100" alt="Civic Engagement"></a>
+					  </figure>
+				  </div>
+	   </div>
+	</div>
+	<div class="tab-pane" id="profile">
+		<div class="footer_1li">
+		 <h5>Access Our Civic Education Tools</h5>
+		 <p>Explore our comprehensive resources including fact-checking databases, legislative tracking tools, and guides to understanding democratic processes. Stay informed with verified information about your representatives and government.</p>
+		 <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="#"><img src="img/16.jpg" class="w-100" alt="Educational Resources"></a>
+					  </figure>
+				  </div>
+	   </div>
+	</div>
+	<div class="tab-pane" id="profile1">
+	   <div class="footer_1li">
+		 <h5>Support Informed Democracy</h5>
+		 <p>Your support helps us maintain and expand our fact-checking platform, develop new civic engagement tools, and ensure accurate, non-partisan information remains freely accessible to all citizens.</p>
+		 <div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="#"><img src="img/17.jpg" class="w-100" alt="Support Democracy"></a>
+					  </figure>
+				  </div>
+	   </div>
+	</div>
+	
+	</div>
+		  </div>
+		 </div>
+		 <div class="col-md-5">
+		  <div class="footer_1r">
+			<div class="accordion" id="accordionExample">
+	  <div class="accordion-item mb-0">
+	   <h2 class="accordion-header" id="headingOne">
+		 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			 Our Mission
+		 </button>
+	   </h2>
+	   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+		 <div class="accordion-body">
+		 <p class="mb-0">MyVoteMyVoice empowers citizens with verified information and tools to make informed decisions and actively participate in democracy. We believe transparency and accountability are essential for a healthy democratic system.</p>
+		 </div>
+	   </div>
+	  </div>
+	   
+	  <div class="accordion-item mb-0 mt-3">
+	   <h2 class="accordion-header" id="headingTwo">
+		 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			 Impact Goals
+		 </button>
+	   </h2>
+	   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+		 <div class="accordion-body">
+		   <p class="mb-0">We aim to increase civic participation, improve access to verified information, and strengthen democratic accountability through technology and education. Our goal is to empower 100,000 citizens by 2024.</p>
+		 </div>
+	   </div>
+	 </div>
+	  
+	  <div class="accordion-item mb-0 mt-3">
+	   <h2 class="accordion-header" id="headingThree">
+		 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			Key Achievements
+		 </button>
+	   </h2>
+	   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+		 <div class="accordion-body">
+			<p class="mb-0">We've helped over 50,000 citizens access verified information, tracked 1,200+ bills, monitored 535 officials, and verified 25,000+ records. Our platform has enabled thousands of meaningful civic actions.</p>
+		 </div>
+	   </div>
+	 </div>
+	 
+	 <div class="accordion-item mb-0 mt-3">
+	   <h2 class="accordion-header" id="headingFour">
+		 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+			Support Our Work
+		 </button>
+	   </h2>
+	   <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+		 <div class="accordion-body">
+			<p class="mb-0">Your support helps us maintain and expand our fact-checking platform, develop new civic engagement tools, and ensure accurate, non-partisan information remains freely accessible to all citizens. Every contribution makes a difference.</p>
+		 </div>
+	   </div>
+	 </div>
+	 
+	 <div class="accordion-item mb-0 mt-3">
+	   <h2 class="accordion-header" id="headingFive">
+		 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+			Get Involved
+		 </button>
+	   </h2>
+	   <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+		 <div class="accordion-body">
+			<p class="mb-0">Join our community of engaged citizens. Help verify information, track legislation, organize local events, and contribute to improving civic participation in your area. Together we can strengthen democracy.</p>
+		 </div>
+	   </div>
+	 </div>
+	 
+	 <div class="accordion-item mb-0 mt-3">
+	   <h2 class="accordion-header" id="headingsix">
+		 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+			Latest Updates
+		 </button>
+	   </h2>
+	   <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+		 <div class="accordion-body">
+			<p class="mb-0">Our platform now tracks over 1,200 bills across state and federal levels. We've recently launched enhanced tools for contacting representatives and improved our fact-checking database with AI-assisted verification processes.</p>
+		 </div>
+	   </div>
+	 </div>
+	</div>
+		  </div>
+		 </div>
+	  </div>
+	</div>
+	</div>
+	</section><hr class="line_1 m-0">
+	
+	<section id="footer_b">
+	<div class="footer_m bg_backn1 p_3">
+	  <div class="container-xl">
+	  <div class="footer_b1 row">
+		 <div class="col-md-6">
+			<div class="footer_b1l">
+			  <h2 class="mb-4"><a class="text-white" href="index.html"><i class="fa-solid fa-check-to-slot col_red me-1"></i> MyVote<span class="col_red">MyVoice</span></a></h2>
+			  <p class="text-light font_15">MyVoteMyVoice is dedicated to empowering citizens through verified information and civic engagement tools. We believe that informed citizens are essential for a thriving democracy. Our platform combines cutting-edge technology with rigorous fact-checking to provide reliable, non-partisan information about elected officials, legislation, and civic processes.</p>
+			  <p class="text-light font_15">Join us in building a more transparent and accountable democratic system. Together, we can ensure every voice is heard and every vote is informed.</p>
+			  <ul class="social-network social-circle mb-0">
+						<li><a href="#" class="icoRss" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+						<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+						<li><a href="#" class="icoGoogle" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+					</ul>
+			</div>
+		 </div>
+		 <div class="col-md-3">
+			<div class="footer_b1m">
+			  <h4 class="text-white mb-4">Our Location</h4>
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.53925916665!2d-80.29949920266738!3d25.782390733064336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C+FL%2C+USA!5e0!3m2!1sen!2sin!4v1530774403788" height="200" style="border:0; width:100%;" allowfullscreen=""></iframe>
+			</div>
+		 </div>
+		 <div class="col-md-3">
+			<div class="footer_b1r">
+			  <h4 class="text-white mb-4">Latest Updates</h4>
+			  <div class="footer_b1ri row">
+			 <div class="col-md-4  col-4">
+			  <div class="footer_b1ril">
+				<div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="#"><img src="img/7.jpg" class="w-100" alt="Voting Rights"></a>
+					  </figure>
+				  </div>
+			  </div>
+			 </div>
+			 <div class="col-md-8 col-8 ps-0">
+			  <div class="footer_b1rir">
+			   <h5><a class="font_14 text-white" href="#">New Voting Rights Bill Analysis Released</a></h5>
+			   <h6 class="text-light font_14 mb-0"><i class="fa fa-calendar col_red me-1"></i> Jun 15, 2024</h6>
+			  </div>
+			 </div>
+			</div>
+			  <div class="footer_b1ri row mt-3">
+			 <div class="col-md-4  col-4">
+			  <div class="footer_b1ril">
+				<div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="#"><img src="img/8.jpg" class="w-100" alt="Platform Update"></a>
+					  </figure>
+				  </div>
+			  </div>
+			 </div>
+			 <div class="col-md-8 col-8 ps-0">
+			  <div class="footer_b1rir">
+			   <h5><a class="font_14 text-white" href="#">Platform Updates: Enhanced Fact-Checking Tools</a></h5>
+			   <h6 class="text-light font_14 mb-0"><i class="fa fa-calendar col_red me-1"></i> Jun 10, 2024</h6>
+			  </div>
+			 </div>
+			</div>
+			<div class="footer_b1ri row mt-3">
+			 <div class="col-md-4  col-4">
+			  <div class="footer_b1ril">
+				<div class="grid clearfix">
+					  <figure class="effect-jazz mb-0">
+						<a href="#"><img src="img/9.jpg" class="w-100" alt="Community Impact"></a>
+					  </figure>
+				  </div>
+			  </div>
+			 </div>
+			 <div class="col-md-8 col-8 ps-0">
+			  <div class="footer_b1rir">
+			   <h5><a class="font_14 text-white" href="#">Community Impact: 50,000 Users Milestone</a></h5>
+			   <h6 class="text-light font_14 mb-0"><i class="fa fa-calendar col_red me-1"></i> Jun 5, 2024</h6>
+			  </div>
+			 </div>
+			</div>
+			</div>
+		 </div>
+	  </div>
+	</div>
+	</div>
+	</section>
+	
+	<section id="footer_bt" class="pt-3 pb-3 bg-dark">
+	<div class="container-xl">
+	  <div class="footer_bt1 row text-center">
+	<div class="col-md-12">
+	   <p class="mb-0 text-light font_15">© 2024 MyVoteMyVoice. All Rights Reserved | Empowering Informed Democracy</p>
+	</div>
+	</div>
+	</div>
+	</section>
+	
+	<script>
+	window.onscroll = function() {myFunction()};
+	var navbar_sticky = document.getElementById("navbar_sticky");
+	var sticky = navbar_sticky.offsetTop;
+	var navbar_height = document.querySelector('.navbar').offsetHeight;
+	function myFunction() {
+	  if (window.pageYOffset >= sticky + navbar_height) {
+		navbar_sticky.classList.add("sticky")
+		document.body.style.paddingTop = navbar_height + 'px';
+	  } else {
+		navbar_sticky.classList.remove("sticky");
+		document.body.style.paddingTop = '0'
+	  }
+	}
+	</script>
+	
+	</body>
+	
+	
+	</html>
