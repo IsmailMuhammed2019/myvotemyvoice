@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Navigation from '../components/Navigation'
+import HeroCarousel from '../components/HeroCarousel'
 
 export default function Home() {
   return (
@@ -8,18 +9,7 @@ export default function Home() {
       <Navigation />
 
       {/* Hero Section */}
-      <div className="relative bg-blue-600 h-[70vh]">
-        <Image src="/hero-image.jpg" alt="Democracy" layout="fill" objectFit="cover" className="mix-blend-overlay" />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Empower Your Voice, Inform Your Vote</h1>
-            <p className="text-xl md:text-2xl text-white mb-8">Your trusted platform for democratic engagement</p>
-            <Link href="/start" className="bg-white text-blue-600 font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition duration-300">
-              Start Your Civic Journey
-            </Link>
-          </div>
-        </div>
-      </div>
+      <HeroCarousel />
 
       {/* Featured Content */}
       <section className="py-20 bg-white">
