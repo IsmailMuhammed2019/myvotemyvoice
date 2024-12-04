@@ -1,9 +1,10 @@
 "use client"
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 const images = [
   { 
@@ -44,6 +45,12 @@ export default function HeroCarousel() {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
+  // Automatically change slides every 5 seconds
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, []);
+
   return (
     <div className="relative bg-blue-600 h-[70vh]">
       <Image src={images[currentIndex].src} alt="Hero Image" layout="fill" objectFit="cover" className="mix-blend-overlay" />
@@ -51,6 +58,11 @@ export default function HeroCarousel() {
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-2">{images[currentIndex].header}</h1>
           <p className="text-lg md:text-xl text-white mb-4">{images[currentIndex].subtext}</p>
+          <Link href="/signup">
+            <button className="mt-4 bg-white text-blue-600 p-3 rounded">
+              Start Your Civic Engagement Now
+            </button>
+          </Link>
           <button onClick={prevSlide} className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 p-2 rounded-full">
             <FontAwesomeIcon icon={faChevronLeft} />
           </button>
