@@ -1,12 +1,13 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import Navigation from '../components/Navigation'
-import HeroCarousel from '../components/HeroCarousel'
+import Image from 'next/image';
+import Link from 'next/link';
+import Header from '../components/Header'; // Import the Header component
+import HeroCarousel from '../components/HeroCarousel';
+import Footer from '../components/Footer'; // Import the Footer component
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Navigation />
+    <div className="min-h-screen bg-gray-100 pt-16">
+      <Header /> {/* Use the Header component */}
 
       {/* Hero Section */}
       <HeroCarousel />
@@ -154,25 +155,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-10">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">
-              <Image src="/myvotemyvoice.jpg" alt="Logo" width={200} height={50} className="h-8 w-auto" />
-            </div>
-            <div className="flex space-x-4">
-              <Link href="/privacy" className="hover:text-blue-400 transition duration-300">Privacy Policy</Link>
-              <Link href="/terms" className="hover:text-blue-400 transition duration-300">Terms of Service</Link>
-              <Link href="/contact" className="hover:text-blue-400 transition duration-300">Contact Us</Link>
-            </div>
-          </div>
-          <div className="mt-8 text-center text-gray-400">
-            <p>&copy; 2024 My Vote My Voice. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer /> {/* Use the Footer component */}
     </div>
-  )
+  );
 }
