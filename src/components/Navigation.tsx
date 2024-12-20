@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { useState } from 'react'
 import Image from 'next/image'
@@ -29,6 +29,7 @@ export default function Navigation() {
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="outline-none mobile-menu-button"
+              title="Toggle Mobile Menu"
             >
               <svg className="w-6 h-6 text-gray-500 hover:text-blue-500"
                    fill="none"
