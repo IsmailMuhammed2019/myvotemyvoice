@@ -67,7 +67,7 @@ export default function ActionCenter() {
             <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
               <Image src="/register.jpg" alt="Register" width={300} height={200} className="mx-auto mb-4 rounded-lg" />
               <h3 className="font-bold text-xl mb-2">Register to Vote</h3>
-              <p className="text-gray-700">Make sure you're registered to vote and know your voting rights.</p>
+              <p className="text-gray-700">Make sure you&apos;re registered to vote and know your voting rights.</p>
               <Link href="/vote.jpeg" className="text-blue-500 hover:underline">Learn More</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
