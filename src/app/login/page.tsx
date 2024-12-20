@@ -7,8 +7,8 @@ export default function Login() {
       <Header /> {/* Use the Header component */}
       <div className="flex-grow flex items-center justify-center">
         <div className="bg-white p-8 rounded shadow-md w-full max-w-md mx-auto">
-          <h1 className="text-4xl font-bold mb-2 text-center">Welcome Back!</h1>
-          <p className="text-lg mb-6 text-center">Please enter your email and password to log in to your account.</p>
+          <h1 className="text-4xl font-bold mb-2 text-center text-gray-700">Welcome Back!</h1>
+          <p className="text-lg mb-6 text-center text-gray-700">Please enter your email and password to log in to your account.</p>
           <form>
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">

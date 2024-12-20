@@ -1,8 +1,8 @@
 export default function SignupForm() {
     return (
       <div className="bg-white p-8 rounded shadow-md w-full max-w-md mx-auto mt-10">
-        <h1 className="text-2xl font-bold mb-2 text-center">Start Your Civic Journey Today</h1>
-        <p className="text-md mb-6 text-center">Join us in making a difference in your community. Fill out the form below to get started!</p>
+        <h1 className="text-2xl font-bold mb-2 text-center text-gray-700">Start Your Civic Journey Today</h1>
+        <p className="text-md mb-6 text-center text-gray-700">Join us in making a difference in your community. Fill out the form below to get started!</p>
         <form>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">

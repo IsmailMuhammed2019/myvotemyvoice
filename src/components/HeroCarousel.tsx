@@ -63,10 +63,10 @@ export default function HeroCarousel() {
               Start Your Civic Engagement Now
             </button>
           </Link>
-          <button onClick={prevSlide} className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 p-2 rounded-full">
+          <button onClick={prevSlide} className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 p-2 rounded-full" aria-label="Previous Slide">
             <FontAwesomeIcon icon={faChevronLeft} />
           </button>
-          <button onClick={nextSlide} className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 p-2 rounded-full">
+          <button onClick={nextSlide} className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 p-2 rounded-full" aria-label="Next Slide">
             <FontAwesomeIcon icon={faChevronRight} />
           </button>
         </div>
