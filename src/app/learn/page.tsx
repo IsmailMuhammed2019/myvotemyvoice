@@ -11,7 +11,7 @@ export default function Learn() {
       {/* Learn Hero Section */}
       <section className="py-20 bg-blue-600 text-white">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center">
-          <Image src="/images/hero-image.jpg" alt="Civic Engagement" width={600} height={400} className="rounded-lg shadow-md mb-4 md:mb-0 md:mr-8" />
+          <Image src="/learn.jpg" alt="Civic Engagement" width={600} height={400} className="rounded-lg shadow-md mb-4 md:mb-0 md:mr-8" />
           <div className="text-center md:text-left">
             <h1 className="text-5xl font-bold mb-4">Learn About Civic Engagement</h1>
             <p className="text-lg mb-8">Empowering you with knowledge to make your voice heard.</p>
@@ -28,7 +28,7 @@ export default function Learn() {
     <h2 className="text-4xl font-bold mb-20 text-blue-600">Why Learning Matters</h2>
     <div className="flex flex-col md:flex-row items-center justify-center mb-20">
       <Image 
-        src="/images/learning.jpg" 
+        src="/know.png" 
         alt="Importance of Learning" 
         width={400} 
         height={200} 
@@ -54,38 +54,38 @@ export default function Learn() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <Image src="/images/voting-rights.jpg" alt="Voting Rights" width={100} height={100} className="mx-auto mb-4 rounded-lg" />
+              <Image src="/VotingRights.jpg" alt="Voting Rights" width={300} height={200} className="mx-auto mb-4 rounded-lg" />
               <h3 className="font-bold text-xl mb-2">Voting Rights</h3>
               <p className="text-gray-700">Learn about your voting rights and how to ensure your voice is heard in elections.</p>
               <Link href="/learn/voting-rights" className="text-blue-500 hover:underline">Learn More</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <Image src="/images/civic-engagement.jpg" alt="Civic Engagement" width={100} height={100} className="mx-auto mb-4 rounded-lg" />
+              <Image src="/waystoengage.png" alt="Civic Engagement" width={300} height={200} className="mx-auto mb-4 rounded-lg" />
               <h3 className="font-bold text-xl mb-2">Civic Engagement</h3>
               <p className="text-gray-700">Discover ways to engage with your community and participate in local governance.</p>
               <Link href="/learn/civic-engagement" className="text-blue-500 hover:underline">Learn More</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <Image src="/images/election-process.jpg" alt="Election Process" width={100} height={100} className="mx-auto mb-4 rounded-lg" />
+              <Image src="/understand.jpg" alt="Election Process" width={300} height={200} className="mx-auto mb-4 rounded-lg" />
               <h3 className="font-bold text-xl mb-2">Understanding the Election Process</h3>
               <p className="text-gray-700">Get informed about how elections work, from primaries to general elections.</p>
               <Link href="/learn/election-process" className="text-blue-500 hover:underline">Learn More</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <Image src="/images/community-advocacy.jpg" alt="Community Advocacy" width={100} height={100} className="mx-auto mb-4 rounded-lg" />
-              <h3 className="font-bold text-xl mb-2">Community Advocacy</h3>
+              <Image src="/advocacy.jpg" alt="Community Advocacy" width={300} height={200} className="mx-auto mb-4 rounded-lg" />
+              <h3 className="font-bold text-xl mb-3">Community Advocacy</h3>
               <p className="text-gray-700">Learn how to advocate for issues that matter to you and your community.</p>
               <Link href="/learn/community-advocacy" className="text-blue-500 hover:underline">Learn More</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <Image src="/images/understanding-legislation.jpg" alt="Understanding Legislation" width={100} height={100} className="mx-auto mb-4 rounded-lg" />
-              <h3 className="font-bold text-xl mb-2">Understanding Legislation</h3>
+              <Image src="/legislation.png" alt="Understanding Legislation" width={300} height={200} className="mx-auto mb-4 rounded-lg" />
+              <h3 className="font-bold text-xl mb-3">Understanding Legislation</h3>
               <p className="text-gray-700">Gain insights into how laws are made and how you can influence legislation.</p>
               <Link href="/learn/understanding-legislation" className="text-blue-500 hover:underline">Learn More</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-              <Image src="/images/voter-registration.jpg" alt="Voter Registration" width={100} height={100} className="mx-auto mb-4 rounded-lg" />
-              <h3 className="font-bold text-xl mb-2">Voter Registration</h3>
+              <Image src="/vote.jpeg" alt="Voter Registration" width={300} height={200} className="mx-auto mb-4 rounded-lg" />
+              <h3 className="font-bold text-xl mb-3">Voter Registration</h3>
               <p className="text-gray-700">Find out how to register to vote and the importance of keeping your information updated.</p>
               <Link href="/learn/voter-registration" className="text-blue-500 hover:underline">Learn More</Link>
             </div>

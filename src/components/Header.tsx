@@ -48,9 +48,9 @@ export default function Header() {
       <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:hidden`}>
         <ul className="">
           <li><Link href="/learn" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Learn</Link></li>
-          <li><Link href="app/factchecking" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Fact Check</Link></li>
-          <li><Link href="/action-center" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Action Center</Link></li>
-          <li><Link href="/officials" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Elected Officials</Link></li>
+          <li><Link href="/factchecking" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Fact Check</Link></li>
+          <li><Link href="/actioncenter" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Action Center</Link></li>
+          <li><Link href="/electedofficials" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Elected Officials</Link></li>
           <li><Link href="/login" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Log In</Link></li>
           <li><Link href="/signup" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Sign Up</Link></li>
         </ul>
