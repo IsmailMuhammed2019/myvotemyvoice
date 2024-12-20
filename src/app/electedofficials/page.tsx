@@ -1,9 +1,18 @@
+"use client"
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react'; // Import useState for managing search input
 import Header from '../../components/Header'; // Import the Header component
 import Footer from '../../components/Footer'; // Import the Footer component
 
 export default function ElectedOfficials() {
+  const [searchTerm, setSearchTerm] = useState(''); // State for search input
+
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(event.target.value);
+  };
+
   return (
     <div className="min-h-screen bg-gray-100 pt-16">
       <Header /> {/* Use the Header component */}
@@ -19,13 +28,29 @@ export default function ElectedOfficials() {
         </div>
       </section>
 
+      {/* Search Section */}
+      <section className="py-10 bg-white">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-4">Search for Elected Officials</h2>
+          <input
+            type="text"
+            placeholder="Enter name or title..."
+            value={searchTerm}
+            onChange={handleSearchChange}
+            className="border border-gray-300 rounded-lg py-2 px-4 w-full md:w-1/2 lg:w-1/3 mb-4"
+          />
+          <p className="text-gray-700">Search results for: <strong>{searchTerm}</strong></p>
+          {/* Here you can implement the logic to display search results based on the searchTerm */}
+        </div>
+      </section>
+
       {/* Importance of Knowing Your Officials Section */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6 text-green-600">Why Knowing Your Officials Matters</h2>
           <div className="flex flex-col md:flex-row items-center justify-center mb-8">
             <Image 
-              src="/images/elected-officials.jpg" 
+              src="/officials.jpg" 
               alt="Importance of Knowing Your Officials" 
               width={600} 
               height={400} 

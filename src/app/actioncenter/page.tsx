@@ -32,7 +32,7 @@ export default function ActionCenter() {
               className="rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6 transition-transform transform hover:scale-105" 
             />
             <p className="text-lg text-gray-700 md:max-w-md">
-              Taking action is essential for creating change. Whether it's advocating for a cause, participating in local governance, or educating others, your involvement can make a significant impact.
+              Taking action is essential for creating change. Whether it&apos;s advocating for a cause, participating in local governance, or educating others, your involvement can make a significant impact.
             </p>
           </div>
         </div>
