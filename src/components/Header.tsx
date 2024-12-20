@@ -20,7 +20,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-1">
             <Link href="/learn" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Learn</Link>
             <Link href="/factchecking" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Fact Check</Link>
-            <Link href="/action-center" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Action Center</Link>
+            <Link href="/actioncenter" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Action Center</Link>
             <Link href="/officials" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Elected Officials</Link>
             <Link href="/login" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-blue-500 hover:text-white transition duration-300">Log In</Link>
             <Link href="/signup" className="py-2 px-2 font-medium text-white bg-blue-500 rounded hover:bg-blue-400 transition duration-300">Sign Up</Link>
@@ -50,7 +50,7 @@ export default function Header() {
           <li><Link href="/learn" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Learn</Link></li>
           <li><Link href="/factchecking" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Fact Check</Link></li>
           <li><Link href="/actioncenter" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Action Center</Link></li>
-          <li><Link href="/electedofficials" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Elected Officials</Link></li>
+          <li><Link href="/officials" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Elected Officials</Link></li>
           <li><Link href="/login" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Log In</Link></li>
           <li><Link href="/signup" className="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">Sign Up</Link></li>
         </ul>
