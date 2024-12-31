@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <Image src="/Image/1.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', height: '500px' }} />
+                <Image src="/Image/1.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', maxHeight: '500px' }} />
                 <div className="carousel-caption d-md-block">
                   <h1 className="font_70 text-uppercase family_1">Your Voice <br /> Your <span className="col_red">Vote</span></h1>
                   <p className="mt-3 w-75 text-light fs-5">Empowering citizens with knowledge and tools to strengthen democracy through informed participation and accountability.</p>
@@ -33,7 +33,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src="/Image/2.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', height: '500px' }} />
+                <Image src="/Image/2.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', maxHeight: '500px' }} />
                 <div className="carousel-caption d-md-block">
                   <h1 className="font_70 text-uppercase family_1">Track your Your <span className="col_red">Representatives</span></h1>
                   <p className="mt-3 w-50 text-light fs-5">Access verified voting records, policy positions, and tools to hold elected officials accountable to their campaign promises.</p>
@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src="/Image/3.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', height: '500px' }} />
+                <Image src="/Image/3.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', maxHeight: '500px' }} />
                 <div className="carousel-caption d-md-block">
                   <h1 className="font_70 text-uppercase family_1">Get <span className="col_red">Involved</span></h1>
                   <p className="mt-3 w-50 text-light fs-5">Join our community of engaged citizens working to strengthen democratic institutions through education and accountability.</p>
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="row serv_pg1">
             {/* Education */}
             <div className="col-md-3 col-sm-6 col-12">
-              <div className="serv_pg1l">
+              <div className="serv_pg1l" style={{ borderRadius: '10px', overflow: 'hidden' }}>
                 <div className="serv_pg1li row">
                   <div className="col-md-3 col-12">
                     <div className="serv_pg1lil">
@@ -161,7 +161,7 @@ export default function Home() {
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="#">
-                          <Image src="/Image/7.jpg" width={500} height={300} className="w-100" alt="Education" />
+                          <Image src="/Image/7.jpg" width={500} height={300} className="w-100" alt="Education" style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -169,7 +169,7 @@ export default function Home() {
                   <div className="serv_pg3l1i1 position-absolute">
                     <h6 className="mb-0">
                       <Link href="/education">
-                        <span className="d-inline-block p-2 px-3 font_14 bg_blue text-white">LEARN MORE</span>
+                        <span className="d-inline-block p-2 px-3 font_14 bg_blue text-white" style={{ borderRadius: '10px' }}>LEARN MORE</span>
                       </Link>
                     </h6>
                   </div>
@@ -186,7 +186,7 @@ export default function Home() {
                   </h5>
                   <h6 className="mb-0 mt-4 text-center">
                     <Link href="#">
-                      <span className="button_2 text-center">View Resources</span>
+                      <span className="button_2 text-center" style={{ borderRadius: '10px' }}>View Resources</span>
                     </Link>
                   </h6>
                 </div>
@@ -201,7 +201,7 @@ export default function Home() {
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="#">
-                          <Image src="/Image/8.jpg" width={500} height={300} className="w-100" alt="Fact Checking" />
+                          <Image src="/Image/8.jpg" width={500} height={300} className="w-100" alt="Fact Checking" style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -209,7 +209,7 @@ export default function Home() {
                   <div className="serv_pg3l1i1 position-absolute">
                     <h6 className="mb-0">
                       <Link href="/factcheck">
-                        <span className="d-inline-block p-2 px-3 font_14 bg_red text-white">EXPLORE DATA</span>
+                        <span className="d-inline-block p-2 px-3 font_14 bg_red text-white" style={{ borderRadius: '10px' }}>EXPLORE DATA</span>
                       </Link>
                     </h6>
                   </div>
@@ -226,7 +226,7 @@ export default function Home() {
                   </h5>
                   <h6 className="mb-0 mt-4 text-center">
                     <Link href="#">
-                      <span className="button text-center">Search Database</span>
+                      <span className="button text-center" style={{ borderRadius: '10px' }}>Search Database</span>
                     </Link>
                   </h6>
                 </div>
@@ -241,7 +241,7 @@ export default function Home() {
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="#">
-                          <Image src="/Image/9.jpg" width={500} height={300} className="w-100" alt="Action Center" />
+                          <Image src="/Image/9.jpg" width={500} height={300} className="w-100" alt="Action Center" style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -249,7 +249,7 @@ export default function Home() {
                   <div className="serv_pg3l1i1 position-absolute">
                     <h6 className="mb-0">
                       <Link href="/action-center">
-                        <span className="d-inline-block p-2 px-3 font_14 bg_blue text-white">TAKE ACTION</span>
+                        <span className="d-inline-block p-2 px-3 font_14 bg_blue text-white" style={{ borderRadius: '10px' }}>TAKE ACTION</span>
                       </Link>
                     </h6>
                   </div>
@@ -266,7 +266,7 @@ export default function Home() {
                   </h5>
                   <h6 className="mb-0 mt-4 text-center">
                     <Link href="#">
-                      <span className="button_2 text-center">Get Started</span>
+                      <span className="button_2 text-center" style={{ borderRadius: '10px' }}>Get Started</span>
                     </Link>
                   </h6>
                 </div>
@@ -281,7 +281,7 @@ export default function Home() {
         <div className="container-fluid">
           <div className="row spec_1">
             <div className="col-md-3 col-sm-6 col-12">
-              <div className="spec_1i">
+              <div className="spec_1i" style={{ borderRadius: '10px', overflow: 'hidden' }}>
                 <h1 className="text-white font_60">50,000+</h1>
                 <h6 className="mb-0 text-white-50 mt-3"><i className="fa fa-bullhorn fs-3 align-middle col_red me-2"></i> Registered Voters</h6>
               </div>
@@ -323,7 +323,7 @@ export default function Home() {
                 <div className="goal_2l1">
                   <div className="grid clearfix">
                     <figure className="effect-jazz mb-0">
-                      <Link href="#"><Image src="/Image/5.jpg" width={360} height={480} className="w-100" alt="Civic Engagement" /></Link>
+                      <Link href="#"><Image src="/Image/5.jpg" width={360} height={480} className="w-100" alt="Civic Engagement" style={{ borderRadius: '10px' }} /></Link>
                     </figure>
                   </div>
                 </div>
@@ -337,7 +337,7 @@ export default function Home() {
                 <h3 className="mb-3">Driving Informed Civic Participation</h3>
                 <p>Through our comprehensive fact-checking platform and action center, we've helped over 50,000 citizens access verified information about their representatives and take meaningful civic action.</p>
                 <p>Our tools have enabled constituents to track legislation, contact officials, and make their voices heard on issues that matter to their communities.</p>
-                <Image src="/Image/4.jpg" width={100} height={30} alt="Civic Impact" />
+                <Image src="/Image/4.jpg" width={100} height={30} alt="Civic Impact" style={{ borderRadius: '10px' }} />
               </div>
             </div>
           </div>
@@ -354,7 +354,7 @@ export default function Home() {
                 <h6 className="text-light">Support Informed Democracy</h6>
                 <p className="mt-4 mx-auto text-light">Help us continue providing citizens with the tools and information they need for meaningful civic engagement. Your support enables us to maintain and expand our fact-checking platform, develop new civic engagement tools, and ensure accurate, non-partisan information remains freely accessible to all.</p>
                 <h6 className="mb-0 mt-4">
-                  <Link href="#"><button className="button">Support Our Mission</button></Link>
+                  <Link href="#"><button className="button" style={{ borderRadius: '10px' }}>Support Our Mission</button></Link>
                 </h6>
               </div>
             </div>
@@ -380,7 +380,7 @@ export default function Home() {
               <div className="about_h1m">
                 <div className="grid clearfix">
                   <figure className="effect-jazz mb-0">
-                    <Link href="#"><Image src="/Image/6.jpg" width={500} height={300} className="w-100" alt="Platform Features" /></Link>
+                    <Link href="#"><Image src="/Image/6.jpg" width={500} height={300} className="w-100" alt="Platform Features" style={{ borderRadius: '10px' }} /></Link>
                   </figure>
                 </div>
               </div>
@@ -451,7 +451,7 @@ export default function Home() {
             </div>
           </div>
           <div className="work_home_3 text-center mt-3">
-            <h6 className="mb-0"><Link href="#"><span className="button">Learn More</span></Link></h6>
+            <h6 className="mb-0"><Link href="#"><span className="button" style={{ borderRadius: '10px' }}>Learn More</span></Link></h6>
           </div>
         </div>
       </section>
@@ -474,7 +474,7 @@ export default function Home() {
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="#">
-                          <Image src="/Image/7.jpg" className="w-100" alt="Voting Rights" width={500} height={300} />
+                          <Image src="/Image/7.jpg" className="w-100" alt="Voting Rights" width={500} height={300} style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -504,7 +504,7 @@ export default function Home() {
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="#">
-                          <Image src="/Image/8.jpg" className="w-100" alt="Election Security" width={500} height={300} />
+                          <Image src="/Image/8.jpg" className="w-100" alt="Election Security" width={500} height={300} style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -534,7 +534,7 @@ export default function Home() {
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="#">
-                          <Image src="/Image/9.jpg" className="w-100" alt="Civic Engagement" width={500} height={300} />
+                          <Image src="/Image/9.jpg" className="w-100" alt="Civic Engagement" width={500} height={300} style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -577,7 +577,7 @@ export default function Home() {
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
-                        <Link href="politician_detail.html"><Image src="/Image/10.jpg" className="w-100" alt="Senator" width={500} height={300} /></Link>
+                        <Link href="politician_detail.html"><Image src="/Image/10.jpg" className="w-100" alt="Senator" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                       </figure>
                     </div>
                   </div>
@@ -604,7 +604,7 @@ export default function Home() {
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
-                        <Link href="politician_detail.html"><Image src="/Image/11.jpg" className="w-100" alt="Representative" width={500} height={300} /></Link>
+                        <Link href="politician_detail.html"><Image src="/Image/11.jpg" className="w-100" alt="Representative" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                       </figure>
                     </div>
                   </div>
@@ -631,7 +631,7 @@ export default function Home() {
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
-                        <Link href="politician_detail.html"><Image src="/Image/12.jpg" className="w-100" alt="Governor" width={500} height={300} /></Link>
+                        <Link href="politician_detail.html"><Image src="/Image/12.jpg" className="w-100" alt="Governor" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                       </figure>
                     </div>
                   </div>
@@ -658,7 +658,7 @@ export default function Home() {
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
-                        <Link href="politician_detail.html"><Image src="/Image/13.jpg" className="w-100" alt="Mayor" width={500} height={300} /></Link>
+                        <Link href="politician_detail.html"><Image src="/Image/13.jpg" className="w-100" alt="Mayor" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                       </figure>
                     </div>
                   </div>

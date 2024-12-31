@@ -2052,7 +2052,7 @@ function Home() {
                                                 style: {
                                                     objectFit: 'cover',
                                                     borderRadius: '10px',
-                                                    height: '500px'
+                                                    maxHeight: '500px'
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
@@ -2137,7 +2137,7 @@ function Home() {
                                                 style: {
                                                     objectFit: 'cover',
                                                     borderRadius: '10px',
-                                                    height: '500px'
+                                                    maxHeight: '500px'
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
@@ -2216,7 +2216,7 @@ function Home() {
                                                 style: {
                                                     objectFit: 'cover',
                                                     borderRadius: '10px',
-                                                    height: '500px'
+                                                    maxHeight: '500px'
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
@@ -2374,6 +2374,10 @@ function Home() {
                                     className: "col-md-3 col-sm-6 col-12",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "serv_pg1l",
+                                        style: {
+                                            borderRadius: '10px',
+                                            overflow: 'hidden'
+                                        },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "serv_pg1li row",
                                             children: [
@@ -2777,7 +2781,10 @@ function Home() {
                                                                         width: 500,
                                                                         height: 300,
                                                                         className: "w-100",
-                                                                        alt: "Education"
+                                                                        alt: "Education",
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 164,
@@ -2811,6 +2818,9 @@ function Home() {
                                                                 href: "/education",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "d-inline-block p-2 px-3 font_14 bg_blue text-white",
+                                                                    style: {
+                                                                        borderRadius: '10px'
+                                                                    },
                                                                     children: "LEARN MORE"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.js",
@@ -2927,6 +2937,9 @@ function Home() {
                                                             href: "#",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "button_2 text-center",
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                },
                                                                 children: "View Resources"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
@@ -2981,7 +2994,10 @@ function Home() {
                                                                         width: 500,
                                                                         height: 300,
                                                                         className: "w-100",
-                                                                        alt: "Fact Checking"
+                                                                        alt: "Fact Checking",
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 204,
@@ -3015,6 +3031,9 @@ function Home() {
                                                                 href: "/factcheck",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "d-inline-block p-2 px-3 font_14 bg_red text-white",
+                                                                    style: {
+                                                                        borderRadius: '10px'
+                                                                    },
                                                                     children: "EXPLORE DATA"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.js",
@@ -3131,6 +3150,9 @@ function Home() {
                                                             href: "#",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "button text-center",
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                },
                                                                 children: "Search Database"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
@@ -3185,7 +3207,10 @@ function Home() {
                                                                         width: 500,
                                                                         height: 300,
                                                                         className: "w-100",
-                                                                        alt: "Action Center"
+                                                                        alt: "Action Center",
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 244,
@@ -3219,6 +3244,9 @@ function Home() {
                                                                 href: "/action-center",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "d-inline-block p-2 px-3 font_14 bg_blue text-white",
+                                                                    style: {
+                                                                        borderRadius: '10px'
+                                                                    },
                                                                     children: "TAKE ACTION"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.js",
@@ -3335,6 +3363,9 @@ function Home() {
                                                             href: "#",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "button_2 text-center",
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                },
                                                                 children: "Get Started"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
@@ -3397,6 +3428,10 @@ function Home() {
                                 className: "col-md-3 col-sm-6 col-12",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "spec_1i",
+                                    style: {
+                                        borderRadius: '10px',
+                                        overflow: 'hidden'
+                                    },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             className: "text-white font_60",
@@ -3631,7 +3666,10 @@ function Home() {
                                                             width: 360,
                                                             height: 480,
                                                             className: "w-100",
-                                                            alt: "Civic Engagement"
+                                                            alt: "Civic Engagement",
+                                                            style: {
+                                                                borderRadius: '10px'
+                                                            }
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
                                                             lineNumber: 326,
@@ -3698,7 +3736,10 @@ function Home() {
                                                 src: "/Image/4.jpg",
                                                 width: 100,
                                                 height: 30,
-                                                alt: "Civic Impact"
+                                                alt: "Civic Impact",
+                                                style: {
+                                                    borderRadius: '10px'
+                                                }
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
                                                 lineNumber: 340,
@@ -3773,6 +3814,9 @@ function Home() {
                                             href: "#",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 className: "button",
+                                                style: {
+                                                    borderRadius: '10px'
+                                                },
                                                 children: "Support Our Mission"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
@@ -3899,7 +3943,10 @@ function Home() {
                                                     width: 500,
                                                     height: 300,
                                                     className: "w-100",
-                                                    alt: "Platform Features"
+                                                    alt: "Platform Features",
+                                                    style: {
+                                                        borderRadius: '10px'
+                                                    }
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
                                                     lineNumber: 383,
@@ -4275,6 +4322,9 @@ function Home() {
                                     href: "#",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "button",
+                                        style: {
+                                            borderRadius: '10px'
+                                        },
                                         children: "Learn More"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
@@ -4376,7 +4426,10 @@ function Home() {
                                                                         className: "w-100",
                                                                         alt: "Voting Rights",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 477,
@@ -4589,7 +4642,10 @@ function Home() {
                                                                         className: "w-100",
                                                                         alt: "Election Security",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 507,
@@ -4802,7 +4858,10 @@ function Home() {
                                                                         className: "w-100",
                                                                         alt: "Civic Engagement",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 537,
@@ -5080,7 +5139,10 @@ function Home() {
                                                                         className: "w-100",
                                                                         alt: "Senator",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 580,
@@ -5296,7 +5358,10 @@ function Home() {
                                                                         className: "w-100",
                                                                         alt: "Representative",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 607,
@@ -5512,7 +5577,10 @@ function Home() {
                                                                         className: "w-100",
                                                                         alt: "Governor",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 634,
@@ -5728,7 +5796,10 @@ function Home() {
                                                                         className: "w-100",
                                                                         alt: "Mayor",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
                                                                         lineNumber: 661,

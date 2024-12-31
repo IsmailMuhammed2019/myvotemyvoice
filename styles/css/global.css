@@ -831,3 +831,23 @@ font-size:16px;
 
  }
 
+/* Add this to your CSS file */
+.button, 
+.serv_pg1l, 
+.serv_pg3l2, 
+.footer_b1l, 
+.footer_b1m, 
+.footer_b1r, 
+.spec_1i {
+    border-radius: 10px; /* Apply rounded corners */
+    overflow: hidden; /* Ensure content does not overflow the rounded corners */
+}
+
+.carousel-item img {
+    border-radius: 10px; /* Ensure carousel images have rounded corners */
+}
+
+.carousel-caption h1, 
+.carousel-caption p {
+    border-radius: 10px; /* Optional: Add rounded corners to caption backgrounds if applicable */
+}

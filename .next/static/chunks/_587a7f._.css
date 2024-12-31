@@ -14378,6 +14378,19 @@ a.socialIcon:hover, .socialHoverClass {
   
 }
 
+.button, .serv_pg1l, .serv_pg3l2, .footer_b1l, .footer_b1m, .footer_b1r, .spec_1i {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+}
+
+.carousel-caption h1, .carousel-caption p {
+  border-radius: 10px;
+}
+
 
 /* [project]/styles/css/index.css [client] (css) */
 .carousel-caption {
