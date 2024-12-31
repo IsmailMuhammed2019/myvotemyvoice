@@ -7,9 +7,9 @@ function Footer() {
     <>
      <section id="footer_b">
         <div className="footer_m bg_backn1 p_3">
-          <div className="container-xl">
+          <div className="container-fluid">
             <div className="footer_b1 row">
-              <div className="col-md-6">
+              <div className="col-md-6 col-12">
                 <div className="footer_b1l">
                   <h2 className="mb-4">
                     <Link href="/">
@@ -52,7 +52,7 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-12">
                 <div className="footer_b1m">
                   <h4 className="text-white mb-4">Our Location</h4>
                   <iframe
@@ -63,7 +63,7 @@ function Footer() {
                   ></iframe>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-12">
                 <div className="footer_b1r">
                   <h4 className="text-white mb-4">Latest Updates</h4>
                   <div className="footer_b1ri row">
