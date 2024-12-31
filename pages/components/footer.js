@@ -30,24 +30,24 @@ function Footer() {
                   </p>
                   <ul className="social-network social-circle mb-0">
                     <li>
-                      <Link href="#" className="icoRss" title="Twitter">
-                        <i className="fa-brands fa-twitter"></i></Link>
-                      
+                      <Link href="#" className="icoRss" title="Twitter" style={{ borderRadius: '10px', overflow: 'hidden' }}>
+                        <i className="fa-brands fa-twitter" style={{ borderRadius: '10px' }}></i>
+                      </Link>
                     </li>
                     <li>
-                      <Link href="#" className="icoFacebook" title="Facebook">
-                        <i className="fa-brands fa-facebook"></i></Link>
-                      
+                      <Link href="#" className="icoFacebook" title="Facebook" style={{ borderRadius: '10px', overflow: 'hidden' }}>
+                        <i className="fa-brands fa-facebook" style={{ borderRadius: '10px' }}></i>
+                      </Link>
                     </li>
                     <li>
-                      <Link href="#" className="icoGoogle" title="Instagram">
-                        <i className="fa-brands fa-instagram"></i></Link>
-                      
+                      <Link href="#" className="icoGoogle" title="Instagram" style={{ borderRadius: '10px', overflow: 'hidden' }}>
+                        <i className="fa-brands fa-instagram" style={{ borderRadius: '10px' }}></i>
+                      </Link>
                     </li>
                     <li>
-                      <Link href="#" className="icoLinkedin" title="LinkedIn">
-                        <i className="fa-brands fa-linkedin"></i></Link>
-                      
+                      <Link href="#" className="icoLinkedin" title="LinkedIn" style={{ borderRadius: '10px', overflow: 'hidden' }}>
+                        <i className="fa-brands fa-linkedin" style={{ borderRadius: '10px' }}></i>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -72,7 +72,7 @@ function Footer() {
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
                             <Link href="#">
-                                <Image src="/Image/7.jpg" alt="Voting Rights" width={200} height={100} />
+                                <Image src="/Image/7.jpg" alt="Voting Rights" width={200} height={100} style={{ borderRadius: '10px' }} />
                               
                             </Link>
                           </figure>
@@ -99,7 +99,7 @@ function Footer() {
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
                             <Link href="#">
-                                <Image src="/Image/8.jpg" alt="Platform Update" width={200} height={100} />
+                                <Image src="/Image/8.jpg" alt="Platform Update" width={200} height={100} style={{ borderRadius: '10px' }} />
                               
                             </Link>
                           </figure>
@@ -126,7 +126,7 @@ function Footer() {
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
                             <Link href="#">
-                                <Image src="/Image/9.jpg" alt="Community Impact" width={200} height={100} />
+                                <Image src="/Image/9.jpg" alt="Community Impact" width={200} height={100} style={{ borderRadius: '10px' }} />
                               
                             </Link>
                           </figure>

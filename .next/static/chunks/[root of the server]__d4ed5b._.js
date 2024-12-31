@@ -1403,8 +1403,15 @@ function Footer() {
                                                             href: "#",
                                                             className: "icoRss",
                                                             title: "Twitter",
+                                                            style: {
+                                                                borderRadius: '10px',
+                                                                overflow: 'hidden'
+                                                            },
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                className: "fa-brands fa-twitter"
+                                                                className: "fa-brands fa-twitter",
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/footer.js",
                                                                 lineNumber: 34,
@@ -1425,8 +1432,15 @@ function Footer() {
                                                             href: "#",
                                                             className: "icoFacebook",
                                                             title: "Facebook",
+                                                            style: {
+                                                                borderRadius: '10px',
+                                                                overflow: 'hidden'
+                                                            },
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                className: "fa-brands fa-facebook"
+                                                                className: "fa-brands fa-facebook",
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/footer.js",
                                                                 lineNumber: 39,
@@ -1447,8 +1461,15 @@ function Footer() {
                                                             href: "#",
                                                             className: "icoGoogle",
                                                             title: "Instagram",
+                                                            style: {
+                                                                borderRadius: '10px',
+                                                                overflow: 'hidden'
+                                                            },
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                className: "fa-brands fa-instagram"
+                                                                className: "fa-brands fa-instagram",
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/footer.js",
                                                                 lineNumber: 44,
@@ -1469,8 +1490,15 @@ function Footer() {
                                                             href: "#",
                                                             className: "icoLinkedin",
                                                             title: "LinkedIn",
+                                                            style: {
+                                                                borderRadius: '10px',
+                                                                overflow: 'hidden'
+                                                            },
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                                                className: "fa-brands fa-linkedin"
+                                                                className: "fa-brands fa-linkedin",
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/footer.js",
                                                                 lineNumber: 49,
@@ -1570,7 +1598,10 @@ function Footer() {
                                                                             src: "/Image/7.jpg",
                                                                             alt: "Voting Rights",
                                                                             width: 200,
-                                                                            height: 100
+                                                                            height: 100,
+                                                                            style: {
+                                                                                borderRadius: '10px'
+                                                                            }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/components/footer.js",
                                                                             lineNumber: 75,
@@ -1678,7 +1709,10 @@ function Footer() {
                                                                             src: "/Image/8.jpg",
                                                                             alt: "Platform Update",
                                                                             width: 200,
-                                                                            height: 100
+                                                                            height: 100,
+                                                                            style: {
+                                                                                borderRadius: '10px'
+                                                                            }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/components/footer.js",
                                                                             lineNumber: 102,
@@ -1786,7 +1820,10 @@ function Footer() {
                                                                             src: "/Image/9.jpg",
                                                                             alt: "Community Impact",
                                                                             width: 200,
-                                                                            height: 100
+                                                                            height: 100,
+                                                                            style: {
+                                                                                borderRadius: '10px'
+                                                                            }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/components/footer.js",
                                                                             lineNumber: 129,
