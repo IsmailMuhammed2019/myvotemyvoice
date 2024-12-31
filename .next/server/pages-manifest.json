@@ -6,5 +6,6 @@
   "/about": "pages/about.js",
   "/news": "pages/news.js",
   "/donate": "pages/donate.js",
-  "/faq": "pages/faq.js"
+  "/faq": "pages/faq.js",
+  "/login": "pages/login.js"
 }
