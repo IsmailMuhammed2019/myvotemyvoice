@@ -14,69 +14,71 @@ export default function Home() {
       <Header />
 
       <section id="center" className="center_home">
-        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-          <div className="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        <div className="container-fluid">
+          <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <Image src="/Image/1.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px' }} />
+                <div className="carousel-caption d-md-block">
+                  <h1 className="font_70 text-uppercase family_1">Your Voice <br /> Your <span className="col_red">Vote</span></h1>
+                  <p className="mt-3 w-75 text-light fs-5">Empowering citizens with knowledge and tools to strengthen democracy through informed participation and accountability.</p>
+                  <h6 className="mb-0 mt-4">
+                    <Link className="button" href="/register-vote" style={{ borderRadius: '10px' }}>Learn More</Link>
+                  </h6>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <Image src="/Image/2.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px' }} />
+                <div className="carousel-caption d-md-block">
+                  <h1 className="font_70 text-uppercase family_1">Track your Your <span className="col_red">Representatives</span></h1>
+                  <p className="mt-3 w-50 text-light fs-5">Access verified voting records, policy positions, and tools to hold elected officials accountable to their campaign promises.</p>
+                  <h6 className="mb-0 mt-4">
+                    <Link className="button" href="/dashboard" style={{ borderRadius: '10px' }}>View Dashboard</Link>
+                  </h6>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <Image src="/Image/3.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px' }} />
+                <div className="carousel-caption d-md-block">
+                  <h1 className="font_70 text-uppercase family_1">Get <span className="col_red">Involved</span></h1>
+                  <p className="mt-3 w-50 text-light fs-5">Join our community of engaged citizens working to strengthen democratic institutions through education and accountability.</p>
+                  <h6 className="mb-0 mt-4">
+                    <Link className="button" href="/get-involved" style={{ borderRadius: '10px' }}>Learn More</Link>
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <Image src="/Image/1.jpg" width={1920} height={1080} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-md-block">
-                <h1 className="font_70 text-uppercase family_1">Your Voice <br /> Your <span className="col_red">Vote</span></h1>
-                <p className="mt-3 w-50 text-light fs-5">Empowering citizens with knowledge and tools to strengthen democracy through informed participation and accountability.</p>
-                <h6 className="mb-0 mt-4">
-                  <Link className="button" href="/register-vote">Learn More</Link>
-                </h6>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <Image src="/Image/2.jpg" width={1920} height={1080} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-md-block">
-                <h1 className="font_70 text-uppercase family_1">Track your Your <span className="col_red">Representatives</span></h1>
-                <p className="mt-3 w-50 text-light fs-5">Access verified voting records, policy positions, and tools to hold elected officials accountable to their campaign promises.</p>
-                <h6 className="mb-0 mt-4">
-                  <Link className="button" href="/dashboard">View Dashboard</Link>
-                </h6>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <Image src="/Image/3.jpg" width={1920} height={1080} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-md-block">
-                <h1 className="font_70 text-uppercase family_1">Get <span className="col_red">Involved</span></h1>
-                <p className="mt-3 w-50 text-light fs-5">Join our community of engaged citizens working to strengthen democratic institutions through education and accountability.</p>
-                <h6 className="mb-0 mt-4">
-                  <Link className="button" href="/get-involved">Learn More</Link>
-                </h6>
-              </div>
-            </div>
-          </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
       </section>
 
 {/* Services Section */}
 <section id="serv_pg" className="p_3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="row serv_pg1">
             {/* Education */}
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="serv_pg1l">
                 <div className="serv_pg1li row">
-                  <div className="col-md-3">
+                  <div className="col-md-3 col-12">
                     <div className="serv_pg1lil">
                       <span className="font_50 col_red lh-1"><i className="fa fa-graduation-cap"></i></span>
                     </div>
                   </div>
-                  <div className="col-md-9">
+                  <div className="col-md-9 col-12">
                     <div className="serv_pg1lir">
                       <h5>EDUCATION</h5>
                       <h6 className="mb-0">Civic Knowledge</h6>
@@ -276,9 +278,9 @@ export default function Home() {
 
       {/* Stats Section */}
       <section id="spec" className="bg_blue pt-5 pb-5">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="row spec_1">
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="spec_1i">
                 <h1 className="text-white font_60">50,000+</h1>
                 <h6 className="mb-0 text-white-50 mt-3"><i className="fa fa-bullhorn fs-3 align-middle col_red me-2"></i> Registered Voters</h6>
@@ -308,9 +310,9 @@ export default function Home() {
 
       {/* Mission & Impact Section */}
       <section id="goal" className="p_3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="goal_1 row mb-4 text-center">
-            <div className="col-md-12">
+            <div className="col-md-12 col-12">
               <h1 className="col_blue">Our Mission & Impact</h1>
               <p className="mb-0">MyVoteMyVoice empowers citizens with verified information and tools to make informed decisions and actively participate in democracy.</p>
             </div>
