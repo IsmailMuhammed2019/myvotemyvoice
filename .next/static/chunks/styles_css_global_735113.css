@@ -940,4 +940,11 @@ a.socialIcon:hover, .socialHoverClass {
   color: red;
 }
 
+#faz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=styles_css_global_735113.css.map*/

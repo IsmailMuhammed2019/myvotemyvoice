@@ -4,14 +4,13 @@ import Footer from './components/footer'
 import Image from 'next/image'
 import Link from 'next/link'
 
-function faq () {
+function FAQ() {
   return (
     <>
       <Header />
-      {/* Center Section */}
       <section id="center" className="center_faq">
         <div className="center_om bg_backn1">
-          <div className="container-xl">
+          <div className="container-fluid">
             <div className="row center_o1 text-center">
               <div className="col-md-12">
                 <h1 className="text-white">FAQ</h1>
@@ -27,11 +26,11 @@ function faq () {
 
       {/* Footer Text Section */}
       <section id="footer_t" className="p_3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="goal_1 row text-center">
             <div className="col-md-12">
               <h1 className="col_blue">We Work Transparent & Hard</h1>
-              <p className="mb-0">Achievements are now made easy using Political WordPress Theme! Share the news and press <br /> releases to your focus group and complete causes using donations.</p>
+              <p className="mb-0">Our mission is to empower citizens through education and engagement. Join us in making a difference in our community!</p>
             </div>
           </div>
         </div>
@@ -40,7 +39,7 @@ function faq () {
       {/* Footer Section */}
       <section id="footer">
         <div className="footer_m bg_backn1 pt-5 pb-5">
-          <div className="container-xl">
+          <div className="container-fluid">
             <div className="footer_1 row">
               <div className="col-md-7">
                 <div className="footer_1l">
@@ -64,11 +63,11 @@ function faq () {
                   <div className="tab-content p-4">
                     <div className="tab-pane active" id="home">
                       <div className="footer_1li">
-                        <h5>Join the Crowd. Be Unite!</h5>
-                        <p>Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Fusce fermentum odio nec arcu integer tincidunt cras ultricies sem orci lectus, aliquam ut, faucibus non, aliquam ut, faucibus non.</p>
+                        <h5>Join the Crowd. Be United!</h5>
+                        <p>We invite you to become part of our community. Your voice matters, and together we can create impactful change.</p>
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
-                            <Link href="#"><Image src="/Image/15.jpg" className="w-100" alt="abc" width={500} height={300} /></Link>
+                            <Link href="#"><Image src="/Image/15.jpg" className="w-100" alt="Join Us" width={500} height={300} /></Link>
                           </figure>
                         </div>
                       </div>
@@ -76,21 +75,21 @@ function faq () {
                     <div className="tab-pane" id="profile">
                       <div className="footer_1li">
                         <h5>Shop Goodies from our Boutique!</h5>
-                        <p>Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Fusce fermentum odio nec arcu integer tincidunt cras ultricies sem orci lectus, aliquam ut, faucibus non, aliquam ut, faucibus non.</p>
+                        <p>Explore our collection of merchandise that supports our mission. Every purchase helps fund our programs.</p>
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
-                            <Link href="#"><Image src="/Image/16.jpg" className="w-100" alt="abc" width={500} height={300} /></Link>
+                            <Link href="#"><Image src="/Image/16.jpg" className="w-100" alt="Shop Goodies" width={500} height={300} /></Link>
                           </figure>
                         </div>
                       </div>
                     </div>
                     <div className="tab-pane" id="profile1">
                       <div className="footer_1li">
-                        <h5>Donations Helps the People</h5>
-                        <p>Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Fusce fermentum odio nec arcu integer tincidunt cras ultricies sem orci lectus, aliquam ut, faucibus non, aliquam ut, faucibus non.</p>
+                        <h5>Donations Help the People</h5>
+                        <p>Your generous donations allow us to continue our work in the community. Every dollar counts and makes a difference.</p>
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
-                            <Link href="#"><Image src="/Image/17.jpg" className="w-100" alt="abc" width={500} height={300} /></Link>
+                            <Link href="#"><Image src="/Image/17.jpg" className="w-100" alt="Donations" width={500} height={300} /></Link>
                           </figure>
                         </div>
                       </div>
@@ -109,7 +108,7 @@ function faq () {
                       </h2>
                       <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                          <p className="mb-0">We are committed to transparency and accountability. Our team works tirelessly to ensure that your contributions are used effectively.</p>
                         </div>
                       </div>
                     </div>
@@ -121,7 +120,7 @@ function faq () {
                       </h2>
                       <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                          <p className="mb-0">Our future goals include expanding our outreach programs and increasing community engagement through workshops and events.</p>
                         </div>
                       </div>
                     </div>
@@ -133,7 +132,7 @@ function faq () {
                       </h2>
                       <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                          <p className="mb-0">We have successfully launched several initiatives that have positively impacted our community, including educational programs and health services.</p>
                         </div>
                       </div>
                     </div>
@@ -145,7 +144,7 @@ function faq () {
                       </h2>
                       <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                          <p className="mb-0">All donations are reviewed and approved by our team to ensure they align with our mission and goals.</p>
                         </div>
                       </div>
                     </div>
@@ -157,7 +156,7 @@ function faq () {
                       </h2>
                       <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                          <p className="mb-0">Visit our shop to find unique items that support our cause. Your purchases help fund our initiatives.</p>
                         </div>
                       </div>
                     </div>
@@ -169,7 +168,7 @@ function faq () {
                       </h2>
                       <div id="collapsesix" className="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
-                          <p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                          <p className="mb-0">Join us in our mission to create a better community. Together, we can make a difference!</p>
                         </div>
                       </div>
                     </div>
@@ -180,11 +179,9 @@ function faq () {
           </div>
         </div>
       </section>
-      <hr className="line_1 m-0" />
-      <hr className="line_1 m-0" />
       <Footer />
     </>
   )
 }
 
-export default faq
+export default FAQ

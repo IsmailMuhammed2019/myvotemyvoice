@@ -14395,6 +14395,13 @@ a.socialIcon:hover, .socialHoverClass {
   color: red;
 }
 
+#faz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 /* [project]/styles/css/index.css [client] (css) */
 .carousel-caption {
