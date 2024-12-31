@@ -4,13 +4,16 @@ import Link from 'next/link'; // Make sure this is imported
 import Header from './components/Header';
 import Footer from './components/footer'
 
-function news() {
+function News() {
   return (
     <>
-    <Header />
-    <section id="center" className="center_blog">
+      <Head>
+        <title>News</title>
+      </Head>
+      <Header />
+      <section id="center" className="center_blog">
         <div className="center_om bg_backn1">
-          <div className="container-xl">
+          <div className="container-fluid">
             <div className="row center_o1 text-center">
               <div className="col-md-12">
                 <h1 className="text-white">News</h1>
@@ -26,9 +29,9 @@ function news() {
 
       {/* Blog Section */}
       <section id="blog" className="p_3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="row blog_1">
-            <div className="col-md-9">
+            <div className="col-md-9 col-12">
               <div className="blog_1l">
                 {/* Blog Post 1 */}
                 <div className="blog_h1i">
@@ -37,7 +40,7 @@ function news() {
                       <div className="grid clearfix">
                         <figure className="effect-jazz mb-0">
                           <Link href="/news_details">
-                            <Image src="/Image/20.jpg" className="w-100" alt="Image25" width={500} height={300} />
+                            <Image src="/Image/20.jpg" className="w-100" alt="Image25" width={500} height={300} style={{ borderRadius: '10px' }} />
                           </Link>
                         </figure>
                       </div>
@@ -48,7 +51,7 @@ function news() {
                       </span>
                     </div>
                   </div>
-                  <div className="blog_h1i2 p-4 bg-light">
+                  <div className="blog_h1i2 p-4 bg-light" style={{ borderRadius: '10px' }}>
                     <ul>
                       <li className="d-inline-block"><i className="fa fa-user me-1 col_red"></i><Link href="/news_details">Ante Quis</Link><span className="text-muted mx-2">|</span></li>
                       <li className="d-inline-block"><i className="fa fa-comment me-1 col_red"></i><Link href="/news_details">2 Comments</Link><span className="text-muted mx-2">|</span></li>
@@ -68,7 +71,7 @@ function news() {
                       <div className="grid clearfix">
                         <figure className="effect-jazz mb-0">
                           <Link href="/news_details">
-                            <Image src="/Image/21.jpg" className="w-100" alt="Image25" width={500} height={300} />
+                            <Image src="/Image/21.jpg" className="w-100" alt="Image25" width={500} height={300} style={{ borderRadius: '10px' }} />
                           </Link>
                         </figure>
                       </div>
@@ -79,7 +82,7 @@ function news() {
                       </span>
                     </div>
                   </div>
-                  <div className="blog_h1i2 p-4 bg-light">
+                  <div className="blog_h1i2 p-4 bg-light" style={{ borderRadius: '10px' }}>
                     <ul>
                       <li className="d-inline-block"><i className="fa fa-user me-1 col_red"></i><Link href="/news_details">Ante Quis</Link><span className="text-muted mx-2">|</span></li>
                       <li className="d-inline-block"><i className="fa fa-comment me-1 col_red"></i><Link href="/news_details">2 Comments</Link><span className="text-muted mx-2">|</span></li>
@@ -99,7 +102,7 @@ function news() {
                       <div className="grid clearfix">
                         <figure className="effect-jazz mb-0">
                           <Link href="/news_details">
-                            <Image src="/Image/22.jpg" className="w-100" alt="Image25" width={500} height={300} />
+                            <Image src="/Image/22.jpg" className="w-100" alt="Image25" width={500} height={300} style={{ borderRadius: '10px' }} />
                           </Link>
                         </figure>
                       </div>
@@ -110,7 +113,7 @@ function news() {
                       </span>
                     </div>
                   </div>
-                  <div className="blog_h1i2 p-4 bg-light">
+                  <div className="blog_h1i2 p-4 bg-light" style={{ borderRadius: '10px' }}>
                     <ul>
                       <li className="d-inline-block"><i className="fa fa-user me-1 col_red"></i><Link href="/news_details">Ante Quis</Link><span className="text-muted mx-2">|</span></li>
                       <li className="d-inline-block"><i className="fa fa-comment me-1 col_red"></i><Link href="/news_details">2 Comments</Link><span className="text-muted mx-2">|</span></li>
@@ -140,11 +143,11 @@ function news() {
             </div>
 
             {/* Sidebar Section */}
-            <div className="col-md-3">
+            <div className="col-md-3 col-12">
               <div className="blog_1r">
                 <div className="blog_1r1">
                   <div className="input-group p-2 border_1">
-                    <input type="text" className="form-control border-0 bg-transparent" placeholder="Search" />
+                    <input type="text" className="form-control border-0 bg-transparent" placeholder="Search" style={{ borderRadius: '10px' }} />
                     <span className="input-group-btn">
                       <button className="btn btn-primary bg-transparent border-0 fs-6 col_red" type="button">
                         <i className="fa fa-search"></i>
@@ -174,7 +177,7 @@ function news() {
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
                             <Link href="/news_details">
-                              <Image src="/Image/7.jpg" className="w-100" alt="abc" width={200} height={90} />
+                              <Image src="/Image/7.jpg" className="w-100" alt="abc" width={200} height={90} style={{ borderRadius: '10px' }} />
                             </Link>
                           </figure>
                         </div>
@@ -194,7 +197,7 @@ function news() {
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
                             <Link href="/news_details">
-                              <Image src="/Image/8.jpg" className="w-100" alt="abc" width={200} height={90} />
+                              <Image src="/Image/8.jpg" className="w-100" alt="abc" width={200} height={90} style={{ borderRadius: '10px' }} />
                             </Link>
                           </figure>
                         </div>
@@ -214,7 +217,7 @@ function news() {
                         <div className="grid clearfix">
                           <figure className="effect-jazz mb-0">
                             <Link href="/news_details">
-                              <Image src="/Image/9.jpg" className="w-100" alt="abc" width={200} height={90} />
+                              <Image src="/Image/9.jpg" className="w-100" alt="abc" width={200} height={90} style={{ borderRadius: '10px' }} />
                             </Link>
                           </figure>
                         </div>
@@ -308,4 +311,4 @@ function news() {
   )
 }
 
-export default news
+export default News

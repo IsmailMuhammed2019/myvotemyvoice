@@ -64,6 +64,30 @@
       "static/chunks/node_modules_1b7400._.js",
       "static/chunks/pages_login_5771e1._.js",
       "static/chunks/pages_login_1bb9ec._.js"
+    ],
+    "/news_details": [
+      "static/chunks/[root of the server]__996a3c._.js",
+      "static/chunks/node_modules_next_adcbc1._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_1b7400._.js",
+      "static/chunks/pages_news_details_5771e1._.js",
+      "static/chunks/pages_news_details_86f959._.js"
+    ],
+    "/team": [
+      "static/chunks/[root of the server]__81e5f3._.js",
+      "static/chunks/node_modules_next_408a95._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_1b7400._.js",
+      "static/chunks/pages_team_5771e1._.js",
+      "static/chunks/pages_team_cdbd7a._.js"
+    ],
+    "/team_details": [
+      "static/chunks/[root of the server]__f624a0._.js",
+      "static/chunks/node_modules_next_408a95._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_1b7400._.js",
+      "static/chunks/pages_team_details_5771e1._.js",
+      "static/chunks/pages_team_details_ecf2fc._.js"
     ]
   },
   "devFiles": [],

@@ -4,14 +4,15 @@ import Footer from './components/footer'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-function team_details() {
+
+function TeamDetails() {
   return (
     <>
     <Header />
     {/* Center Section */}
     <section id="center" className="center_teamdt">
         <div className="center_om bg_backn1">
-          <div className="container-xl">
+          <div className="container-fluid">
             <div className="row center_o1 text-center">
               <div className="col-md-12">
                 <h1 className="text-white">Team Detail</h1>
@@ -27,20 +28,20 @@ function team_details() {
 
       {/* Team Detail Section */}
       <section id="team_dt" className="p_3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="team_dt1 row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="team_dt1l">
                 <div className="grid clearfix">
                   <figure className="effect-jazz mb-0">
                     <Link href="#">
-                      <Image src="/Image/36.jpg" className="w-100" alt="abc" width={550} height={500} />
+                      <Image src="/Image/36.jpg" className="w-100" alt="abc" width={550} height={500} style={{ borderRadius: '10px' }} />
                     </Link>
                   </figure>
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="team_dt1r">
                 <h1>Dolor Porta</h1>
                 <h6 className="col_red">Department Head</h6>
@@ -67,7 +68,7 @@ function team_details() {
             </div>
           </div>
           <div className="team_dt3 row mt-4">
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="team_dt3l">
                 <h2 className="mb-3">Personal Skills</h2>
                 <p>Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est</p>
@@ -85,12 +86,12 @@ function team_details() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="team_dt3r">
                 <div className="grid clearfix">
                   <figure className="effect-jazz mb-0">
                     <Link href="#">
-                      <Image src="/Image/17.jpg" className="w-100" alt="abc" width={500} height={300} />
+                      <Image src="/Image/17.jpg" className="w-100" alt="abc" width={500} height={300} style={{ borderRadius: '10px' }} />
                     </Link>
                   </figure>
                 </div>
@@ -104,4 +105,4 @@ function team_details() {
   )
 }
 
-export default team_details
+export default TeamDetails

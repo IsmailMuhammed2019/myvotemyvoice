@@ -4,7 +4,7 @@ import Footer from './components/footer'
 import Link from 'next/link'
 import Image from 'next/image'
 
-function services() {
+function Services() {
   return (
     <>
     <Header />
@@ -12,7 +12,7 @@ function services() {
     {/* Center Section */}
     <section id="center" className="center_serv">
         <div className="center_om bg_backn1">
-          <div className="container-xl">
+          <div className="container-fluid">
             <div className="row center_o1 text-center">
               <div className="col-md-12">
                 <h1 className="text-white">Services</h1>
@@ -28,9 +28,9 @@ function services() {
 
       {/* Services Page Section */}
       <section id="serv_pg" className="p_3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="row serv_pg1">
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="serv_pg1l">
                 <div className="serv_pg1li row">
                   <div className="col-md-3">
@@ -47,7 +47,7 @@ function services() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="serv_pg1l">
                 <div className="serv_pg1li row">
                   <div className="col-md-3">
@@ -64,7 +64,7 @@ function services() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="serv_pg1l">
                 <div className="serv_pg1li row">
                   <div className="col-md-3">
@@ -81,7 +81,7 @@ function services() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="serv_pg1l">
                 <div className="serv_pg1li row">
                   <div className="col-md-3">
@@ -106,14 +106,14 @@ function services() {
             </div>
           </div>
           <div className="row serv_pg3">
-            <div className="col-md-4">
+            <div className="col-md-4 col-12">
               <div className="serv_pg3l">
                 <div className="serv_pg3l1 position-relative">
                   <div className="serv_pg3l1i">
                     <div className="grid clearfix">
                     <figure className="effect-jazz mb-0">
   <Link href="#">
-    <Image src="/Image/30.jpg" className="w-100" alt="abc" width={500} height={350} />
+    <Image src="/Image/30.jpg" className="w-100" alt="abc" width={500} height={350} style={{ borderRadius: '10px' }} />
   </Link>
 </figure>
                     </div>
@@ -133,14 +133,14 @@ function services() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 col-12">
               <div className="serv_pg3l">
                 <div className="serv_pg3l1 position-relative">
                   <div className="serv_pg3l1i">
                     <div className="grid clearfix">
                     <figure className="effect-jazz mb-0">
   <Link href="#">
-    <Image src="/Image/31.jpg" className="w-100" alt="abc" width={500} height={350} />
+    <Image src="/Image/31.jpg" className="w-100" alt="abc" width={500} height={350} style={{ borderRadius: '10px' }} />
   </Link>
 </figure>
                     </div>
@@ -160,14 +160,14 @@ function services() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 col-12">
               <div className="serv_pg3l">
                 <div className="serv_pg3l1 position-relative">
                   <div className="serv_pg3l1i">
                     <div className="grid clearfix">
                     <figure className="effect-jazz mb-0">
   <Link href="#">
-    <Image src="/Image/32.jpg" className="w-100" alt="abc" width={500} height={350} />
+    <Image src="/Image/32.jpg" className="w-100" alt="abc" width={500} height={350} style={{ borderRadius: '10px' }} />
   </Link>
 </figure>
                     </div>
@@ -194,9 +194,9 @@ function services() {
       {/* Additional Services Section */}
       <section id="serv">
         <div className="serv_m bg_back">
-          <div className="container-xl">
+          <div className="container-fluid">
             <div className="serv_1 row">
-              <div className="col-md-6">
+              <div className="col-md-6 col-12">
                 <div className="serv_1l">
                   <Image src="/Image/26.jpg" width="100" height="100" className="rounded-circle" alt="Service Image" />
                   <h2 className="mt-4 text-white">A concrete help for a better and kind world</h2>
@@ -209,7 +209,7 @@ function services() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-12">
                 <div className="serv_1r">
                   {/* Additional content can be added here */}
                 </div>
@@ -221,29 +221,29 @@ function services() {
 
       {/* Services Overview Section */}
       <section id="serv_o" className="p_3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="serv_o1 row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="serv_o1l">
                 <h6><span className="me-2 col_red fw-bold fs-5 align-middle">|</span> Donate with love</h6>
                 <h1 className="mt-3">Donate for a better future</h1>
                 <p className="mt-3 mb-4 font_15">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et quisque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim sem ut ips.</p>
                 <div className="serv_o1li row">
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li>Lorem Ipsum</li>
                       </ul>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li><i className="fa fa-check col_red me-1 font_12 fw-bold"></i> Cons Samet si</li>
                       </ul>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li>Sil abat</li>
@@ -253,21 +253,21 @@ function services() {
                 </div>
                 <hr />
                 <div className="serv_o1li row">
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li>Dolor Sit Amet</li>
                       </ul>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li><i className="fa fa-check col_red me-1 font_12 fw-bold"></i> Lorem Ipsm dolor</li>
                       </ul>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li>Dolor Sit Amet</li>
@@ -277,21 +277,21 @@ function services() {
                 </div>
                 <hr />
                 <div className="serv_o1li row">
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li>Dolor Sit Amet</li>
                       </ul>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li><i className="fa fa-check col_red me-1 font_12 fw-bold"></i> Null Quis dolor</li>
                       </ul>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 col-12">
                     <div className="serv_o1lil">
                       <ul className="mb-0 font_15">
                         <li>Samir Salus</li>
@@ -302,7 +302,7 @@ function services() {
                 <h6 className="mb-0 mt-4"><Link className="button p-2 px-4" href="#">More Info</Link></h6>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="serv_o1r">
                 <div className="serv_o1ri row">
                   <div className="col-md-6 col-sm-6">
@@ -383,4 +383,4 @@ function services() {
   )
 }
 
-export default services
+export default Services

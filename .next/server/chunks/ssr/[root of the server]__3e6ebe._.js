@@ -1684,7 +1684,7 @@ function Footer() {
 }
 const __TURBOPACK__default__export__ = Footer;
 }}),
-"[project]/pages/news.js [ssr] (ecmascript)": ((__turbopack_context__) => {
+"[project]/pages/news_details.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
@@ -1694,40 +1694,40 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_import__("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$head$2e$js__$5b$external$5d$__$28$next$2f$head$2e$js$2c$__cjs$29$__ = __turbopack_import__("[externals]/next/head.js [external] (next/head.js, cjs)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [ssr] (ecmascript)"); // Make sure this is imported
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$components$2f$Header$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/pages/components/Header.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$components$2f$footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/pages/components/footer.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$head$2e$js__$5b$external$5d$__$28$next$2f$head$2e$js$2c$__cjs$29$__ = __turbopack_import__("[externals]/next/head.js [external] (next/head.js, cjs)");
 ;
 ;
 ;
 ;
 ;
 ;
-function News() {
+const NewsDetails = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$head$2e$js__$5b$external$5d$__$28$next$2f$head$2e$js$2c$__cjs$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("title", {
-                    children: "News"
+                    children: "News Details"
                 }, void 0, false, {
-                    fileName: "[project]/pages/news.js",
+                    fileName: "[project]/pages/news_details.js",
                     lineNumber: 11,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/pages/news.js",
+                fileName: "[project]/pages/news_details.js",
                 lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$components$2f$Header$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/pages/news.js",
+                fileName: "[project]/pages/news_details.js",
                 lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
                 id: "center",
-                className: "center_blog",
+                className: "center_blogdt",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                     className: "center_om bg_backn1",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1739,10 +1739,10 @@ function News() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
                                         className: "text-white",
-                                        children: "News"
+                                        children: "News Detail"
                                     }, void 0, false, {
-                                        fileName: "[project]/pages/news.js",
-                                        lineNumber: 19,
+                                        fileName: "[project]/pages/news_details.js",
+                                        lineNumber: 20,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -1753,49 +1753,49 @@ function News() {
                                                 className: "text-light",
                                                 children: "Home"
                                             }, void 0, false, {
-                                                fileName: "[project]/pages/news.js",
-                                                lineNumber: 21,
+                                                fileName: "[project]/pages/news_details.js",
+                                                lineNumber: 22,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                 className: "mx-2 text-white-50",
                                                 children: "/"
                                             }, void 0, false, {
-                                                fileName: "[project]/pages/news.js",
-                                                lineNumber: 22,
+                                                fileName: "[project]/pages/news_details.js",
+                                                lineNumber: 23,
                                                 columnNumber: 19
                                             }, this),
-                                            " News"
+                                            " News Detail"
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/pages/news.js",
-                                        lineNumber: 20,
+                                        fileName: "[project]/pages/news_details.js",
+                                        lineNumber: 21,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/pages/news.js",
-                                lineNumber: 18,
+                                fileName: "[project]/pages/news_details.js",
+                                lineNumber: 19,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
-                            fileName: "[project]/pages/news.js",
-                            lineNumber: 17,
+                            fileName: "[project]/pages/news_details.js",
+                            lineNumber: 18,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
-                        fileName: "[project]/pages/news.js",
-                        lineNumber: 16,
+                        fileName: "[project]/pages/news_details.js",
+                        lineNumber: 17,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/pages/news.js",
-                    lineNumber: 15,
+                    fileName: "[project]/pages/news_details.js",
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/pages/news.js",
-                lineNumber: 14,
+                fileName: "[project]/pages/news_details.js",
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1809,899 +1809,1473 @@ function News() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "col-md-9 col-12",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "blog_1l",
+                                    className: "blog_1dt",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "blog_h1i",
+                                            className: "blog_1dt1",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "blog_h1i1 position-relative",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "blog_h1i1i",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                className: "grid clearfix",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
-                                                                    className: "effect-jazz mb-0",
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                        href: "/news_details",
-                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            src: "/Image/20.jpg",
-                                                                            className: "w-100",
-                                                                            alt: "Image25",
-                                                                            width: 500,
-                                                                            height: 300,
-                                                                            style: {
-                                                                                borderRadius: '10px'
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 43,
-                                                                            columnNumber: 29
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 42,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 41,
-                                                                    columnNumber: 25
-                                                                }, this)
+                                                    className: "grid clearfix",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
+                                                        className: "effect-jazz mb-0",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "#",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: "/Image/21.jpg",
+                                                                className: "w-100",
+                                                                alt: "Image25",
+                                                                width: 500,
+                                                                height: 300,
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                }
                                                             }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 40,
-                                                                columnNumber: 23
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 41,
+                                                                columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 39,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 40,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 39,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 38,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
+                                                    className: "mt-3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                            className: "d-inline-block",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                    className: "fa fa-user me-1 col_red"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 46,
+                                                                    columnNumber: 52
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                    href: "#",
+                                                                    children: "Ante Quis"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 46,
+                                                                    columnNumber: 96
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                    className: "text-muted mx-2",
+                                                                    children: "|"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 46,
+                                                                    columnNumber: 128
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 46,
                                                             columnNumber: 21
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "blog_h1i1i1 text-center position-absolute w-100 h-100 bg_backo top-0",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                className: "d-inline-block",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    href: "/news_details",
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                        className: "fa fa-link"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 50,
-                                                                        columnNumber: 52
-                                                                    }, this)
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                            className: "d-inline-block",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                    className: "fa fa-comment me-1 col_red"
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 50,
-                                                                    columnNumber: 25
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 47,
+                                                                    columnNumber: 52
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                    href: "#",
+                                                                    children: "2 Comments"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 47,
+                                                                    columnNumber: 99
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                    className: "text-muted mx-2",
+                                                                    children: "|"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 47,
+                                                                    columnNumber: 132
                                                                 }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 49,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 47,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                            className: "d-inline-block",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                    className: "fa fa-clock me-1 col_red"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 48,
+                                                                    columnNumber: 52
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                    href: "#",
+                                                                    children: "28 July, 2021"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 48,
+                                                                    columnNumber: 97
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/news_details.js",
                                                             lineNumber: 48,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 38,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 45,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "#",
+                                                        children: "Senate Races Flooded With Social Ngo"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 50,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 50,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    className: "mt-3",
+                                                    children: "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 51,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    children: "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 52,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    children: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 53,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "blog_h1i2 p-4 bg-light",
+                                                    className: "blog_1dt1i bg-light p-4 text-center",
                                                     style: {
                                                         borderRadius: '10px'
                                                     },
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-user me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 56,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "Ante Quis"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 56,
-                                                                            columnNumber: 97
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                            className: "text-muted mx-2",
-                                                                            children: "|"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 56,
-                                                                            columnNumber: 140
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 56,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-comment me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 57,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "2 Comments"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 57,
-                                                                            columnNumber: 100
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                            className: "text-muted mx-2",
-                                                                            children: "|"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 57,
-                                                                            columnNumber: 144
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 57,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-clock me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 58,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "28 July, 2021"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 58,
-                                                                            columnNumber: 98
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 58,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 55,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/news_details",
-                                                                children: "Early donation data in 3 key states show spike"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 60,
-                                                                columnNumber: 25
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 60,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                            children: "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 61,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                                            className: "mb-0",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/news_details",
-                                                                className: "button",
-                                                                children: [
-                                                                    "Read More ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                        className: "fa fa-chevron-right ms-1 font_14"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 62,
-                                                                        columnNumber: 98
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 62,
-                                                                columnNumber: 42
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 62,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                        className: "mb-0 fs-5 col_red",
+                                                        children: "Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 55,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
                                                     lineNumber: 54,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    className: "mt-3",
+                                                    children: "Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 57,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
+                                            fileName: "[project]/pages/news_details.js",
                                             lineNumber: 37,
                                             columnNumber: 17
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {}, void 0, false, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 65,
-                                            columnNumber: 17
-                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "blog_h1i",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "blog_h1i1 position-relative",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "blog_h1i1i",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                className: "grid clearfix",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
-                                                                    className: "effect-jazz mb-0",
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                        href: "/news_details",
-                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            src: "/Image/21.jpg",
-                                                                            className: "w-100",
-                                                                            alt: "Image25",
-                                                                            width: 500,
-                                                                            height: 300,
-                                                                            style: {
-                                                                                borderRadius: '10px'
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 74,
-                                                                            columnNumber: 29
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 73,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 72,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 71,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 70,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "blog_h1i1i1 text-center position-absolute w-100 h-100 bg_backo top-0",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                className: "d-inline-block",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    href: "/news_details",
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                        className: "fa fa-link"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 81,
-                                                                        columnNumber: 52
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 81,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 80,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 79,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 69,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "blog_h1i2 p-4 bg-light",
-                                                    style: {
-                                                        borderRadius: '10px'
-                                                    },
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-user me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 87,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "Ante Quis"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 87,
-                                                                            columnNumber: 97
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                            className: "text-muted mx-2",
-                                                                            children: "|"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 87,
-                                                                            columnNumber: 140
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 87,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-comment me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 88,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "2 Comments"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 88,
-                                                                            columnNumber: 100
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                            className: "text-muted mx-2",
-                                                                            children: "|"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 88,
-                                                                            columnNumber: 144
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 88,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-clock me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 89,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "28 July, 2021"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 89,
-                                                                            columnNumber: 98
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 89,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 86,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/news_details",
-                                                                children: "Senate Races Flooded With Social Ngo"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 91,
-                                                                columnNumber: 25
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 91,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                            children: "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 92,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                                            className: "mb-0",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/news_details",
-                                                                className: "button",
-                                                                children: [
-                                                                    "Read More ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                        className: "fa fa-chevron-right ms-1 font_14"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 93,
-                                                                        columnNumber: 98
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 93,
-                                                                columnNumber: 42
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 93,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 85,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 68,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {}, void 0, false, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 96,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "blog_h1i",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "blog_h1i1 position-relative",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "blog_h1i1i",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                                className: "grid clearfix",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
-                                                                    className: "effect-jazz mb-0",
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                        href: "/news_details",
-                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            src: "/Image/22.jpg",
-                                                                            className: "w-100",
-                                                                            alt: "Image25",
-                                                                            width: 500,
-                                                                            height: 300,
-                                                                            style: {
-                                                                                borderRadius: '10px'
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 105,
-                                                                            columnNumber: 29
-                                                                        }, this)
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 104,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 103,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 102,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 101,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                            className: "blog_h1i1i1 text-center position-absolute w-100 h-100 bg_backo top-0",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                className: "d-inline-block",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    href: "/news_details",
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                        className: "fa fa-link"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 112,
-                                                                        columnNumber: 52
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 112,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 111,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 110,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 100,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                    className: "blog_h1i2 p-4 bg-light",
-                                                    style: {
-                                                        borderRadius: '10px'
-                                                    },
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-user me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 118,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "Ante Quis"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 118,
-                                                                            columnNumber: 97
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                            className: "text-muted mx-2",
-                                                                            children: "|"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 118,
-                                                                            columnNumber: 140
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 118,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-comment me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 119,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "2 Comments"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 119,
-                                                                            columnNumber: 100
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                                            className: "text-muted mx-2",
-                                                                            children: "|"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 119,
-                                                                            columnNumber: 144
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 119,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                                    className: "d-inline-block",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                            className: "fa fa-clock me-1 col_red"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 120,
-                                                                            columnNumber: 54
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
-                                                                            children: "28 July, 2021"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 120,
-                                                                            columnNumber: 98
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 120,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 117,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/news_details",
-                                                                children: "Charity take the lead in Miami early equation"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 122,
-                                                                columnNumber: 25
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 122,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                            children: "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time."
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 123,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                                            className: "mb-0",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/news_details",
-                                                                className: "button",
-                                                                children: [
-                                                                    "Read More ",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                        className: "fa fa-chevron-right ms-1 font_14"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 124,
-                                                                        columnNumber: 98
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 124,
-                                                                columnNumber: 42
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 124,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 116,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 99,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {}, void 0, false, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 127,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "pages text-center",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                                                className: "mb-0",
+                                            className: "blog_1d2 mt-4",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "blog_1d2m row",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                className: "fa fa-chevron-left"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 132,
-                                                                columnNumber: 52
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 132,
-                                                            columnNumber: 25
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "col-md-6 col-12",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "blog_1d2l",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
+                                                                    className: "mb-3",
+                                                                    children: "Tags:"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 63,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
+                                                                    className: "mb-0 tags",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                            className: "d-inline-block",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                href: "blog_detail.html",
+                                                                                children: "NEWS"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 65,
+                                                                                columnNumber: 58
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 65,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                            className: "d-inline-block",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                href: "blog_detail.html",
+                                                                                children: "BLOG"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 66,
+                                                                                columnNumber: 58
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 66,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                            className: "d-inline-block",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                href: "blog_detail.html",
+                                                                                children: "HEADLINES"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 67,
+                                                                                columnNumber: 58
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 67,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 64,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 62,
+                                                            columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 132,
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 61,
                                                         columnNumber: 21
                                                     }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
-                                                            className: "act",
-                                                            children: "1"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 133,
-                                                            columnNumber: 25
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "col-md-6 col-12 text-end",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "blog_1d2r",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
+                                                                    className: "mb-3",
+                                                                    children: "Social:"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 73,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
+                                                                    className: "social_tag mb-0",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                            className: "d-inline-block",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                href: "#",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                    className: "fa-brands fa-facebook"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 75,
+                                                                                    columnNumber: 73
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 75,
+                                                                                columnNumber: 58
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 75,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                            className: "d-inline-block",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                href: "#",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                    className: "fa-brands fa-twitter"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 76,
+                                                                                    columnNumber: 73
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 76,
+                                                                                columnNumber: 58
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 76,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                            className: "d-inline-block",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                href: "#",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                    className: "fa-brands fa-youtube-square"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 77,
+                                                                                    columnNumber: 73
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 77,
+                                                                                columnNumber: 58
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 77,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                            className: "d-inline-block",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                href: "#",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                    className: "fa-brands fa-instagram"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 78,
+                                                                                    columnNumber: 73
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 78,
+                                                                                columnNumber: 58
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 78,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                            className: "d-inline-block",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                href: "#",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                    className: "fa-brands fa-linkedin"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 79,
+                                                                                    columnNumber: 73
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 79,
+                                                                                columnNumber: 58
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 79,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 74,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 72,
+                                                            columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 133,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
-                                                            children: "2"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 134,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 134,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
-                                                            children: "3"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 135,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 135,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
-                                                            children: "4"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 136,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 136,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
-                                                            children: "5"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 137,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 137,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
-                                                            children: "6"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 138,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 138,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                                className: "fa fa-chevron-right"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 139,
-                                                                columnNumber: 52
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 139,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 139,
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 71,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/pages/news.js",
-                                                lineNumber: 131,
+                                                fileName: "[project]/pages/news_details.js",
+                                                lineNumber: 60,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 130,
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 59,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "blog_1d3 mt-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
+                                                    children: "RELATED POSTS"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 86,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
+                                                    className: "line mb-4"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 87,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "row blog_h1",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-6 col-12",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "blog_h1i shadow_box",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "blog_h1i1 position-relative",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "blog_h1i1i",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                    className: "grid clearfix",
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
+                                                                                        className: "effect-jazz mb-0",
+                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                            href: "#",
+                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                src: "/Image/15.jpg",
+                                                                                                className: "w-100",
+                                                                                                alt: "Image25",
+                                                                                                width: 500,
+                                                                                                height: 300,
+                                                                                                style: {
+                                                                                                    borderRadius: '10px'
+                                                                                                }
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 95,
+                                                                                                columnNumber: 48
+                                                                                            }, this)
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/pages/news_details.js",
+                                                                                            lineNumber: 95,
+                                                                                            columnNumber: 33
+                                                                                        }, this)
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 94,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 93,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 92,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "blog_h1i1i1 text-center position-absolute w-100 h-100 bg_backo top-0",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                    className: "d-inline-block",
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        href: "#",
+                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                            className: "fa fa-link"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/pages/news_details.js",
+                                                                                            lineNumber: 100,
+                                                                                            columnNumber: 77
+                                                                                        }, this)
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 100,
+                                                                                        columnNumber: 62
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 100,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 99,
+                                                                                columnNumber: 27
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 91,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "blog_h1i2 p-4 bg-white text-center",
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                                        className: "d-inline-block",
+                                                                                        children: [
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                                className: "fa fa-user me-1 col_red"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 105,
+                                                                                                columnNumber: 60
+                                                                                            }, this),
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                href: "#",
+                                                                                                children: "Lorem Amet"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 105,
+                                                                                                columnNumber: 104
+                                                                                            }, this),
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                className: "text-muted mx-2",
+                                                                                                children: "|"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 105,
+                                                                                                columnNumber: 137
+                                                                                            }, this)
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 105,
+                                                                                        columnNumber: 29
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                                        className: "d-inline-block",
+                                                                                        children: [
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                                className: "fa fa-clock me-1 col_red"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 106,
+                                                                                                columnNumber: 60
+                                                                                            }, this),
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                href: "#",
+                                                                                                children: "29 July, 2021"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 106,
+                                                                                                columnNumber: 105
+                                                                                            }, this)
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 106,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 104,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "#",
+                                                                                    children: "Liberty Divided Over Criticism Justice League"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 108,
+                                                                                    columnNumber: 31
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 108,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                                                children: "Andouille ball tip turducken landjaeger cupim tail. Ball tip shankle shank kevin, bacon…"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 109,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
+                                                                                className: "mb-0 fw-bold",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "#",
+                                                                                    children: [
+                                                                                        "Learn More ",
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                            className: "fa fa-chevron-right ms-1 font_12"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/pages/news_details.js",
+                                                                                            lineNumber: 110,
+                                                                                            columnNumber: 82
+                                                                                        }, this)
+                                                                                    ]
+                                                                                }, void 0, true, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 110,
+                                                                                    columnNumber: 56
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 110,
+                                                                                columnNumber: 27
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 103,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 90,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 89,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-6 col-12",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "blog_h1i shadow_box",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "blog_h1i1 position-relative",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "blog_h1i1i",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                    className: "grid clearfix",
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
+                                                                                        className: "effect-jazz mb-0",
+                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                            href: "#",
+                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                src: "/Image/true.jpg",
+                                                                                                className: "w-100",
+                                                                                                alt: "Image25",
+                                                                                                width: 500,
+                                                                                                height: 300,
+                                                                                                style: {
+                                                                                                    borderRadius: '10px'
+                                                                                                }
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 120,
+                                                                                                columnNumber: 48
+                                                                                            }, this)
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/pages/news_details.js",
+                                                                                            lineNumber: 120,
+                                                                                            columnNumber: 33
+                                                                                        }, this)
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 119,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 118,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 117,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                                className: "blog_h1i1i1 text-center position-absolute w-100 h-100 bg_backo top-0",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                    className: "d-inline-block",
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        href: "#",
+                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                            className: "fa fa-link"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/pages/news_details.js",
+                                                                                            lineNumber: 125,
+                                                                                            columnNumber: 77
+                                                                                        }, this)
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 125,
+                                                                                        columnNumber: 62
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 125,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 124,
+                                                                                columnNumber: 27
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 116,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                        className: "blog_h1i2 p-4 bg-white text-center",
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                                        className: "d-inline-block",
+                                                                                        children: [
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                                className: "fa fa-user me-1 col_red"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 130,
+                                                                                                columnNumber: 60
+                                                                                            }, this),
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                href: "#",
+                                                                                                children: "Dolor Porta"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 130,
+                                                                                                columnNumber: 104
+                                                                                            }, this),
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                                                className: "text-muted mx-2",
+                                                                                                children: "|"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 130,
+                                                                                                columnNumber: 138
+                                                                                            }, this)
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 130,
+                                                                                        columnNumber: 29
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                                                        className: "d-inline-block",
+                                                                                        children: [
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                                className: "fa fa-clock me-1 col_red"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 131,
+                                                                                                columnNumber: 60
+                                                                                            }, this),
+                                                                                            " ",
+                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                                href: "#",
+                                                                                                children: "30 July, 2021"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                                lineNumber: 131,
+                                                                                                columnNumber: 105
+                                                                                            }, this)
+                                                                                        ]
+                                                                                    }, void 0, true, {
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 131,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 129,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "#",
+                                                                                    children: "Lorem Ipsum Dolor Nulla Quis Porta Semper"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 133,
+                                                                                    columnNumber: 31
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 133,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                                                children: "Andouille ball tip turducken landjaeger cupim tail. Ball tip shankle shank kevin, bacon…"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 134,
+                                                                                columnNumber: 27
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
+                                                                                className: "mb-0 fw-bold",
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "#",
+                                                                                    children: [
+                                                                                        "Learn More ",
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                            className: "fa fa-chevron-right ms-1 font_12"
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/pages/news_details.js",
+                                                                                            lineNumber: 135,
+                                                                                            columnNumber: 82
+                                                                                        }, this)
+                                                                                    ]
+                                                                                }, void 0, true, {
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 135,
+                                                                                    columnNumber: 56
+                                                                                }, this)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 135,
+                                                                                columnNumber: 27
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 128,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 115,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 114,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 88,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 85,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "blog_1d4 mt-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
+                                                    className: "text-uppercase",
+                                                    children: "2 Comments"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 142,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
+                                                    className: "line mb-4"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 143,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "blog_1d4i row",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-2 col-sm-2",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "blog_1d4il",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                    src: "/Image/10.jpg",
+                                                                    className: "w-100 rounded-circle",
+                                                                    alt: "abc",
+                                                                    width: 70,
+                                                                    height: 100
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 147,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 146,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 145,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-10 col-sm-10",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "blog_1d4ir",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            href: "#",
+                                                                            children: "Admin"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 152,
+                                                                            columnNumber: 29
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 152,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
+                                                                        className: "text-muted font_14",
+                                                                        children: "December 7, 2020 at 9:30 am"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 153,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                                        children: "Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 154,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
+                                                                        className: "mb-0 mt-3",
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            href: "#",
+                                                                            className: "button p-2 px-4",
+                                                                            children: "Reply"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 155,
+                                                                            columnNumber: 51
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 155,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 151,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 150,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 144,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {}, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 159,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "blog_1d4i row",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-2 col-sm-2",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "blog_1d4il",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                    src: "/Image/13.jpg",
+                                                                    className: "w-100 rounded-circle",
+                                                                    alt: "abc",
+                                                                    width: 70,
+                                                                    height: 100
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 163,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 162,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 161,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-10 col-sm-10",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "blog_1d4ir",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            href: "#",
+                                                                            children: "Admin"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 168,
+                                                                            columnNumber: 29
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 168,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
+                                                                        className: "text-muted font_14",
+                                                                        children: "December 9, 2020 at 9:30 am"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 169,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                                        children: "Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 170,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
+                                                                        className: "mb-0 mt-3",
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            href: "#",
+                                                                            className: "button p-2 px-4",
+                                                                            children: "Reply"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 171,
+                                                                            columnNumber: 51
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 171,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 167,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 166,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 160,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 141,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "blog_1d5 mt-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
+                                                    className: "text-uppercase",
+                                                    children: "LEAVE A COMMENT"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 177,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
+                                                    className: "line mb-4"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 178,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "contact_1li row",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-6 col-12",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "contact_1lil",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                    className: "input-group border_1 rounded_8 p-3",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                            type: "text",
+                                                                            className: "form-control border-0 p-0",
+                                                                            placeholder: "Your Name",
+                                                                            style: {
+                                                                                borderRadius: '10px'
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 183,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                            className: "input-group-btn m-0",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                className: "fa fa-user col_red"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 185,
+                                                                                columnNumber: 29
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 184,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 182,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 181,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 180,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-6 col-12",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "contact_1lil",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                    className: "input-group border_1 rounded_8 p-3",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                            type: "text",
+                                                                            className: "form-control border-0 p-0",
+                                                                            placeholder: "Email",
+                                                                            style: {
+                                                                                borderRadius: '10px'
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 193,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                            className: "input-group-btn m-0",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                className: "fa fa-envelope col_red"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 195,
+                                                                                columnNumber: 29
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 194,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 192,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 191,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 190,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 179,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "contact_1li row mt-4",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-6 col-12",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "contact_1lil",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                    className: "input-group border_1 rounded_8 p-3",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                            type: "text",
+                                                                            className: "form-control border-0 p-0",
+                                                                            placeholder: "Phone",
+                                                                            style: {
+                                                                                borderRadius: '10px'
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 205,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                            className: "input-group-btn m-0",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                className: "fa fa-phone col_red"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 207,
+                                                                                columnNumber: 29
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 206,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 204,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 203,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 202,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "col-md-6 col-12",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "contact_1lil",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                    className: "input-group border_1 rounded_8 p-3",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                            type: "text",
+                                                                            className: "form-control border-0 p-0",
+                                                                            placeholder: "Subject",
+                                                                            style: {
+                                                                                borderRadius: '10px'
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 215,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                            className: "input-group-btn m-0",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                className: "fa fa-comment-o col_red"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 217,
+                                                                                columnNumber: 29
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 216,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 214,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 213,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 212,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 201,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "contact_1li row mt-4",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "col-md-12 col-12",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "contact_1lil",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("textarea", {
+                                                                    placeholder: "Comment",
+                                                                    className: "form-control form_text rounded_8",
+                                                                    style: {
+                                                                        borderRadius: '10px'
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 226,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                    className: "form-check mt-3",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
+                                                                            type: "checkbox",
+                                                                            className: "form-check-input",
+                                                                            id: "customCheck1"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 228,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                                            className: "form-check-label",
+                                                                            htmlFor: "customCheck1",
+                                                                            children: "Save my name, email, and website in this browser for the next time I comment."
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 229,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 227,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
+                                                                    className: "mb-0 mt-4 text-center",
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                        href: "#",
+                                                                        className: "button",
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                                                className: "fa fa-check-circle me-1"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 232,
+                                                                                columnNumber: 94
+                                                                            }, this),
+                                                                            " Add Comment"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 232,
+                                                                        columnNumber: 27
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 231,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 225,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 224,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 223,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 176,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/pages/news.js",
-                                    lineNumber: 35,
+                                    fileName: "[project]/pages/news_details.js",
+                                    lineNumber: 36,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/pages/news.js",
-                                lineNumber: 34,
+                                fileName: "[project]/pages/news_details.js",
+                                lineNumber: 35,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2722,8 +3296,8 @@ function News() {
                                                             borderRadius: '10px'
                                                         }
                                                     }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 150,
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 244,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -2734,29 +3308,29 @@ function News() {
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                                 className: "fa fa-search"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 153,
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 247,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 152,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 246,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 151,
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 245,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/pages/news.js",
-                                                lineNumber: 149,
+                                                fileName: "[project]/pages/news_details.js",
+                                                lineNumber: 243,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 148,
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 242,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2765,15 +3339,15 @@ function News() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                     children: "RECENT COMMENTS"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 161,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 253,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
                                                     className: "line mb-4"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 162,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 254,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2782,22 +3356,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 163,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 255,
                                                             columnNumber: 47
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Senate Races Flooded With Social"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 163,
-                                                            columnNumber: 102
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 255,
+                                                            columnNumber: 103
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 163,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 255,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2806,22 +3381,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 164,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 256,
                                                             columnNumber: 47
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Charity deflects on claims of senate attempt"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 164,
-                                                            columnNumber: 102
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 256,
+                                                            columnNumber: 103
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 164,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 256,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2830,22 +3406,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 165,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 257,
                                                             columnNumber: 47
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Liberty Divided Over Criticism Justice League"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 165,
-                                                            columnNumber: 102
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 257,
+                                                            columnNumber: 103
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 165,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 257,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2854,22 +3431,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 166,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 258,
                                                             columnNumber: 47
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "The races that could flip the Senate"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 166,
-                                                            columnNumber: 102
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 258,
+                                                            columnNumber: 103
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 166,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 258,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2878,28 +3456,29 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 167,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 259,
                                                             columnNumber: 47
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Dontion build huge early People lead"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 167,
-                                                            columnNumber: 102
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 259,
+                                                            columnNumber: 103
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 167,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 259,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 160,
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 252,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2908,15 +3487,15 @@ function News() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                     children: "RECENT POSTS"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 172,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 262,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
                                                     className: "line mb-4"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 173,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 263,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2931,7 +3510,7 @@ function News() {
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
                                                                         className: "effect-jazz mb-0",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
+                                                                            href: "blog_detail.html",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                                 src: "/Image/7.jpg",
                                                                                 className: "w-100",
@@ -2942,33 +3521,33 @@ function News() {
                                                                                     borderRadius: '10px'
                                                                                 }
                                                                             }, void 0, false, {
-                                                                                fileName: "[project]/pages/news.js",
-                                                                                lineNumber: 180,
-                                                                                columnNumber: 31
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 269,
+                                                                                columnNumber: 59
                                                                             }, this)
                                                                         }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 179,
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 269,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 178,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 268,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 177,
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 267,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 176,
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 266,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 175,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 265,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2978,17 +3557,17 @@ function News() {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
+                                                                            href: "blog_detail.html",
                                                                             className: "font_14",
                                                                             children: "Dontion build huge early People lead"
                                                                         }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 188,
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 276,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 188,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 276,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2997,37 +3576,37 @@ function News() {
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                                                 className: "fa fa-calendar col_red me-1"
                                                                             }, void 0, false, {
-                                                                                fileName: "[project]/pages/news.js",
-                                                                                lineNumber: 189,
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 277,
                                                                                 columnNumber: 54
                                                                             }, this),
                                                                             " Feb 24, 2022"
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 189,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 277,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 187,
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 275,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 186,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 274,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 174,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 264,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {}, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 193,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 281,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3042,7 +3621,7 @@ function News() {
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
                                                                         className: "effect-jazz mb-0",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
+                                                                            href: "blog_detail.html",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                                 src: "/Image/8.jpg",
                                                                                 className: "w-100",
@@ -3053,33 +3632,33 @@ function News() {
                                                                                     borderRadius: '10px'
                                                                                 }
                                                                             }, void 0, false, {
-                                                                                fileName: "[project]/pages/news.js",
-                                                                                lineNumber: 200,
-                                                                                columnNumber: 31
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 287,
+                                                                                columnNumber: 59
                                                                             }, this)
                                                                         }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 199,
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 287,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 198,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 286,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 197,
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 285,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 196,
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 284,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 195,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 283,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3089,17 +3668,17 @@ function News() {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
+                                                                            href: "blog_detail.html",
                                                                             className: "font_14",
                                                                             children: "Senate Races Flooded With Social"
                                                                         }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 208,
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 294,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 208,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 294,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3108,37 +3687,37 @@ function News() {
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                                                 className: "fa fa-calendar col_red me-1"
                                                                             }, void 0, false, {
-                                                                                fileName: "[project]/pages/news.js",
-                                                                                lineNumber: 209,
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 295,
                                                                                 columnNumber: 54
                                                                             }, this),
                                                                             " Feb 25, 2022"
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 209,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 295,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 207,
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 293,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 206,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 292,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 194,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 282,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {}, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 213,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 299,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3153,7 +3732,7 @@ function News() {
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("figure", {
                                                                         className: "effect-jazz mb-0",
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
+                                                                            href: "blog_detail.html",
                                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                                 src: "/Image/9.jpg",
                                                                                 className: "w-100",
@@ -3164,33 +3743,33 @@ function News() {
                                                                                     borderRadius: '10px'
                                                                                 }
                                                                             }, void 0, false, {
-                                                                                fileName: "[project]/pages/news.js",
-                                                                                lineNumber: 220,
-                                                                                columnNumber: 31
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 305,
+                                                                                columnNumber: 59
                                                                             }, this)
                                                                         }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 219,
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 305,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 218,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 304,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 217,
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 303,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 216,
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 302,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 215,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 301,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3200,17 +3779,17 @@ function News() {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            href: "/news_details",
+                                                                            href: "blog_detail.html",
                                                                             className: "font_14",
                                                                             children: "Charity deflects on claims of senate attempt"
                                                                         }, void 0, false, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 228,
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 312,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 228,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 312,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3219,38 +3798,38 @@ function News() {
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                                                 className: "fa fa-calendar col_red me-1"
                                                                             }, void 0, false, {
-                                                                                fileName: "[project]/pages/news.js",
-                                                                                lineNumber: 229,
+                                                                                fileName: "[project]/pages/news_details.js",
+                                                                                lineNumber: 313,
                                                                                 columnNumber: 54
                                                                             }, this),
                                                                             " Feb 27, 2022"
                                                                         ]
                                                                     }, void 0, true, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 229,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 313,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "[project]/pages/news.js",
-                                                                lineNumber: 227,
+                                                                fileName: "[project]/pages/news_details.js",
+                                                                lineNumber: 311,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 226,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 310,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 214,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 300,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 171,
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 261,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3259,15 +3838,15 @@ function News() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                     children: "ARCHIVES"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 237,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 319,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
                                                     className: "line mb-4"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 238,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 320,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3276,22 +3855,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 239,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 321,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "November 2021"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 239,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 321,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 239,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 321,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3300,22 +3880,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 240,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 322,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "October 2021"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 240,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 322,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 240,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 322,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3324,22 +3905,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 241,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 323,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "September 2021"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 241,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 323,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 241,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 323,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3348,22 +3930,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 242,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 324,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "August 2021"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 242,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 324,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 242,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 324,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3372,22 +3955,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 243,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 325,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "July 2021"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 243,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 325,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 243,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 325,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3396,22 +3980,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 244,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 326,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "June 2021"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 244,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 326,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 244,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 326,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3420,22 +4005,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 245,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 327,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "April 2021"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 245,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 327,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 245,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 327,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3444,28 +4030,29 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 246,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 328,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "January 2021"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 246,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 328,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 246,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 328,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 236,
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 318,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3474,15 +4061,15 @@ function News() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                     children: "CATEGORIES"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 251,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 331,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
                                                     className: "line mb-4"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 252,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 332,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3491,22 +4078,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 253,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 333,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Campaign"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 253,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 333,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 253,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 333,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3515,22 +4103,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 254,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 334,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Donation"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 254,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 334,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 254,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 334,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3539,22 +4128,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 255,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 335,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Government"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 255,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 335,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 255,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 335,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3563,28 +4153,29 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 256,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 336,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Charity"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 256,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 336,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 256,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 336,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 250,
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 330,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3593,15 +4184,15 @@ function News() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                     children: "META"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 261,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 339,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
                                                     className: "line mb-4"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 262,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 340,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3610,22 +4201,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 263,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 341,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Log in"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 263,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 341,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 263,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 341,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3634,22 +4226,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 264,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 342,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Entries feed"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 264,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 342,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 264,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 342,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3658,22 +4251,23 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 265,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 343,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Comments feed"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 265,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 343,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 265,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 343,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3682,28 +4276,29 @@ function News() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                             className: "fa fa-long-arrow-right col_red me-1"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 266,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 344,
                                                             columnNumber: 48
                                                         }, this),
+                                                        " ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/news_details",
+                                                            href: "blog_detail.html",
                                                             children: "Info@gmail.com"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 266,
-                                                            columnNumber: 103
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 344,
+                                                            columnNumber: 104
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 266,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 344,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 260,
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 338,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3712,15 +4307,15 @@ function News() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                     children: "TESTIMONIALS"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 271,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 347,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("hr", {
                                                     className: "line mb-4"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 272,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 348,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3743,58 +4338,58 @@ function News() {
                                                                                     className: "mb-3",
                                                                                     children: "Human progress is neither automatic nor inevitable… Every step toward the goal of justice requires sacrifice, suffering, and"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "[project]/pages/news.js",
-                                                                                    lineNumber: 279,
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 355,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    href: "/news_details",
+                                                                                    href: "blog_detail.html",
                                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                                         src: "/Image/11.jpg",
                                                                                         className: "rounded-circle",
                                                                                         width: 100,
-                                                                                        height: 90,
+                                                                                        height: 100,
                                                                                         alt: "abc"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "[project]/pages/news.js",
-                                                                                        lineNumber: 281,
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 357,
                                                                                         columnNumber: 33
                                                                                     }, this)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "[project]/pages/news.js",
-                                                                                    lineNumber: 280,
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 356,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                                                     className: "mt-3",
                                                                                     children: "Nulla Quis"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "[project]/pages/news.js",
-                                                                                    lineNumber: 283,
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 359,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
                                                                                     className: "mt-2 mb-0 col_red",
                                                                                     children: "Expert"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "[project]/pages/news.js",
-                                                                                    lineNumber: 284,
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 360,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 278,
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 354,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 277,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 353,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 276,
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 352,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3808,120 +4403,120 @@ function News() {
                                                                                     className: "mb-3",
                                                                                     children: "Human progress is neither automatic nor inevitable… Every step toward the goal of justice requires sacrifice, suffering, and"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "[project]/pages/news.js",
-                                                                                    lineNumber: 291,
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 367,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    href: "/news_details",
+                                                                                    href: "blog_detail.html",
                                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                                         src: "/Image/12.jpg",
                                                                                         className: "rounded-circle",
                                                                                         width: 100,
-                                                                                        height: 90,
+                                                                                        height: 100,
                                                                                         alt: "abc"
                                                                                     }, void 0, false, {
-                                                                                        fileName: "[project]/pages/news.js",
-                                                                                        lineNumber: 293,
+                                                                                        fileName: "[project]/pages/news_details.js",
+                                                                                        lineNumber: 369,
                                                                                         columnNumber: 33
                                                                                     }, this)
                                                                                 }, void 0, false, {
-                                                                                    fileName: "[project]/pages/news.js",
-                                                                                    lineNumber: 292,
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 368,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                                                                     className: "mt-3",
                                                                                     children: "Semper Porta"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "[project]/pages/news.js",
-                                                                                    lineNumber: 295,
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 371,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
                                                                                     className: "mt-2 mb-0 col_red",
                                                                                     children: "Manager"
                                                                                 }, void 0, false, {
-                                                                                    fileName: "[project]/pages/news.js",
-                                                                                    lineNumber: 296,
+                                                                                    fileName: "[project]/pages/news_details.js",
+                                                                                    lineNumber: 372,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
-                                                                            fileName: "[project]/pages/news.js",
-                                                                            lineNumber: 290,
+                                                                            fileName: "[project]/pages/news_details.js",
+                                                                            lineNumber: 366,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/pages/news.js",
-                                                                        lineNumber: 289,
+                                                                        fileName: "[project]/pages/news_details.js",
+                                                                        lineNumber: 365,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/pages/news.js",
-                                                                    lineNumber: 288,
+                                                                    fileName: "[project]/pages/news_details.js",
+                                                                    lineNumber: 364,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "[project]/pages/news.js",
-                                                            lineNumber: 275,
+                                                            fileName: "[project]/pages/news_details.js",
+                                                            lineNumber: 351,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
-                                                        fileName: "[project]/pages/news.js",
-                                                        lineNumber: 274,
+                                                        fileName: "[project]/pages/news_details.js",
+                                                        lineNumber: 350,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
-                                                    fileName: "[project]/pages/news.js",
-                                                    lineNumber: 273,
+                                                    fileName: "[project]/pages/news_details.js",
+                                                    lineNumber: 349,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/pages/news.js",
-                                            lineNumber: 270,
+                                            fileName: "[project]/pages/news_details.js",
+                                            lineNumber: 346,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/pages/news.js",
-                                    lineNumber: 147,
+                                    fileName: "[project]/pages/news_details.js",
+                                    lineNumber: 241,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/pages/news.js",
-                                lineNumber: 146,
+                                fileName: "[project]/pages/news_details.js",
+                                lineNumber: 240,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/pages/news.js",
-                        lineNumber: 33,
+                        fileName: "[project]/pages/news_details.js",
+                        lineNumber: 34,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/pages/news.js",
-                    lineNumber: 32,
+                    fileName: "[project]/pages/news_details.js",
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/pages/news.js",
-                lineNumber: 31,
+                fileName: "[project]/pages/news_details.js",
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$components$2f$footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/pages/news.js",
-                lineNumber: 309,
+                fileName: "[project]/pages/news_details.js",
+                lineNumber: 385,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
-}
-const __TURBOPACK__default__export__ = News;
+};
+const __TURBOPACK__default__export__ = NewsDetails;
 }}),
 
 };
 
-//# sourceMappingURL=%5Broot%20of%20the%20server%5D__b76597._.js.map
+//# sourceMappingURL=%5Broot%20of%20the%20server%5D__3e6ebe._.js.map

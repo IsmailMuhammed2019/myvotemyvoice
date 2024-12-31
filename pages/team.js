@@ -4,14 +4,14 @@ import Footer from './components/footer'
 import Image from 'next/image'
 import Link from 'next/link'
 
-function team() {
+function Team() {
   return (
     <>
     <Header />
     {/* Center Section */}
     <section id="center" className="center_team">
         <div className="center_om bg_backn1">
-          <div className="container-xl">
+          <div className="container-fluid">
             <div className="row center_o1 text-center">
               <div className="col-md-12">
               <h1 className="text-white">Team Detail</h1>
@@ -26,16 +26,16 @@ function team() {
       </section>
     {/* Team Section */}
     <section id="team_h" className="pt-4 pb-3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="team_1 row">
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="team_1i">
                 <div className="team_1i1 position-relative">
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="team_detail.html">
-                          <Image src="/Image/10.jpg" className="w-100" alt="abc" width={500} height={300} />
+                          <Image src="/Image/10.jpg" className="w-100" alt="abc" width={500} height={300} style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -57,14 +57,14 @@ function team() {
               </div>
             </div>
             {/* Repeat for other team members */}
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="team_1i">
                 <div className="team_1i1 position-relative">
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="team_detail.html">
-                          <Image src="/Image/11.jpg" className="w-100" alt="abc" width={500} height={300} />
+                          <Image src="/Image/11.jpg" className="w-100" alt="abc" width={500} height={300} style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -86,14 +86,14 @@ function team() {
               </div>
             </div>
             {/* Additional team members can be added similarly */}
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="team_1i">
                 <div className="team_1i1 position-relative">
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="team_detail.html">
-                          <Image src="/Image/12.jpg" className="w-100" alt="abc" width={500} height={300} />
+                          <Image src="/Image/12.jpg" className="w-100" alt="abc" width={500} height={300} style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -115,14 +115,14 @@ function team() {
               </div>
             </div>
             {/* Repeat for other team members */}
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 col-12">
               <div className="team_1i">
                 <div className="team_1i1 position-relative">
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
                         <Link href="team_detail.html">
-                          <Image src="/Image/11.jpg" className="w-100" alt="abc" width={500} height={300} />
+                          <Image src="/Image/11.jpg" className="w-100" alt="abc" width={500} height={300} style={{ borderRadius: '10px' }} />
                         </Link>
                       </figure>
                     </div>
@@ -152,4 +152,4 @@ function team() {
   )
 }
 
-export default team
+export default Team
