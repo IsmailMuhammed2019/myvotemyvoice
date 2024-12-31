@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <Image src="/Image/1.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px' }} />
+                <Image src="/Image/1.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', height: '500px' }} />
                 <div className="carousel-caption d-md-block">
                   <h1 className="font_70 text-uppercase family_1">Your Voice <br /> Your <span className="col_red">Vote</span></h1>
                   <p className="mt-3 w-75 text-light fs-5">Empowering citizens with knowledge and tools to strengthen democracy through informed participation and accountability.</p>
@@ -33,7 +33,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src="/Image/2.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px' }} />
+                <Image src="/Image/2.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', height: '500px' }} />
                 <div className="carousel-caption d-md-block">
                   <h1 className="font_70 text-uppercase family_1">Track your Your <span className="col_red">Representatives</span></h1>
                   <p className="mt-3 w-50 text-light fs-5">Access verified voting records, policy positions, and tools to hold elected officials accountable to their campaign promises.</p>
@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src="/Image/3.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px' }} />
+                <Image src="/Image/3.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', height: '500px' }} />
                 <div className="carousel-caption d-md-block">
                   <h1 className="font_70 text-uppercase family_1">Get <span className="col_red">Involved</span></h1>
                   <p className="mt-3 w-50 text-light fs-5">Join our community of engaged citizens working to strengthen democratic institutions through education and accountability.</p>

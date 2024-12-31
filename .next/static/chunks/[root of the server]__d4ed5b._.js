@@ -2051,7 +2051,8 @@ function Home() {
                                                 alt: "...",
                                                 style: {
                                                     objectFit: 'cover',
-                                                    borderRadius: '10px'
+                                                    borderRadius: '10px',
+                                                    height: '500px'
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
@@ -2135,7 +2136,8 @@ function Home() {
                                                 alt: "...",
                                                 style: {
                                                     objectFit: 'cover',
-                                                    borderRadius: '10px'
+                                                    borderRadius: '10px',
+                                                    height: '500px'
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
@@ -2213,7 +2215,8 @@ function Home() {
                                                 alt: "...",
                                                 style: {
                                                     objectFit: 'cover',
-                                                    borderRadius: '10px'
+                                                    borderRadius: '10px',
+                                                    height: '500px'
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
