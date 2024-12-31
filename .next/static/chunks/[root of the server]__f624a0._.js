@@ -828,7 +828,7 @@ function Header() {
                     className: "navbar navbar-expand-lg navbar-light p-0",
                     id: "navbar_sticky",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "container-xl",
+                        className: "container-fluid",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                 className: "p-0 navbar-brand fw-bold col_blue",
@@ -839,7 +839,7 @@ function Header() {
                                     }, void 0, false, {
                                         fileName: "[project]/pages/components/Header.js",
                                         lineNumber: 51,
-                                        columnNumber: 9
+                                        columnNumber: 15
                                     }, this),
                                     " MyVote ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -848,20 +848,20 @@ function Header() {
                                     }, void 0, false, {
                                         fileName: "[project]/pages/components/Header.js",
                                         lineNumber: 51,
-                                        columnNumber: 75
+                                        columnNumber: 81
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                         className: "fa-solid fa-bullhorn ms-1"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/components/Header.js",
                                         lineNumber: 52,
-                                        columnNumber: 9
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/components/Header.js",
                                 lineNumber: 50,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 className: "navbar-toggler",
