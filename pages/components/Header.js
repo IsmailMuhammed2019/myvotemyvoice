@@ -5,24 +5,28 @@ import Link from 'next/link'
 function Header() {
   return (
     <>
-        <section id="top" className="bg_blue">
+         <section id="top" className="bg_blue">
         <div className="container-xl">
           <div className="row top_1">
-            <div className="col-md-6">
+            <div className="col-md-9">
               <div className="top_1l">
                 <ul className="mb-0 font_14">
                   <li className="text-white d-inline-block fw-bold">
-                    <i className="fa fa-map-marker me-1 fs-6 align-middle col_red"></i>
-                    Location: <span className="fw-normal">Washington, DC</span>
+                    <i className="fa fa-phone me-1 col_red"></i>
+                    Phone: <span className="fw-normal">+1 (651) 200-5560</span>
                   </li>
                   <li className="text-white d-inline-block ms-4 fw-bold">
-                    <i className="fa fa-phone me-1 col_red"></i>
-                    Contact: <span className="fw-normal">info@myvotemyvoice.us</span>
+                    <i className="fa fa-envelope me-1 col_red"></i>
+                    Email: <a className="fw-normal text-white" href="mailto:info@myvotemyvoice.us">info@myvotemyvoice.us</a>
+                  </li>
+                  <li className="text-white d-inline-block ms-4 fw-bold">
+                    <i className="fa fa-map-marker me-1 fs-6 align-middle col_red"></i>
+                    Address: <span className="fw-normal">2168 7th Ave, Anoka, MN 55303, USA</span>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-3">
               <div className="top_1r float-end">
                 <ul className="mb-0 font_14">
                   <li><Link className="d-block text-center" href="#"><i className="fa-brands fa-facebook"></i></Link></li>
@@ -40,9 +44,10 @@ function Header() {
       <section id="header">
         <nav className="navbar navbar-expand-md navbar-light p-0" id="navbar_sticky">
           <div className="container-xl">
-            <Link className="p-0 navbar-brand fw-bold col_blue" href="index.html">
-              <i className="fa-solid fa-check-to-slot col_red me-1"></i> MyVote <span className="col_red">MyVoice</span>
-            </Link>
+          <Link className="p-0 navbar-brand fw-bold col_blue" href="index.html">
+        <i className="fa-solid fa-check-to-slot col_red me-1"></i> MyVote <span className="col_red">MyVoice</span>
+        <i className="fa-solid fa-bullhorn ms-1"></i>
+      </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
