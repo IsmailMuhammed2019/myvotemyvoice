@@ -14391,6 +14391,10 @@ a.socialIcon:hover, .socialHoverClass {
   border-radius: 10px;
 }
 
+.text-danger {
+  color: red;
+}
+
 
 /* [project]/styles/css/index.css [client] (css) */
 .carousel-caption {

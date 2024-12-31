@@ -1,8 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 
 function Header() {
+  const router = useRouter()
+
   return (
     <>
          <section id="top" className="bg_blue">
@@ -54,13 +57,13 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mb-0 ms-auto">
                 <li className="nav-item">
-                  <Link className="nav-link active" href="/">Home</Link>
+                  <Link className={`nav-link ${router.pathname === '/' ? 'text-danger' : ''}`} href="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="/about">About Us</Link>
+                  <Link className={`nav-link ${router.pathname === '/about' ? 'text-danger' : ''}`} href="/about">About Us</Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link className={`nav-link dropdown-toggle ${router.pathname === '/news' ? 'text-danger' : ''}`} href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     News
                   </Link>
                   <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
@@ -69,7 +72,7 @@ function Header() {
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link className={`nav-link dropdown-toggle ${router.pathname === '/team' ? 'text-danger' : ''}`} href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Team
                   </Link>
                   <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
@@ -78,13 +81,13 @@ function Header() {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="/faq">Faq</Link>
+                  <Link className={`nav-link ${router.pathname === '/faq' ? 'text-danger' : ''}`} href="/faq">Faq</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="/contact">Contact</Link>
+                  <Link className={`nav-link ${router.pathname === '/contact' ? 'text-danger' : ''}`} href="/contact">Contact</Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link className={`nav-link dropdown-toggle ${router.pathname === '/services' ? 'text-danger' : ''}`} href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Others
                   </Link>
                   <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
@@ -95,7 +98,7 @@ function Header() {
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link className="nav-link dropdown-toggle dropdown_search nav_hide" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link className={`nav-link dropdown-toggle dropdown_search nav_hide ${router.pathname === '/search' ? 'text-danger' : ''}`} href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i className="fa fa-search"></i>
                   </Link>
                   <ul className="dropdown-menu drop_2 drop_1 p-3 bg_blue" aria-labelledby="navbarDropdown">
@@ -112,7 +115,7 @@ function Header() {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <Link className="button font_14" href="/donate">CONTRIBUTE</Link>
+                  <Link className="button font_14" href="/donate" style={{ borderRadius: '10px' }}>CONTRIBUTE</Link>
                 </li>
               </ul>
             </div>

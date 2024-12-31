@@ -936,4 +936,8 @@ a.socialIcon:hover, .socialHoverClass {
   border-radius: 10px;
 }
 
+.text-danger {
+  color: red;
+}
+
 /*# sourceMappingURL=styles_css_global_735113.css.map*/
