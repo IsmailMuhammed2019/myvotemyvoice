@@ -1695,7 +1695,7 @@ __turbopack_esm__({
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_import__("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$head$2e$js__$5b$external$5d$__$28$next$2f$head$2e$js$2c$__cjs$29$__ = __turbopack_import__("[externals]/next/head.js [external] (next/head.js, cjs)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [ssr] (ecmascript)"); // Make sure this is imported
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$components$2f$Header$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/pages/components/Header.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$components$2f$footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/pages/components/footer.js [ssr] (ecmascript)");
 ;
@@ -1747,56 +1747,49 @@ const About = ()=>{
                 id: "center",
                 className: "center_about",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "center_om bg_backn1",
+                    className: "container-fluid",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "container-xl",
+                        className: "row center_o1 text-center",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "row center_o1 text-center",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "col-md-12",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                                        className: "text-white",
-                                        children: "About MyVoteMyVoice"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about.js",
-                                        lineNumber: 25,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                        className: "col_red mb-0 mt-3 fw-bold",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "/",
-                                                className: "text-light",
-                                                children: "Home"
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/about.js",
-                                                lineNumber: 27,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                className: "mx-2 text-white-50",
-                                                children: "/"
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/about.js",
-                                                lineNumber: 28,
-                                                columnNumber: 19
-                                            }, this),
-                                            " About Us"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/pages/about.js",
-                                        lineNumber: 26,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/about.js",
-                                lineNumber: 24,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
+                            className: "col-md-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
+                                    className: "text-white",
+                                    children: "About MyVoteMyVoice"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/about.js",
+                                    lineNumber: 24,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
+                                    className: "col_red mb-0 mt-3 fw-bold",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/",
+                                            className: "text-light",
+                                            children: "Home"
+                                        }, void 0, false, {
+                                            fileName: "[project]/pages/about.js",
+                                            lineNumber: 26,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                            className: "mx-2 text-white-50",
+                                            children: "/"
+                                        }, void 0, false, {
+                                            fileName: "[project]/pages/about.js",
+                                            lineNumber: 27,
+                                            columnNumber: 17
+                                        }, this),
+                                        " About Us"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/pages/about.js",
+                                    lineNumber: 25,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/pages/about.js",
                             lineNumber: 23,
                             columnNumber: 13
@@ -1820,7 +1813,7 @@ const About = ()=>{
                 id: "about_pg",
                 className: "p_3",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "container-xl",
+                    className: "container-fluid",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "goal_1 row mb-4 text-center",
@@ -1831,7 +1824,7 @@ const About = ()=>{
                                         children: "Why Choose MyVoteMyVoice"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 40,
+                                        lineNumber: 38,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1840,25 +1833,25 @@ const About = ()=>{
                                             "MyVoteMyVoice is your trusted platform for democratic engagement. We provide verified information, ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 42,
+                                                lineNumber: 40,
                                                 columnNumber: 116
                                             }, this),
                                             "transparent analysis, and tools to make your voice heard in our democracy."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 41,
+                                        lineNumber: 39,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/about.js",
-                                lineNumber: 39,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/about.js",
-                            lineNumber: 38,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1879,35 +1872,38 @@ const About = ()=>{
                                                         alt: "Civic Engagement",
                                                         width: 600,
                                                         height: 400,
-                                                        className: "w-100"
+                                                        className: "w-100",
+                                                        style: {
+                                                            borderRadius: '10px'
+                                                        }
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 53,
+                                                        lineNumber: 51,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/about.js",
-                                                    lineNumber: 52,
+                                                    lineNumber: 50,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 51,
+                                                lineNumber: 49,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/about.js",
-                                            lineNumber: 50,
+                                            lineNumber: 48,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 49,
+                                        lineNumber: 47,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/about.js",
-                                    lineNumber: 48,
+                                    lineNumber: 46,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1921,14 +1917,14 @@ const About = ()=>{
                                                         className: "fa fa-check-circle me-1 col_red"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 61,
+                                                        lineNumber: 59,
                                                         columnNumber: 21
                                                     }, this),
                                                     " Verified Information"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 61,
+                                                lineNumber: 59,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1936,7 +1932,7 @@ const About = ()=>{
                                                 children: "We rigorously fact-check and verify all information about candidates, legislation, and civic processes to ensure you can make informed decisions."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 62,
+                                                lineNumber: 60,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -1945,14 +1941,14 @@ const About = ()=>{
                                                         className: "fa fa-users me-1 col_red"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 63,
+                                                        lineNumber: 61,
                                                         columnNumber: 21
                                                     }, this),
                                                     " Community Driven"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 63,
+                                                lineNumber: 61,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1960,7 +1956,7 @@ const About = ()=>{
                                                 children: "Our platform thrives on community participation, fostering meaningful dialogue and collective action for democratic engagement."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 64,
+                                                lineNumber: 62,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -1969,14 +1965,14 @@ const About = ()=>{
                                                         className: "fa fa-shield me-1 col_red"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 65,
+                                                        lineNumber: 63,
                                                         columnNumber: 21
                                                     }, this),
                                                     " Non-Partisan Approach"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 65,
+                                                lineNumber: 63,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1984,42 +1980,42 @@ const About = ()=>{
                                                 children: "We maintain strict neutrality and transparency in our analysis and presentation of information to serve all citizens equally."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 66,
+                                                lineNumber: 64,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 60,
+                                        lineNumber: 58,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/about.js",
-                                    lineNumber: 59,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/about.js",
-                            lineNumber: 47,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/about.js",
-                    lineNumber: 37,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/about.js",
-                lineNumber: 36,
+                lineNumber: 34,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
                 id: "event",
                 className: "p_3 bg_blue",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "container-xl",
+                    className: "container-fluid",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         className: "event_1 row",
                         children: [
@@ -2032,13 +2028,16 @@ const About = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                 className: "event_1li bg_red p-4",
+                                                style: {
+                                                    borderRadius: '10px'
+                                                },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
                                                         className: "text-white",
                                                         children: "Get Involved"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 81,
+                                                        lineNumber: 79,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2046,32 +2045,38 @@ const About = ()=>{
                                                         children: "Join our community of engaged citizens"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 82,
+                                                        lineNumber: 80,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 80,
+                                                lineNumber: 78,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                 className: "event_1li1 bg-white p-4 pt-5 pb-5",
+                                                style: {
+                                                    borderRadius: '10px'
+                                                },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
                                                         className: "mb-2 fw-bold font_14",
                                                         children: "Full Name"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 85,
+                                                        lineNumber: 83,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                         className: "form-control",
-                                                        type: "text"
+                                                        type: "text",
+                                                        style: {
+                                                            borderRadius: '10px'
+                                                        }
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 86,
+                                                        lineNumber: 84,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2079,15 +2084,18 @@ const About = ()=>{
                                                         children: "Email Address"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 87,
+                                                        lineNumber: 85,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                         className: "form-control",
-                                                        type: "text"
+                                                        type: "text",
+                                                        style: {
+                                                            borderRadius: '10px'
+                                                        }
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 88,
+                                                        lineNumber: 86,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2095,15 +2103,18 @@ const About = ()=>{
                                                         children: "Your Interest Area"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 89,
+                                                        lineNumber: 87,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                         className: "form-control",
-                                                        type: "text"
+                                                        type: "text",
+                                                        style: {
+                                                            borderRadius: '10px'
+                                                        }
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 90,
+                                                        lineNumber: 88,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2111,15 +2122,18 @@ const About = ()=>{
                                                         children: "Message"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 91,
+                                                        lineNumber: 89,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
                                                         className: "form-control",
-                                                        type: "text"
+                                                        type: "text",
+                                                        style: {
+                                                            borderRadius: '10px'
+                                                        }
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 92,
+                                                        lineNumber: 90,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2127,37 +2141,40 @@ const About = ()=>{
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             className: "button_2",
                                                             href: "#",
+                                                            style: {
+                                                                borderRadius: '10px'
+                                                            },
                                                             children: "Join Now"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 94,
+                                                            lineNumber: 92,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 93,
+                                                        lineNumber: 91,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 84,
+                                                lineNumber: 82,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 79,
+                                        lineNumber: 77,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/about.js",
-                                    lineNumber: 78,
+                                    lineNumber: 76,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/about.js",
-                                lineNumber: 77,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2178,7 +2195,7 @@ const About = ()=>{
                                                                 children: "Upcoming Events"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 105,
+                                                                lineNumber: 103,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2186,18 +2203,18 @@ const About = ()=>{
                                                                 children: "Join our community events and make your voice heard in democracy"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 106,
+                                                                lineNumber: 104,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 104,
+                                                        lineNumber: 102,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/about.js",
-                                                    lineNumber: 103,
+                                                    lineNumber: 101,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2209,35 +2226,41 @@ const About = ()=>{
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                 className: "button_1",
                                                                 href: "#",
+                                                                style: {
+                                                                    borderRadius: '10px'
+                                                                },
                                                                 children: "View All"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 111,
+                                                                lineNumber: 109,
                                                                 columnNumber: 44
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 111,
+                                                            lineNumber: 109,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 110,
+                                                        lineNumber: 108,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/about.js",
-                                                    lineNumber: 109,
+                                                    lineNumber: 107,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/about.js",
-                                            lineNumber: 102,
+                                            lineNumber: 100,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                             className: "event_1ri row bg-white p-3 mx-0 mt-4 rounded-3",
+                                            style: {
+                                                borderRadius: '10px'
+                                            },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                     className: "col-md-5 p-0",
@@ -2254,35 +2277,38 @@ const About = ()=>{
                                                                         className: "w-100",
                                                                         alt: "Voter Education",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 121,
+                                                                        lineNumber: 119,
                                                                         columnNumber: 42
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 121,
+                                                                    lineNumber: 119,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 120,
+                                                                lineNumber: 118,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 119,
+                                                            lineNumber: 117,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 118,
+                                                        lineNumber: 116,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/about.js",
-                                                    lineNumber: 117,
+                                                    lineNumber: 115,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2294,7 +2320,7 @@ const About = ()=>{
                                                                 children: "Voter Education Workshop"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 128,
+                                                                lineNumber: 126,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2304,7 +2330,7 @@ const About = ()=>{
                                                                         className: "fa fa-calendar col_red me-1"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 130,
+                                                                        lineNumber: 128,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     " 15 Dec, 2024",
@@ -2312,14 +2338,14 @@ const About = ()=>{
                                                                         className: "fa fa-clock col_red me-1 ms-3"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 131,
+                                                                        lineNumber: 129,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     " 10:00 AM - 12:00 PM"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 129,
+                                                                lineNumber: 127,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2327,7 +2353,7 @@ const About = ()=>{
                                                                 children: "Learn about the voting process, your rights, and how to make informed decisions."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 133,
+                                                                lineNumber: 131,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2335,66 +2361,69 @@ const About = ()=>{
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                     className: "button_2 pt-2 pb-2 px-3",
                                                                     href: "#",
+                                                                    style: {
+                                                                        borderRadius: '10px'
+                                                                    },
                                                                     children: "Register Now"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 134,
+                                                                    lineNumber: 132,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 134,
+                                                                lineNumber: 132,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 127,
+                                                        lineNumber: 125,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/about.js",
-                                                    lineNumber: 126,
+                                                    lineNumber: 124,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/about.js",
-                                            lineNumber: 116,
+                                            lineNumber: 114,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/about.js",
-                                    lineNumber: 101,
+                                    lineNumber: 99,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/about.js",
-                                lineNumber: 100,
+                                lineNumber: 98,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/about.js",
-                        lineNumber: 76,
+                        lineNumber: 74,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/about.js",
-                    lineNumber: 75,
+                    lineNumber: 73,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/about.js",
-                lineNumber: 74,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
                 id: "team_h",
                 className: "p_3 bg_light",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "container-xl",
+                    className: "container-fluid",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "goal_1 row mb-4 text-center",
@@ -2405,7 +2434,7 @@ const About = ()=>{
                                         children: "Our Team"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 150,
+                                        lineNumber: 148,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2413,18 +2442,18 @@ const About = ()=>{
                                         children: "Meet the dedicated professionals working to strengthen democracy through technology, education, and community engagement."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 151,
+                                        lineNumber: 149,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/about.js",
-                                lineNumber: 149,
+                                lineNumber: 147,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/about.js",
-                            lineNumber: 148,
+                            lineNumber: 146,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2451,30 +2480,33 @@ const About = ()=>{
                                                                         className: "w-100",
                                                                         alt: "Team Member",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 162,
+                                                                        lineNumber: 160,
                                                                         columnNumber: 55
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 162,
+                                                                    lineNumber: 160,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 161,
+                                                                lineNumber: 159,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 160,
+                                                            lineNumber: 158,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 159,
+                                                        lineNumber: 157,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2489,33 +2521,33 @@ const About = ()=>{
                                                                         className: "fa fa-share-alt"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 168,
+                                                                        lineNumber: 166,
                                                                         columnNumber: 85
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 168,
+                                                                    lineNumber: 166,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 168,
+                                                                lineNumber: 166,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 167,
+                                                            lineNumber: 165,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 166,
+                                                        lineNumber: 164,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 158,
+                                                lineNumber: 156,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2527,12 +2559,12 @@ const About = ()=>{
                                                             children: "Mr. Ntochukwu"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 173,
+                                                            lineNumber: 171,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 173,
+                                                        lineNumber: 171,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2540,24 +2572,24 @@ const About = ()=>{
                                                         children: "Executive Director"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 174,
+                                                        lineNumber: 172,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 172,
+                                                lineNumber: 170,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 157,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/about.js",
-                                    lineNumber: 156,
+                                    lineNumber: 154,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2581,30 +2613,33 @@ const About = ()=>{
                                                                         className: "w-100",
                                                                         alt: "Team Member",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 185,
+                                                                        lineNumber: 183,
                                                                         columnNumber: 55
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 185,
+                                                                    lineNumber: 183,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 184,
+                                                                lineNumber: 182,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 183,
+                                                            lineNumber: 181,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 182,
+                                                        lineNumber: 180,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2619,33 +2654,33 @@ const About = ()=>{
                                                                         className: "fa fa-share-alt"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 191,
+                                                                        lineNumber: 189,
                                                                         columnNumber: 85
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 191,
+                                                                    lineNumber: 189,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 191,
+                                                                lineNumber: 189,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 190,
+                                                            lineNumber: 188,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 189,
+                                                        lineNumber: 187,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 181,
+                                                lineNumber: 179,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2657,12 +2692,12 @@ const About = ()=>{
                                                             children: "Ismail Muhammed"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 196,
+                                                            lineNumber: 194,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 196,
+                                                        lineNumber: 194,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2670,24 +2705,24 @@ const About = ()=>{
                                                         children: "Tech Lead"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 197,
+                                                        lineNumber: 195,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 195,
+                                                lineNumber: 193,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 180,
+                                        lineNumber: 178,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/about.js",
-                                    lineNumber: 179,
+                                    lineNumber: 177,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2711,30 +2746,33 @@ const About = ()=>{
                                                                         className: "w-100",
                                                                         alt: "Team Member",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 208,
+                                                                        lineNumber: 206,
                                                                         columnNumber: 55
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 208,
+                                                                    lineNumber: 206,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 207,
+                                                                lineNumber: 205,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 206,
+                                                            lineNumber: 204,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 205,
+                                                        lineNumber: 203,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2749,33 +2787,33 @@ const About = ()=>{
                                                                         className: "fa fa-share-alt"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 214,
+                                                                        lineNumber: 212,
                                                                         columnNumber: 85
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 214,
+                                                                    lineNumber: 212,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 214,
+                                                                lineNumber: 212,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 213,
+                                                            lineNumber: 211,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 212,
+                                                        lineNumber: 210,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 204,
+                                                lineNumber: 202,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2787,12 +2825,12 @@ const About = ()=>{
                                                             children: "Maria Rodriguez"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 219,
+                                                            lineNumber: 217,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 219,
+                                                        lineNumber: 217,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2800,24 +2838,24 @@ const About = ()=>{
                                                         children: "Community Manager"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 220,
+                                                        lineNumber: 218,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 218,
+                                                lineNumber: 216,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 203,
+                                        lineNumber: 201,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/about.js",
-                                    lineNumber: 202,
+                                    lineNumber: 200,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2841,30 +2879,33 @@ const About = ()=>{
                                                                         className: "w-100",
                                                                         alt: "Team Member",
                                                                         width: 500,
-                                                                        height: 300
+                                                                        height: 300,
+                                                                        style: {
+                                                                            borderRadius: '10px'
+                                                                        }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 231,
+                                                                        lineNumber: 229,
                                                                         columnNumber: 55
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 231,
+                                                                    lineNumber: 229,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 230,
+                                                                lineNumber: 228,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 229,
+                                                            lineNumber: 227,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 228,
+                                                        lineNumber: 226,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2879,33 +2920,33 @@ const About = ()=>{
                                                                         className: "fa fa-share-alt"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 237,
+                                                                        lineNumber: 235,
                                                                         columnNumber: 85
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 237,
+                                                                    lineNumber: 235,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 237,
+                                                                lineNumber: 235,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 236,
+                                                            lineNumber: 234,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 235,
+                                                        lineNumber: 233,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 227,
+                                                lineNumber: 225,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2917,12 +2958,12 @@ const About = ()=>{
                                                             children: "James Wilson"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/about.js",
-                                                            lineNumber: 242,
+                                                            lineNumber: 240,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 242,
+                                                        lineNumber: 240,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -2930,41 +2971,41 @@ const About = ()=>{
                                                         children: "Content Director"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 243,
+                                                        lineNumber: 241,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 241,
+                                                lineNumber: 239,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 226,
+                                        lineNumber: 224,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/about.js",
-                                    lineNumber: 225,
+                                    lineNumber: 223,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/about.js",
-                            lineNumber: 154,
+                            lineNumber: 152,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/about.js",
-                    lineNumber: 147,
+                    lineNumber: 145,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/about.js",
-                lineNumber: 146,
+                lineNumber: 144,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -2982,7 +3023,7 @@ const About = ()=>{
                                         children: "Community Voices"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 256,
+                                        lineNumber: 254,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2990,18 +3031,18 @@ const About = ()=>{
                                         children: "Hear from our community members about how MyVoteMyVoice has helped them become more engaged and informed citizens."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 257,
+                                        lineNumber: 255,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/about.js",
-                                lineNumber: 255,
+                                lineNumber: 253,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/about.js",
-                            lineNumber: 254,
+                            lineNumber: 252,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3022,7 +3063,7 @@ const About = ()=>{
                                                 "aria-label": "Slide 1"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 263,
+                                                lineNumber: 261,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -3032,7 +3073,7 @@ const About = ()=>{
                                                 "aria-label": "Slide 2"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 264,
+                                                lineNumber: 262,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -3042,13 +3083,13 @@ const About = ()=>{
                                                 "aria-label": "Slide 3"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 265,
+                                                lineNumber: 263,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 262,
+                                        lineNumber: 260,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3070,20 +3111,20 @@ const About = ()=>{
                                                                             "local ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                 fileName: "[project]/pages/about.js",
-                                                                                lineNumber: 271,
+                                                                                lineNumber: 269,
                                                                                 columnNumber: 107
                                                                             }, this),
                                                                             " democracy"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 271,
+                                                                        lineNumber: 269,
                                                                         columnNumber: 75
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 271,
+                                                                lineNumber: 269,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3093,7 +3134,7 @@ const About = ()=>{
                                                                         className: "fa fa-quote-left col_red me-1"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 273,
+                                                                        lineNumber: 271,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     "The platform's verified information and easy-to-use tools have made it simple to stay informed about local issues and make my voice heard. I feel more confident in my civic participation than ever before.",
@@ -3101,13 +3142,13 @@ const About = ()=>{
                                                                         className: "fa fa-quote-right col_red ms-1"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 275,
+                                                                        lineNumber: 273,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 272,
+                                                                lineNumber: 270,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3120,12 +3161,12 @@ const About = ()=>{
                                                                     height: 90
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 277,
+                                                                    lineNumber: 275,
                                                                     columnNumber: 38
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 277,
+                                                                lineNumber: 275,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -3133,7 +3174,7 @@ const About = ()=>{
                                                                 children: "David Park"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 278,
+                                                                lineNumber: 276,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3141,23 +3182,23 @@ const About = ()=>{
                                                                 children: "Community Member"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 279,
+                                                                lineNumber: 277,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 270,
+                                                        lineNumber: 268,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/about.js",
-                                                    lineNumber: 269,
+                                                    lineNumber: 267,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 268,
+                                                lineNumber: 266,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3176,20 +3217,20 @@ const About = ()=>{
                                                                             "exactly ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                 fileName: "[project]/pages/about.js",
-                                                                                lineNumber: 286,
+                                                                                lineNumber: 284,
                                                                                 columnNumber: 102
                                                                             }, this),
                                                                             " what I needed"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 286,
+                                                                        lineNumber: 284,
                                                                         columnNumber: 68
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 286,
+                                                                lineNumber: 284,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3199,7 +3240,7 @@ const About = ()=>{
                                                                         className: "fa fa-quote-left col_red me-1"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 288,
+                                                                        lineNumber: 286,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     "The educational resources and community support helped me understand the voting process and make informed decisions. It's an invaluable resource for new voters like me.",
@@ -3207,13 +3248,13 @@ const About = ()=>{
                                                                         className: "fa fa-quote-right col_red ms-1"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 290,
+                                                                        lineNumber: 288,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 287,
+                                                                lineNumber: 285,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3226,12 +3267,12 @@ const About = ()=>{
                                                                     height: 90
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 292,
+                                                                    lineNumber: 290,
                                                                     columnNumber: 38
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 292,
+                                                                lineNumber: 290,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -3239,7 +3280,7 @@ const About = ()=>{
                                                                 children: "Emily Chen"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 293,
+                                                                lineNumber: 291,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3247,23 +3288,23 @@ const About = ()=>{
                                                                 children: "Student Voter"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 294,
+                                                                lineNumber: 292,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 285,
+                                                        lineNumber: 283,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/about.js",
-                                                    lineNumber: 284,
+                                                    lineNumber: 282,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 283,
+                                                lineNumber: 281,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -3282,20 +3323,20 @@ const About = ()=>{
                                                                             "incredibly ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                 fileName: "[project]/pages/about.js",
-                                                                                lineNumber: 301,
+                                                                                lineNumber: 299,
                                                                                 columnNumber: 95
                                                                             }, this),
                                                                             " valuable"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 301,
+                                                                        lineNumber: 299,
                                                                         columnNumber: 58
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 301,
+                                                                lineNumber: 299,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -3305,7 +3346,7 @@ const About = ()=>{
                                                                         className: "fa fa-quote-left col_red me-1"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 303,
+                                                                        lineNumber: 301,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     "In today's world of misinformation, having a trusted source for verified political information is crucial. MyVoteMyVoice provides exactly that, helping me make well-informed decisions.",
@@ -3313,13 +3354,13 @@ const About = ()=>{
                                                                         className: "fa fa-quote-right col_red ms-1"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/about.js",
-                                                                        lineNumber: 305,
+                                                                        lineNumber: 303,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 302,
+                                                                lineNumber: 300,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3332,12 +3373,12 @@ const About = ()=>{
                                                                     height: 990
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/about.js",
-                                                                    lineNumber: 307,
+                                                                    lineNumber: 305,
                                                                     columnNumber: 38
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 307,
+                                                                lineNumber: 305,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -3345,7 +3386,7 @@ const About = ()=>{
                                                                 children: "Robert Martinez"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 308,
+                                                                lineNumber: 306,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -3353,56 +3394,56 @@ const About = ()=>{
                                                                 children: "Engaged Citizen"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/about.js",
-                                                                lineNumber: 309,
+                                                                lineNumber: 307,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/about.js",
-                                                        lineNumber: 300,
+                                                        lineNumber: 298,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/about.js",
-                                                    lineNumber: 299,
+                                                    lineNumber: 297,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about.js",
-                                                lineNumber: 298,
+                                                lineNumber: 296,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about.js",
-                                        lineNumber: 267,
+                                        lineNumber: 265,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/about.js",
-                                lineNumber: 261,
+                                lineNumber: 259,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/about.js",
-                            lineNumber: 260,
+                            lineNumber: 258,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/about.js",
-                    lineNumber: 253,
+                    lineNumber: 251,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/about.js",
-                lineNumber: 252,
+                lineNumber: 250,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$components$2f$footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/about.js",
-                lineNumber: 320,
+                lineNumber: 318,
                 columnNumber: 7
             }, this)
         ]

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
-import Link from 'next/link'; // Make sure this is imported
+import Link from 'next/link';
 import Header from './components/Header';
 import Footer from './components/footer';
 
@@ -18,23 +18,21 @@ const About = () => {
 
       {/* About Section */}
       <section id="center" className="center_about">
-        <div className="center_om bg_backn1">
-          <div className="container-xl">
-            <div className="row center_o1 text-center">
-              <div className="col-md-12">
-                <h1 className="text-white">About MyVoteMyVoice</h1>
-                <h6 className="col_red mb-0 mt-3 fw-bold">
-                  <Link href="/" className="text-light">Home</Link>
-                  <span className="mx-2 text-white-50">/</span> About Us
-                </h6>
-              </div>
+        <div className="container-fluid">
+          <div className="row center_o1 text-center">
+            <div className="col-md-12">
+              <h1 className="text-white">About MyVoteMyVoice</h1>
+              <h6 className="col_red mb-0 mt-3 fw-bold">
+                <Link href="/" className="text-light">Home</Link>
+                <span className="mx-2 text-white-50">/</span> About Us
+              </h6>
             </div>
           </div>
         </div>
       </section>
 
       <section id="about_pg" className="p_3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="goal_1 row mb-4 text-center">
             <div className="col-md-12">
               <h1>Why Choose MyVoteMyVoice</h1>
@@ -50,7 +48,7 @@ const About = () => {
                 <div className="grid clearfix">
                   <figure className="effect-jazz mb-0">
                     <Link href="#">
-                      <Image src="/Image/17.jpg" alt="Civic Engagement" width={600} height={400} className="w-100" />
+                      <Image src="/Image/17.jpg" alt="Civic Engagement" width={600} height={400} className="w-100" style={{ borderRadius: '10px' }} />
                     </Link>
                   </figure>
                 </div>
@@ -72,26 +70,26 @@ const About = () => {
 
       {/* Event Section */}
       <section id="event" className="p_3 bg_blue">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="event_1 row">
             <div className="col-md-5">
               <div className="event_1l">
                 <div className="center_h1r rounded-3">
-                  <div className="event_1li bg_red p-4">
+                  <div className="event_1li bg_red p-4" style={{ borderRadius: '10px' }}>
                     <h3 className="text-white">Get Involved</h3>
                     <p className="text-light mb-0">Join our community of engaged citizens</p>
                   </div>
-                  <div className="event_1li1 bg-white p-4 pt-5 pb-5">
+                  <div className="event_1li1 bg-white p-4 pt-5 pb-5" style={{ borderRadius: '10px' }}>
                     <h6 className="mb-2 fw-bold font_14">Full Name</h6>
-                    <input className="form-control" type="text" />
+                    <input className="form-control" type="text" style={{ borderRadius: '10px' }} />
                     <h6 className="mb-2 mt-3 fw-bold font_14">Email Address</h6>
-                    <input className="form-control" type="text" />
+                    <input className="form-control" type="text" style={{ borderRadius: '10px' }} />
                     <h6 className="mb-2 mt-3 fw-bold font_14">Your Interest Area</h6>
-                    <input className="form-control" type="text" />
+                    <input className="form-control" type="text" style={{ borderRadius: '10px' }} />
                     <h6 className="mb-2 mt-3 fw-bold font_14">Message</h6>
-                    <input className="form-control" type="text" />
+                    <input className="form-control" type="text" style={{ borderRadius: '10px' }} />
                     <h6 className="mb-0 mt-4">
-                      <Link className="button_2" href="#">Join Now</Link>
+                      <Link className="button_2" href="#" style={{ borderRadius: '10px' }}>Join Now</Link>
                     </h6>
                   </div>
                 </div>
@@ -108,17 +106,17 @@ const About = () => {
                   </div>
                   <div className="col-md-3">
                     <div className="course_1r text-end">
-                      <h6 className="mb-0"><Link className="button_1" href="#">View All</Link></h6>
+                      <h6 className="mb-0"><Link className="button_1" href="#" style={{ borderRadius: '10px' }}>View All</Link></h6>
                     </div>
                   </div>
                 </div>
                 {/* Event Item */}
-                <div className="event_1ri row bg-white p-3 mx-0 mt-4 rounded-3">
+                <div className="event_1ri row bg-white p-3 mx-0 mt-4 rounded-3" style={{ borderRadius: '10px' }}>
                   <div className="col-md-5 p-0">
                     <div className="event_1ril">
                       <div className="grid clearfix">
                         <figure className="effect-jazz mb-0">
-                          <Link href="#"><Image src="/Image/7.jpg" className="w-100" alt="Voter Education" width={500} height={300} /></Link>
+                          <Link href="#"><Image src="/Image/7.jpg" className="w-100" alt="Voter Education" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                         </figure>
                       </div>
                     </div>
@@ -131,7 +129,7 @@ const About = () => {
                         <i className="fa fa-clock col_red me-1 ms-3"></i> 10:00 AM - 12:00 PM
                       </h6>
                       <p className="font_14 mt-3">Learn about the voting process, your rights, and how to make informed decisions.</p>
-                      <h6 className="mb-0 mt-3"><Link className="button_2 pt-2 pb-2 px-3" href="#">Register Now</Link></h6>
+                      <h6 className="mb-0 mt-3"><Link className="button_2 pt-2 pb-2 px-3" href="#" style={{ borderRadius: '10px' }}>Register Now</Link></h6>
                     </div>
                   </div>
                 </div>
@@ -144,7 +142,7 @@ const About = () => {
 
       {/* Team Section */}
       <section id="team_h" className="p_3 bg_light">
-        <div className="container-xl">
+        <div className="container-fluid">
           <div className="goal_1 row mb-4 text-center">
             <div className="col-md-12">
               <h1>Our Team</h1>
@@ -159,7 +157,7 @@ const About = () => {
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
-                        <Link href="team_detail.html"><Image src="/Image/24.jpg" className="w-100" alt="Team Member" width={500} height={300} /></Link>
+                        <Link href="team_detail.html"><Image src="/Image/24.jpg" className="w-100" alt="Team Member" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                       </figure>
                     </div>
                   </div>
@@ -182,7 +180,7 @@ const About = () => {
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
-                        <Link href="team_detail.html"><Image src="/Image/25.jpg" className="w-100" alt="Team Member" width={500} height={300} /></Link>
+                        <Link href="team_detail.html"><Image src="/Image/25.jpg" className="w-100" alt="Team Member" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                       </figure>
                     </div>
                   </div>
@@ -205,7 +203,7 @@ const About = () => {
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
-                        <Link href="team_detail.html"><Image src="/Image/26.jpg" className="w-100" alt="Team Member" width={500} height={300} /></Link>
+                        <Link href="team_detail.html"><Image src="/Image/26.jpg" className="w-100" alt="Team Member" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                       </figure>
                     </div>
                   </div>
@@ -228,7 +226,7 @@ const About = () => {
                   <div className="team_1i1i">
                     <div className="grid clearfix">
                       <figure className="effect-jazz mb-0">
-                        <Link href="team_detail.html"><Image src="/Image/27.jpg" className="w-100" alt="Team Member" width={500} height={300} /></Link>
+                        <Link href="team_detail.html"><Image src="/Image/27.jpg" className="w-100" alt="Team Member" width={500} height={300} style={{ borderRadius: '10px' }} /></Link>
                       </figure>
                     </div>
                   </div>
