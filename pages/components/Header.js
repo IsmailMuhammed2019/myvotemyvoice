@@ -49,7 +49,7 @@ function Header() {
           <div className="container-fluid">
             <Link className="p-0 navbar-brand fw-bold col_blue" href="index.html">
               <i className="fa-solid fa-check-to-slot col_red me-1"></i> MyVote <span className="col_red">MyVoice</span>
-              <i className="fa-solid fa-bullhorn ms-1"></i>
+              <i className="fa-solid fa-volume-up ms-1"></i>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
