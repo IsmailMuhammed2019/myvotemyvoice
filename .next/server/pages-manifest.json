@@ -1,6 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/_error": "pages/_error.js"
-}
+{"/about":"pages/about.html","/_error":"pages/_error.js","/_app":"pages/_app.js","/_document":"pages/_document.js","/contact":"pages/contact.html","/components/Header":"pages/components/Header.html","/components/footer":"pages/components/footer.html","/api/hello":"pages/api/hello.js","/login":"pages/login.html","/faq":"pages/faq.html","/donate":"pages/donate.html","/":"pages/index.html","/register":"pages/register.html","/news_details":"pages/news_details.html","/news":"pages/news.html","/services":"pages/services.html","/team":"pages/team.html","/team_details":"pages/team_details.html","/404":"pages/404.html"}

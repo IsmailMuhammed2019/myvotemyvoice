@@ -51,11 +51,13 @@ function Header() {
           <Link className="p-0 navbar-brand fw-bold col_blue" href="/">
               <div style={{ position: 'relative', width: '200px', height: '50px' }}> {/* Set width and height for the parent container */}
                 <Image 
-                  src="/image/logo.png" // Path to your logo image
+                  src="/image/logo.jpg" // Path to your logo image
                   alt="MyVote MyVoice Logo" // Alternative text for the image
                   fill // Use fill for responsive images
                   style={{ objectFit: 'contain' }} // Ensure the image maintains its aspect ratio
                 />
+              <Image src="/Image/1.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', maxHeight: '500px' }} />
+
               </div>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
