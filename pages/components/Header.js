@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import Image from 'next/image'; 
+import { useRouter } from 'next/router'
+
 
 
 function Header() {
@@ -49,15 +50,13 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-light p-0" id="navbar_sticky">
           <div className="container-fluid">
           <Link className="p-0 navbar-brand fw-bold col_blue" href="/">
-              <div style={{ position: 'relative', width: '200px', height: '50px' }}> {/* Set width and height for the parent container */}
+              <div style={{ position: 'relative', width: '200px', height: '60px' }}> {/* Set width and height for the parent container */}
                 <Image 
-                  src="/image/logo.jpg" // Path to your logo image
+                  src="/image/logo.png" // Ensure this path is correct
                   alt="MyVote MyVoice Logo" // Alternative text for the image
                   fill // Use fill for responsive images
                   style={{ objectFit: 'contain' }} // Ensure the image maintains its aspect ratio
                 />
-              <Image src="/Image/1.jpg" width={1920} height={1080} className="d-block w-100" alt="..." style={{ objectFit: 'cover', borderRadius: '10px', maxHeight: '500px' }} />
-
               </div>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
