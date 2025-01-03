@@ -49,14 +49,14 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-light p-0" id="navbar_sticky">
           <div className="container-fluid">
           <Link className="p-0 navbar-brand fw-bold col_blue" href="/">
-              <Image 
-                src="/image/logo.png" // Path to your logo image
-                alt="MyVote MyVoice Logo" // Alternative text for the image
-                layout="responsive" // Make the image responsive
-                width={170} // Set the desired width
-                height={70} // Set the desired height
-                className="d-inline-block" // Optional: to ensure it displays inline
-              />
+              <div style={{ position: 'relative', width: '200px', height: '100px' }}> {/* Set width and height for the parent container */}
+                <Image 
+                  src="/image/logo.png" // Path to your logo image
+                  alt="MyVote MyVoice Logo" // Alternative text for the image
+                  fill // Use fill for responsive images
+                  style={{ objectFit: 'contain' }} // Ensure the image maintains its aspect ratio
+                />
+              </div>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
