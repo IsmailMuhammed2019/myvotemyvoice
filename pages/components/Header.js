@@ -52,7 +52,7 @@ function Header() {
           <Link className="p-0 navbar-brand fw-bold col_blue" href="/">
               <div style={{ position: 'relative', width: '200px', height: '60px' }}> {/* Set width and height for the parent container */}
                 
-                <Image src="/Image/logo.png" className="w-100" alt="abc" width={500} height={300} style={{ borderRadius: '10px' }} />
+                <Image src="/Image/logo.png" className="w-100" alt="abc" width={500} height={300} />
               </div>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
