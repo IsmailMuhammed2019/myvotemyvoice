@@ -49,7 +49,7 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-light p-0" id="navbar_sticky">
           <div className="container-fluid">
           <Link className="p-0 navbar-brand fw-bold col_blue" href="/">
-              <div style={{ position: 'relative', width: '200px', height: '100px' }}> {/* Set width and height for the parent container */}
+              <div style={{ position: 'relative', width: '200px', height: '50px' }}> {/* Set width and height for the parent container */}
                 <Image 
                   src="/image/logo.png" // Path to your logo image
                   alt="MyVote MyVoice Logo" // Alternative text for the image

@@ -839,7 +839,7 @@ function Header() {
                                     style: {
                                         position: 'relative',
                                         width: '200px',
-                                        height: '100px'
+                                        height: '50px'
                                     },
                                     children: [
                                         " ",
