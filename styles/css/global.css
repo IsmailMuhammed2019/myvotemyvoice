@@ -862,3 +862,9 @@ font-size:16px;
   align-items: center;
   flex-direction: column;
 }
+
+.navbar-brand img {
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+

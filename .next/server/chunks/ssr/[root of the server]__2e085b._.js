@@ -270,6 +270,8 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$run
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_import__("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/router.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [ssr] (ecmascript)");
+;
 ;
 ;
 ;
@@ -300,7 +302,7 @@ function Header() {
                                                         className: "fa fa-phone me-1 col_red"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 18,
+                                                        lineNumber: 19,
                                                         columnNumber: 21
                                                     }, this),
                                                     "Phone: ",
@@ -309,13 +311,13 @@ function Header() {
                                                         children: "+1 (651) 200-5560"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 19,
+                                                        lineNumber: 20,
                                                         columnNumber: 28
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 17,
+                                                lineNumber: 18,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -325,7 +327,7 @@ function Header() {
                                                         className: "fa fa-envelope me-1 col_red"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 22,
+                                                        lineNumber: 23,
                                                         columnNumber: 21
                                                     }, this),
                                                     "Email: ",
@@ -335,13 +337,13 @@ function Header() {
                                                         children: "info@myvotemyvoice.us"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 23,
+                                                        lineNumber: 24,
                                                         columnNumber: 28
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 21,
+                                                lineNumber: 22,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -351,7 +353,7 @@ function Header() {
                                                         className: "fa fa-map-marker me-1 fs-6 align-middle col_red"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 26,
+                                                        lineNumber: 27,
                                                         columnNumber: 21
                                                     }, this),
                                                     "Address: ",
@@ -360,29 +362,29 @@ function Header() {
                                                         children: "2168 7th Ave, Anoka, MN 55303, USA"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 27,
+                                                        lineNumber: 28,
                                                         columnNumber: 30
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 25,
+                                                lineNumber: 26,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/components/Header.js",
-                                        lineNumber: 16,
+                                        lineNumber: 17,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/components/Header.js",
-                                    lineNumber: 15,
+                                    lineNumber: 16,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/components/Header.js",
-                                lineNumber: 14,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -398,27 +400,6 @@ function Header() {
                                                     href: "#",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
                                                         className: "fa-brands fa-facebook"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 35,
-                                                        columnNumber: 70
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 35,
-                                                    columnNumber: 23
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 35,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    className: "d-block text-center",
-                                                    href: "#",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                        className: "fa-brands fa-twitter"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
                                                         lineNumber: 36,
@@ -439,7 +420,7 @@ function Header() {
                                                     className: "d-block text-center",
                                                     href: "#",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                        className: "fa-brands fa-linkedin"
+                                                        className: "fa-brands fa-twitter"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
                                                         lineNumber: 37,
@@ -460,7 +441,7 @@ function Header() {
                                                     className: "d-block text-center",
                                                     href: "#",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                        className: "fa-brands fa-instagram"
+                                                        className: "fa-brands fa-linkedin"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
                                                         lineNumber: 38,
@@ -481,7 +462,7 @@ function Header() {
                                                     className: "d-block text-center",
                                                     href: "#",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                                        className: "fa-brands fa-youtube"
+                                                        className: "fa-brands fa-instagram"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
                                                         lineNumber: 39,
@@ -496,37 +477,58 @@ function Header() {
                                                 fileName: "[project]/pages/components/Header.js",
                                                 lineNumber: 39,
                                                 columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    className: "d-block text-center",
+                                                    href: "#",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
+                                                        className: "fa-brands fa-youtube"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/components/Header.js",
+                                                        lineNumber: 40,
+                                                        columnNumber: 70
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/components/Header.js",
+                                                    lineNumber: 40,
+                                                    columnNumber: 23
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/components/Header.js",
+                                                lineNumber: 40,
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/components/Header.js",
-                                        lineNumber: 34,
+                                        lineNumber: 35,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/components/Header.js",
-                                    lineNumber: 33,
+                                    lineNumber: 34,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/components/Header.js",
-                                lineNumber: 32,
+                                lineNumber: 33,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/components/Header.js",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/components/Header.js",
-                    lineNumber: 12,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/components/Header.js",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 10
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -540,35 +542,25 @@ function Header() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 className: "p-0 navbar-brand fw-bold col_blue",
                                 href: "index.html",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                        className: "fa-solid fa-check-to-slot col_red me-1"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/components/Header.js",
-                                        lineNumber: 51,
-                                        columnNumber: 15
-                                    }, this),
-                                    " MyVote ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "col_red",
-                                        children: "MyVoice"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/components/Header.js",
-                                        lineNumber: 51,
-                                        columnNumber: 81
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {
-                                        className: "fa-solid fa-bullhorn ms-1"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/components/Header.js",
-                                        lineNumber: 52,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/image/logo.png" // Path to your logo image
+                                    ,
+                                    alt: "MyVote MyVoice Logo" // Alternative text for the image
+                                    ,
+                                    layout: "responsive" // Make the image responsive
+                                    ,
+                                    width: 150,
+                                    height: 50,
+                                    className: "d-inline-block" // Optional: to ensure it displays inline
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/components/Header.js",
+                                    lineNumber: 52,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/pages/components/Header.js",
-                                lineNumber: 50,
-                                columnNumber: 13
+                                lineNumber: 51,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                                 className: "navbar-toggler",
@@ -582,12 +574,12 @@ function Header() {
                                     className: "navbar-toggler-icon"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/components/Header.js",
-                                    lineNumber: 55,
+                                    lineNumber: 62,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/components/Header.js",
-                                lineNumber: 54,
+                                lineNumber: 61,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -604,12 +596,12 @@ function Header() {
                                                 children: "Home"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 60,
+                                                lineNumber: 67,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 59,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -620,12 +612,12 @@ function Header() {
                                                 children: "About Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 63,
+                                                lineNumber: 70,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 62,
+                                            lineNumber: 69,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -641,7 +633,7 @@ function Header() {
                                                     children: "News"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 66,
+                                                    lineNumber: 73,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -655,12 +647,12 @@ function Header() {
                                                                 children: "News"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/Header.js",
-                                                                lineNumber: 70,
+                                                                lineNumber: 77,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 70,
+                                                            lineNumber: 77,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -670,24 +662,24 @@ function Header() {
                                                                 children: "News Detail"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/Header.js",
-                                                                lineNumber: 71,
+                                                                lineNumber: 78,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 71,
+                                                            lineNumber: 78,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 69,
+                                                    lineNumber: 76,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 65,
+                                            lineNumber: 72,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -703,7 +695,7 @@ function Header() {
                                                     children: "Team"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 75,
+                                                    lineNumber: 82,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -717,12 +709,12 @@ function Header() {
                                                                 children: "Team"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/Header.js",
-                                                                lineNumber: 79,
+                                                                lineNumber: 86,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 79,
+                                                            lineNumber: 86,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -732,24 +724,24 @@ function Header() {
                                                                 children: "Team Detail"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/Header.js",
-                                                                lineNumber: 80,
+                                                                lineNumber: 87,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 80,
+                                                            lineNumber: 87,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 78,
+                                                    lineNumber: 85,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 74,
+                                            lineNumber: 81,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -760,12 +752,12 @@ function Header() {
                                                 children: "Faq"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 84,
+                                                lineNumber: 91,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 83,
+                                            lineNumber: 90,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -776,12 +768,12 @@ function Header() {
                                                 children: "Contact"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 87,
+                                                lineNumber: 94,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 86,
+                                            lineNumber: 93,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -797,7 +789,7 @@ function Header() {
                                                     children: "Others"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 90,
+                                                    lineNumber: 97,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -811,12 +803,12 @@ function Header() {
                                                                 children: "Services"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/Header.js",
-                                                                lineNumber: 94,
+                                                                lineNumber: 101,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 94,
+                                                            lineNumber: 101,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -826,12 +818,12 @@ function Header() {
                                                                 children: "Donation"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/Header.js",
-                                                                lineNumber: 95,
+                                                                lineNumber: 102,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 95,
+                                                            lineNumber: 102,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -841,12 +833,12 @@ function Header() {
                                                                 children: "Register"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/Header.js",
-                                                                lineNumber: 96,
+                                                                lineNumber: 103,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 96,
+                                                            lineNumber: 103,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -856,24 +848,24 @@ function Header() {
                                                                 children: "Login"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/components/Header.js",
-                                                                lineNumber: 97,
+                                                                lineNumber: 104,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 97,
+                                                            lineNumber: 104,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 93,
+                                                    lineNumber: 100,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 89,
+                                            lineNumber: 96,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -890,12 +882,12 @@ function Header() {
                                                         className: "fa fa-search"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 102,
+                                                        lineNumber: 109,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 101,
+                                                    lineNumber: 108,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -911,7 +903,7 @@ function Header() {
                                                                     placeholder: "SEARCH HERE"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/components/Header.js",
-                                                                    lineNumber: 107,
+                                                                    lineNumber: 114,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -922,34 +914,34 @@ function Header() {
                                                                         children: "SEARCH"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/components/Header.js",
-                                                                        lineNumber: 109,
+                                                                        lineNumber: 116,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/components/Header.js",
-                                                                    lineNumber: 108,
+                                                                    lineNumber: 115,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/components/Header.js",
-                                                            lineNumber: 106,
+                                                            lineNumber: 113,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/components/Header.js",
-                                                        lineNumber: 105,
+                                                        lineNumber: 112,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/components/Header.js",
-                                                    lineNumber: 104,
+                                                    lineNumber: 111,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 100,
+                                            lineNumber: 107,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -963,39 +955,39 @@ function Header() {
                                                 children: "CONTRIBUTE"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/components/Header.js",
-                                                lineNumber: 118,
+                                                lineNumber: 125,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/components/Header.js",
-                                            lineNumber: 117,
+                                            lineNumber: 124,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/components/Header.js",
-                                    lineNumber: 58,
+                                    lineNumber: 65,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/components/Header.js",
-                                lineNumber: 57,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/components/Header.js",
-                        lineNumber: 49,
+                        lineNumber: 50,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/components/Header.js",
-                    lineNumber: 48,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/components/Header.js",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, this)
         ]

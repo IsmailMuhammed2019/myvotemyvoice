@@ -947,4 +947,9 @@ a.socialIcon:hover, .socialHoverClass {
   flex-direction: column;
 }
 
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=styles_css_global_735113.css.map*/

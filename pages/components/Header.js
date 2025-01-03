@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Image from 'next/image'; 
 
 
 function Header() {
@@ -47,9 +48,15 @@ function Header() {
       <section id="header">
         <nav className="navbar navbar-expand-lg navbar-light p-0" id="navbar_sticky">
           <div className="container-fluid">
-            <Link className="p-0 navbar-brand fw-bold col_blue" href="index.html">
-              <i className="fa-solid fa-check-to-slot col_red me-1"></i> MyVote <span className="col_red">MyVoice</span>
-              <i className="fa-solid fa-volume-up ms-1"></i>
+          <Link className="p-0 navbar-brand fw-bold col_blue" href="index.html">
+              <Image 
+                src="/image/logo.png" // Path to your logo image
+                alt="MyVote MyVoice Logo" // Alternative text for the image
+                layout="responsive" // Make the image responsive
+                width={150} // Set the desired width
+                height={50} // Set the desired height
+                className="d-inline-block" // Optional: to ensure it displays inline
+              />
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

@@ -14402,6 +14402,11 @@ a.socialIcon:hover, .socialHoverClass {
   flex-direction: column;
 }
 
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* [project]/styles/css/index.css [client] (css) */
 .carousel-caption {
