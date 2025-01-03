@@ -53,8 +53,8 @@ function Header() {
                 src="/image/logo.png" // Path to your logo image
                 alt="MyVote MyVoice Logo" // Alternative text for the image
                 layout="responsive" // Make the image responsive
-                width={150} // Set the desired width
-                height={50} // Set the desired height
+                width={170} // Set the desired width
+                height={70} // Set the desired height
                 className="d-inline-block" // Optional: to ensure it displays inline
               />
             </Link>

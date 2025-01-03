@@ -842,8 +842,8 @@ function Header() {
                                     ,
                                     layout: "responsive" // Make the image responsive
                                     ,
-                                    width: 150,
-                                    height: 50,
+                                    width: 170,
+                                    height: 70,
                                     className: "d-inline-block" // Optional: to ensure it displays inline
                                 }, void 0, false, {
                                     fileName: "[project]/pages/components/Header.js",
