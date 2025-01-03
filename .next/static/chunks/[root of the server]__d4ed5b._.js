@@ -834,7 +834,7 @@ function Header() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                 className: "p-0 navbar-brand fw-bold col_blue",
-                                href: "index.html",
+                                href: "/",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                     src: "/image/logo.png" // Path to your logo image
                                     ,
@@ -842,8 +842,8 @@ function Header() {
                                     ,
                                     layout: "responsive" // Make the image responsive
                                     ,
-                                    width: 150,
-                                    height: 50,
+                                    width: 170,
+                                    height: 70,
                                     className: "d-inline-block" // Optional: to ensure it displays inline
                                 }, void 0, false, {
                                     fileName: "[project]/pages/components/Header.js",

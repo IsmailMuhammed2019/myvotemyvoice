@@ -48,7 +48,7 @@ function Header() {
       <section id="header">
         <nav className="navbar navbar-expand-lg navbar-light p-0" id="navbar_sticky">
           <div className="container-fluid">
-          <Link className="p-0 navbar-brand fw-bold col_blue" href="index.html">
+          <Link className="p-0 navbar-brand fw-bold col_blue" href="/">
               <Image 
                 src="/image/logo.png" // Path to your logo image
                 alt="MyVote MyVoice Logo" // Alternative text for the image
