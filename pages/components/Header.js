@@ -50,8 +50,8 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-light p-0" id="navbar_sticky">
           <div className="container-fluid">
           <Link className="p-0 navbar-brand fw-bold col_blue" href="/">
-      <div style={{ position: 'relative', width: '300px', height: '60px' }}> {/* Increased width and height */}
-        <Image src="/Image/logo.png" className="w-300" alt="abc" width={300} height={60} /> {/* Increased width and height */}
+      <div style={{ position: 'relative', maxWidth: '300px', height: 'auto' }}> {/* Set max-width for responsiveness */}
+        <Image src="/Image/logo.png" className="w-300" alt="abc" width={300} height={60} style={{ height: 'auto' }} /> {/* Use w-100 for full width and height auto */}
       </div>
   </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
