@@ -12,12 +12,11 @@ function Footer() {
               <div className="col-md-6 col-12">
                 <div className="footer_b1l">
                   <h2 className="mb-4">
-                    <Link href="/">
-                      <p className="text-white">
-                        <i className="fa-solid fa-check-to-slot col_red me-1"></i> MyVote
-                        <span className="col_red">MyVoice</span>
-                      
-                    </p></Link>
+                  <Link className="p-0 navbar-brand fw-bold col_blue" href="/">
+      <div style={{ position: 'relative', maxWidth: '300px', height: 'auto' }}>
+        <Image src="/Image/footer.png" className="w-300" alt="abc" width={300} height={60} style={{ height: 'auto' }} /> {/* Use w-100 for full width and height auto */}
+      </div>
+  </Link>
                   </h2>
                   <p className="text-light font_15">
                     MyVoteMyVoice is dedicated to empowering citizens through verified information and civic engagement tools. We believe that informed
