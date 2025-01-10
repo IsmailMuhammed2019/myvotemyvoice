@@ -1,5 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js"
-}
+{"/_app":"pages/_app.js","/_document":"pages/_document.js","/components/Header":"pages/components/Header.html","/components/footer":"pages/components/footer.html","/api/hello":"pages/api/hello.js","/about":"pages/about.html","/_error":"pages/_error.js","/":"pages/index.html","/contact":"pages/contact.html","/donate":"pages/donate.html","/login":"pages/login.html","/news":"pages/news.html","/news_details":"pages/news_details.html","/register":"pages/register.html","/services":"pages/services.html","/faq":"pages/faq.html","/team_details":"pages/team_details.html","/team":"pages/team.html","/404":"pages/404.html"}

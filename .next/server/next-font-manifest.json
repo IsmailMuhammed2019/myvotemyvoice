@@ -1,8 +1,1 @@
-{
-  "app": {},
-  "appUsingSizeAdjust": false,
-  "pages": {
-    "/_app": []
-  },
-  "pagesUsingSizeAdjust": true
-}
+{"pages":{"/_app":[]},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":true}
