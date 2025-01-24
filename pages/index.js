@@ -3,7 +3,12 @@ import Link from 'next/link';
 
 const Home = () => {
   return (
-    <div className="relative min-h-screen bg-cover bg-no-repeat" style={{ backgroundImage: "url('/map.png')" }}>
+    <div className="relative min-h-screen bg-no-repeat bg-white" style={{ 
+      backgroundImage: "url('/map.png')", 
+      backgroundSize: '600px 282px',
+      backgroundPosition: 'top right',
+      backgroundRepeat: 'no-repeat'
+    }}>
       <Navbar />
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
