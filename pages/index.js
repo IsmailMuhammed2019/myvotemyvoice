@@ -10,34 +10,26 @@ const Home = () => {
       backgroundRepeat: 'no-repeat'
     }}>
       <Navbar />
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-          <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Creating A Better Tomorrow For Everyone
+      <div className="max-w-7xl mt-75 mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8">
+          <div className="flex flex-col justify-center">
+            <p className="mt-3 text-lg text-gray-500 text-center lg:text-left">
+              Big Hearts, Bold Changes
+            </p>
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center lg:text-left">
+              Creating a better tomorrow for everyone
             </h2>
-            <p className="mt-3 text-lg text-gray-500">
+            <p className="mt-3 text-lg text-gray-500 text-center lg:text-left">
               Helping everyone learn, stay healthy, and work together.
             </p>
-            <div className="mt-8">
-              <Link href="/donate"className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700">
-                  Donate Now
+            <div className="mt-8 flex justify-center lg:justify-start">
+              <Link href="/donate">
+                <img className="h-12" src='/button.png' alt='click' />
               </Link>
             </div>
           </div>
-          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-            <div className="flex justify-center py-8 px-8 bg-gray-50">
-              <img className="h-24" src="/placeholder.svg" alt="Placeholder" />
-            </div>
-            <div className="flex justify-center py-8 px-8 bg-gray-50">
-              <img className="h-24" src="/placeholder.svg" alt="Placeholder" />
-            </div>
-            <div className="flex justify-center py-8 px-8 bg-gray-50">
-              <img className="h-24" src="/placeholder.svg" alt="Placeholder" />
-            </div>
-            <div className="flex justify-center py-8 px-8 bg-gray-50">
-              <img className="h-24" src="/placeholder.svg" alt="Placeholder" />
-            </div>
+          <div className="mt-8 flex ">
+            <img className="h-auto w-100 " src="/all.png" alt="Placeholder" />
           </div>
         </div>
       </div>
