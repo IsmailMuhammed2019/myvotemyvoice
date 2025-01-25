@@ -330,6 +330,16 @@ img, video {
   margin-right: auto;
 }
 
+.mx-60 {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.mx-44 {
+  margin-left: 11rem;
+  margin-right: 11rem;
+}
+
 .mb-2 {
   margin-bottom: .5rem;
 }
@@ -422,6 +432,18 @@ img, video {
   margin-bottom: 1rem;
 }
 
+.mr-32 {
+  margin-right: 8rem;
+}
+
+.mr-40 {
+  margin-right: 10rem;
+}
+
+.mr-60 {
+  margin-right: 15rem;
+}
+
 .flex {
   display: flex;
 }
@@ -474,8 +496,28 @@ img, video {
   height: 18rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-11 {
+  min-height: 2.75rem;
+}
+
+.min-h-40 {
+  min-height: 10rem;
+}
+
+.min-h-60 {
+  min-height: 15rem;
 }
 
 .w-auto {
@@ -502,6 +544,10 @@ img, video {
   width: 18rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -512,6 +558,10 @@ img, video {
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.-scroll-mt-10 {
+  scroll-margin-top: -2.5rem;
 }
 
 .list-inside {
@@ -542,12 +592,20 @@ img, video {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
 
 .items-baseline {
   align-items: baseline;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -584,6 +642,10 @@ img, video {
 
 .gap-0\.5 {
   gap: .125rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -753,8 +815,25 @@ img, video {
   padding-bottom: 11rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pr-32 {
+  padding-right: 8rem;
+}
+
+.pr-40 {
+  padding-right: 10rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -807,6 +886,11 @@ img, video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xs {
+  font-size: .75rem;
+  line-height: 1rem;
 }
 
 .font-semibold {
@@ -958,6 +1042,10 @@ body {
     min-width: 11rem;
   }
 
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1025,6 +1113,10 @@ body {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:justify-start {
