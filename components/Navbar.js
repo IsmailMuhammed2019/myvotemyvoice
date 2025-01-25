@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="sborder-none">
+    <nav className="sborder-none mb-10 mt-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-                <img className="h-12 w-auto" src="/logo.png" alt="NGO Logo" />
+                <img className="h-auto w-16" src="/logo.png" alt="NGO Logo" />
             </Link>
           </div>
           <div className="hidden md:flex flex-grow justify-center">
