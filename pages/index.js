@@ -44,7 +44,7 @@ const Home = () => {
       <div className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white" style={{ 
         backgroundImage: "url('/background.png')",
         backgroundSize: 'contain',
-        minHeight: '700px'
+        minHeight: '400px'
       }}>
         <h2 className="text-xl font-extrabold mt-10 text-center" style={{ 
           background: 'linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)', 
@@ -74,6 +74,67 @@ const Home = () => {
             <h3 className="text-sm font-bold mt-5 text-black">Spreading awareness</h3>
             <p className="text-gray-500 text-left text-sm mt-3">Learn about issues and how you can make a difference.</p>
           </div>
+        </div>
+      </div>
+      <div className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white" style={{ 
+        backgroundImage: "url('/background2.png')",
+        backgroundSize: 'contain',
+        minHeight: 'fit-content'
+      }}>
+        <h2 className="text-xl font-extrabold mt-10 text-center" style={{ 
+          background: 'linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)', 
+          WebkitBackgroundClip: 'text', 
+          WebkitTextFillColor: 'transparent' 
+        }}>
+          About Us
+        </h2>
+        <p className="mb-4 mt-14 text-3xl text-black text-center lg:text-center">
+        Working to empower communities through <br /> education,health women's support and <br/>civic awareness 
+              </p>
+              <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
+              Creating opportunities, changing lives, Building stronger communities.
+              </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-14 mt-20 mx-44">
+          <div className="flex flex-col items-center">
+            <div className='flex'>
+              <div className='mb-5 mr-5'>
+              <img className="h-auto w-400" src="/image-2.png" alt="Placeholder" />
+              </div>
+              <div>
+              <img className="h-auto w-400 mb-3" src="/image-3.png" alt="Placeholder" />
+              <img className="h-auto w-400" src="/image-5.png" alt="Placeholder" />
+              </div>
+            </div>
+            <div>
+            <img className="h-auto w-800" src="/image-4.png" alt="Placeholder" />
+            </div>
+          </div>
+          <div className="flex flex-col items-start">
+    <div className="flex items-start mb-10"> {/* Flex container for title and subtext */}
+      <img src="/group1.png" alt="Access to Education" className="h-10 w-auto mr-4" /> {/* Image beside text */}
+      <div>
+        <h3 className="text-black font-bold">Access to Education in Rural Areas</h3>
+        <p className="text-gray-500 text-xs">We create rural learning centers and promote quality education to empower communities and build a strong democratic society.</p>
+      </div>
+    </div>
+    <div className="flex items-start mb-10"> {/* Flex container for title and subtext */}
+      <img src="/group2.png" alt="Health Advocacy" className="h-10 w-auto mr-4" /> {/* Image beside text */}
+      <div>
+        <h3 className="text-black font-bold">Health Advocacy</h3>
+        <p className="text-gray-500 text-xs">We support better access to healthcare, improve child and women's nutrition and promote wellness programs to reduce inequalities and create healthier communities.</p>
+      </div>
+    </div>
+    <div className="flex items-start mb-10"> {/* Flex container for title and subtext */}
+      <img src="/group3.png" alt="Women's Empowerment" className="h-10 w-auto mr-4" /> {/* Image beside text */}
+      <div>
+        <h3 className="text-black font-bold">Women's Empowerment</h3>
+        <p className="text-gray-500 text-xs">We help women succeed by supporting women-owned businesses and creating opportunities for economic independence and leadership.</p>
+      </div>
+    </div>
+    <div className='flex justify-center mx-auto'>
+    <img src="/button-6.png" alt="prod" className="h-10 w-auto " /> 
+    </div>
+  </div>
         </div>
       </div>
     </div>
