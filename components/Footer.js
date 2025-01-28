@@ -2,6 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 
 const Footer = () => {
+    const handleComingSoon = (e) => {
+        e.preventDefault(); // Prevent the default link behavior
+        alert("Coming Soon"); // Show alert message
+      };
+
   return (
     <div
       className="max-w-7xl mx-auto pt-28 px-20 sm:px-6 lg:px-8 relative bg-no-repeat bg-white"
@@ -18,10 +23,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-64 px-4 sm:px-6 lg:px-8 mt-10">
         <div>
           <h3 className="text-black font-bold">About Us</h3>
-          <p className="text-black">What We Do</p>
-          <p className="text-black">Our Programs</p>
-          <p className="text-black">Get Involved</p>
-          <p className="text-black">Contact</p>
+          <Link href="#about" className="text-black hover:underline">What We Do</Link>
+          <Link href="#initiative" className="text-black hover:underline">Our Programs</Link>
+          <Link href="#testimonials"  className="text-black hover:underline">Testimonials</Link>
+          <Link href="#get-involved" className="text-black hover:underline">Get Involved</Link>
+          <Link href="#contact" className="text-black hover:underline">Contact</Link>
         </div>
         <div className='flex flex-col justify-center items-center text-center'>
   <h3 className="text-black font-bold">Contact</h3>
@@ -32,11 +38,12 @@ const Footer = () => {
 </div>
         <div className="text-left"> {/* Align text to the right */}
           <h3 className="text-black font-bold">Follow Us</h3>
-          <p className="text-black">LinkedIn</p>
-          <p className="text-black">Twitter</p>
-          <p className="text-black">Instagram</p>
-          <p className="text-black">Facebook</p>
+          <Link href="#" onClick={handleComingSoon} className="text-black hover:underline">LinkedIn</Link>
+          <Link href="#" onClick={handleComingSoon} className="text-black hover:underline">Twitter</Link>
+          <Link href="#" onClick={handleComingSoon} className="text-black hover:underline">Instagram</Link>
+          <Link href="#" onClick={handleComingSoon} className="text-black hover:underline">Facebook</Link>
         </div>
+
       </div>
       <hr className="my-5 border-gray-400 mt-10" />
       <div className="max-w-7xl mx-auto text-center text-gray-300 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
