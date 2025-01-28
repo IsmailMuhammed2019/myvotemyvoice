@@ -16,7 +16,7 @@ const Home = () => {
       answer: "You can get involved by participating in our events, volunteering, or joining our programs."
     },
     {
-      question: "How can I donate or support MyVoteMyVoice's initiatives?",
+      question: "How can I donate or support MyVoteMyVoice &apos;s initiatives?",
       answer: "You can donate through our website or participate in fundraising events to support our initiatives."
     },
     {
@@ -68,7 +68,7 @@ const Home = () => {
                 </Link>
               </div>
               <p className="mt-1 mb-14 text-2xl text-black text-center lg:text-left">
-                Let's help people MyvoteMyvoice is an NGO that makes schools
+                Let&apos;s help people MyvoteMyvoice is an NGO that makes schools
                 better, helps with health, and supports women in small villages.
               </p>
             </div>
@@ -162,7 +162,7 @@ const Home = () => {
           About Us
         </h2>
         <p className="mb-4 mt-5 text-3xl text-black text-center lg:text-center">
-          Working to empower communities through <br /> education,health women's
+          Working to empower communities through <br /> education,health women&apos;s
           support and <br />
           civic awareness
         </p>
@@ -233,7 +233,7 @@ const Home = () => {
                 <h3 className="text-black font-bold">Health Advocacy</h3>
                 <p className="text-gray-500 text-xs">
                   We support better access to healthcare, improve child and
-                  women's nutrition and promote wellness programs to reduce
+                  women&apos;s nutrition and promote wellness programs to reduce
                   inequalities and create healthier communities.
                 </p>
               </div>
@@ -243,12 +243,12 @@ const Home = () => {
               {/* Flex container for title and subtext */}
               <img
                 src="/group3.png"
-                alt="Women's Empowerment"
+                alt="Womens Empowerment"
                 className="h-10 w-auto mr-4"
               />{" "}
               {/* Image beside text */}
               <div>
-                <h3 className="text-black font-bold">Women's Empowerment</h3>
+                <h3 className="text-black font-bold">Women&apos;s Empowerment</h3>
                 <p className="text-gray-500 text-xs">
                   We help women succeed by supporting women-owned businesses and
                   creating opportunities for economic independence and
@@ -438,7 +438,7 @@ const Home = () => {
             <div>
               <img
                 src="/image-9.png"
-                alt="Women's Empowerment"
+                alt="Womens Empowerment"
                 className="rounded-lg mb-3 h-38 w-auto"
               />
             </div>
@@ -447,7 +447,7 @@ const Home = () => {
               {/* Added flex-grow to fill space */}
               <div>
                 <h3 className="text-sm font-bold text-black text-left">
-                  Women's Empowerment
+                  Women&apos;s Empowerment
                 </h3>
                 <p className="text-gray-500 text-left text-xs mt-2">
                   Support women to start businesses and gain financial
@@ -555,7 +555,7 @@ const Home = () => {
                   </h4>
                   <p className="text-gray-600 text-sm">
                     Volunteering with MyvoteMyvoice gave me a new perspective on
-                    the importance of community. It's amazing to be part of an
+                    the importance of community. It&apos;s amazing to be part of an
                     organization that truly makes a difference.
                   </p>
                 </div>
@@ -884,7 +884,7 @@ const Home = () => {
           className="max-w-7xl py-20 px-4 sm:px-6 lg:px-8 relative mt-40 mx-40 bg-[#6AA910] text-center rounded-lg"
         >
           <h2 className="text-3xl font-bold text-white">
-            Join us and let's make a better world, today
+            Join us and let&apos;s make a better world, today
           </h2>
           <p className="mt-2 mb-6 text-lg text-white">
             Unite for progress creating impactful solutions for a better world.

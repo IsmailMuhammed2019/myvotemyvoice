@@ -601,7 +601,7 @@ const Home = ()=>{
             answer: "You can get involved by participating in our events, volunteering, or joining our programs."
         },
         {
-            question: "How can I donate or support MyVoteMyVoice's initiatives?",
+            question: "How can I donate or support MyVoteMyVoice &apos;s initiatives?",
             answer: "You can donate through our website or participate in fundraising events to support our initiatives."
         },
         {
@@ -1166,7 +1166,7 @@ const Home = ()=>{
                                             " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                                 src: "/group3.png",
-                                                alt: "Women's Empowerment",
+                                                alt: "Womens Empowerment",
                                                 className: "h-10 w-auto mr-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
@@ -1650,7 +1650,7 @@ const Home = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                             src: "/image-9.png",
-                                            alt: "Women's Empowerment",
+                                            alt: "Womens Empowerment",
                                             className: "rounded-lg mb-3 h-38 w-auto"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
