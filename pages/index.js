@@ -1,7 +1,34 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"; 
 import Link from "next/link";
+import { useState } from 'react';
 
 const Home = () => {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const faqs = [
+    {
+      question: "What is MyvoteMyvoice?",
+      answer: "We connect communities to resources in education, health, and empowerment for a better future."
+    },
+    {
+      question: "How can I get involved with MyVoteMyVoice?",
+      answer: "You can get involved by participating in our events, volunteering, or joining our programs."
+    },
+    {
+      question: "How can I donate or support MyVoteMyVoice's initiatives?",
+      answer: "You can donate through our website or participate in fundraising events to support our initiatives."
+    },
+    {
+      question: "What programs does MyVoteMyVoice offer for community empowerment?",
+      answer: "We offer various programs focused on education, health awareness, and skills training for community members."
+    },
+    {
+      question: "Can I volunteer with MyVoteMyVoice?",
+      answer: "Yes, we welcome volunteers! You can sign up on our website to learn more about available opportunities."
+    }
+  ];
+
   return (
     <div className="bg-white">
       <div
@@ -51,7 +78,7 @@ const Home = () => {
         style={{
           backgroundImage: "url('/background.png')",
           backgroundSize: "contain",
-          minHeight: "400px",
+          minHeight: "500px",
         }}
       >
         <h2
@@ -110,8 +137,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div
-        className="max-w-7xl mx-auto mt-10 py-5 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white"
+      <div id="about"
+        className="max-w-7xl mx-auto mt-20 py-5 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background2.png')",
           backgroundSize: "contain",
@@ -231,11 +258,11 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-10 bg-no-repeat bg-white"
+        className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background.png')",
           backgroundSize: "contain",
-          minHeight: "400px",
+          minHeight: "500px",
         }}
       >
         <h2
@@ -306,12 +333,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div
-        className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-10 bg-no-repeat bg-white"
+      <div id="initiative"
+        className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background2.png')",
           backgroundSize: "contain",
-          minHeight: "400px",
+          minHeight: "500px",
         }}
       >
         <h2
@@ -333,82 +360,550 @@ const Home = () => {
           equality.
         </p>
 
-
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-20 mx-44">
-  <div className="flex flex-col items-center bg-white rounded-lg ">
-    <div>
-      <img src="/image-6.png" alt="Education" className="rounded-lg mb-3 h-38 w-auto" />
-    </div>
-    <div className="p-1">
-      <h3 className="text-sm font-bold text-black text-left">Education</h3>
-      <p className="text-gray-500 text-left text-xs mt-2">
-        Building learning centers and improving schools in rural areas.
-      </p>
-      <div className="mt-auto"> {/* Push button to the bottom */}
-        <Link href="/learn-more-education">
-          <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-2 hover:bg-[#83CC20] hover:text-white">
-            Learn More
-          </button>
-        </Link>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-20 mx-44">
+          <div className="flex flex-col items-center bg-white rounded-lg h-full">
+            {" "}
+            {/* Added h-full to ensure full height */}
+            <div>
+              <img
+                src="/image-6.png"
+                alt="Education"
+                className="rounded-lg mb-3 h-38 w-auto"
+              />
+            </div>
+            <div className="p-1 flex flex-col justify-between flex-grow">
+              {" "}
+              {/* Added flex-grow to fill space */}
+              <div>
+                <h3 className="text-sm font-bold text-black text-left">
+                  Education
+                </h3>
+                <p className="text-gray-500 text-left text-xs mt-2">
+                  Building learning centers and improving schools in rural
+                  areas.
+                </p>
+              </div>
+              <div className="mt-auto">
+                {" "}
+                {/* Push button to the bottom */}
+                <Link href="/learn-more-education">
+                  <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
+                    Learn More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center bg-white rounded-lg h-full">
+            {" "}
+            {/* Added h-full to ensure full height */}
+            <div>
+              <img
+                src="/image-8.png"
+                alt="Healthcare"
+                className="rounded-lg mb-3 h-38 w-auto"
+              />
+            </div>
+            <div className="p-1 flex flex-col justify-between flex-grow">
+              {" "}
+              {/* Added flex-grow to fill space */}
+              <div>
+                <h3 className="text-sm font-bold text-black text-left">
+                  Healthcare
+                </h3>
+                <p className="text-gray-500 text-left text-xs mt-2">
+                  Helping children and women to stay healthy with better
+                  nutrition and care.
+                </p>
+              </div>
+              <div className="mt-auto">
+                {" "}
+                {/* Push button to the bottom */}
+                <Link href="/learn-more-healthcare">
+                  <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
+                    Learn More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center bg-white rounded-lg h-full">
+            {" "}
+            {/* Added h-full to ensure full height */}
+            <div>
+              <img
+                src="/image-9.png"
+                alt="Women's Empowerment"
+                className="rounded-lg mb-3 h-38 w-auto"
+              />
+            </div>
+            <div className="p-1 flex flex-col justify-between flex-grow">
+              {" "}
+              {/* Added flex-grow to fill space */}
+              <div>
+                <h3 className="text-sm font-bold text-black text-left">
+                  Women's Empowerment
+                </h3>
+                <p className="text-gray-500 text-left text-xs mt-2">
+                  Support women to start businesses and gain financial
+                  independence.
+                </p>
+              </div>
+              <div className="mt-auto">
+                {" "}
+                {/* Push button to the bottom */}
+                <Link href="/learn-more-women-empowerment">
+                  <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
+                    Learn More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center bg-white rounded-lg h-full">
+            {" "}
+            {/* Added h-full to ensure full height */}
+            <div>
+              <img
+                src="/image-10.png"
+                alt="Civic Engagement"
+                className="rounded-lg mb-3 h-38 w-auto"
+              />
+            </div>
+            <div className="p-1 flex flex-col justify-between flex-grow">
+              {" "}
+              {/* Added flex-grow to fill space */}
+              <div>
+                <h3 className="text-sm font-bold text-black text-left">
+                  Civic Engagement
+                </h3>
+                <p className="text-gray-500 text-left text-xs mt-2">
+                  Teaching people about their rights and how to make a
+                  difference in their communities.
+                </p>
+              </div>
+              <div className="mt-auto">
+                {" "}
+                {/* Push button to the bottom */}
+                <Link href="/learn-more-civic-engagement">
+                  <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
+                    Learn More
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="testimonials"
+          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+          style={{
+            backgroundImage: "url('/background.png')",
+            backgroundSize: "contain",
+            minHeight: "500px",
+          }}
+        >
+          <h2
+            className="text-xl font-extrabold mt-10 text-center"
+            style={{
+              background:
+                "linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            Testimonials
+          </h2>
+          <p className="mb-4 mt-5 text-3xl text-black text-center lg:text-center">
+            Our Impact in Their Words
+          </p>
+          <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
+            These stories reflect the real change we are creating together.
+          </p>
+          <div className="flex flex-col gap-6 mt-15 mx-40">
+            <div className="flex w-full gap-4">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-1/2">
+                <img
+                  src="/test1.png"
+                  alt="Daniel Grey"
+                  className="rounded-full h-12 w-12 mr-4"
+                />{" "}
+                {/* Circular image */}
+                <div>
+                  <h3 className="text-sm mb-2 font-bold">Daniel Grey</h3>
+                  <p className="text-sm mb-2 text-gray-500">Volunteer</p>
+                  <div className="flex mb-2">
+                    {/* Stars */}
+                    {[...Array(5)].map((_, index) => (
+                      <svg
+                        key={index}
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 mr-1 text-yellow-500"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <h4 className="text-md mb-2 font-semibold">
+                    A great experience
+                  </h4>
+                  <p className="text-gray-600 text-sm">
+                    Volunteering with MyvoteMyvoice gave me a new perspective on
+                    the importance of community. It's amazing to be part of an
+                    organization that truly makes a difference.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-1/2">
+                <img
+                  src="/test2.png"
+                  alt="Jane Doe"
+                  className="rounded-full h-12 w-12 mr-4"
+                />{" "}
+                {/* Circular image */}
+                <div>
+                  <h3 className="text-sm mb-2 font-bold">Jane Doe</h3>
+                  <p className="text-sm mb-2 text-gray-500">Volunteer</p>
+                  <div className="flex mb-2">
+                    {/* Stars */}
+                    {[...Array(5)].map((_, index) => (
+                      <svg
+                        key={index}
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 . mr-1 text-yellow-500"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <h4 className="text-md mb-2 font-semibold">
+                    An inspiring journey
+                  </h4>
+                  <p className="text-gray-600 text-sm">
+                    My time with MyvoteMyvoice has been transformative, allowing
+                    me to connect with the community and make a real impact.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex w-full gap-4">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-1/2">
+                <img
+                  src="/test3.png"
+                  alt="John Smith"
+                  className="rounded-full h-12 w-12 mr-4"
+                />{" "}
+                {/* Circular image */}
+                <div>
+                  <h3 className="text-sm mb-2 font-bold">John Smith</h3>
+                  <p className="text-sm mb-2 text-gray-500">Volunteer</p>
+                  <div className="flex mb-2">
+                    {/* Stars */}
+                    {[...Array(5)].map((_, index) => (
+                      <svg
+                        key={index}
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 mr-1 text-yellow-500"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <h4 className="text-md mb-2 font-semibold">
+                    A rewarding experience
+                  </h4>
+                  <p className="text-gray-600 text-sm">
+                    Being a part of MyvoteMyvoice has opened my eyes to the
+                    power of community service and collaboration.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-1/2">
+                <img
+                  src="/test4.png"
+                  alt="Emily Johnson"
+                  className="rounded-full h-12 w-12 mr-4"
+                />{" "}
+                {/* Circular image */}
+                <div>
+                  <h3 className="text-sm mb-2 font-bold">Emily Johnson</h3>
+                  <p className="text-sm mb-2 text-gray-500">Volunteer</p>
+                  <div className="flex mb-2">
+                    {/* Stars */}
+                    {[...Array(5)].map((_, index) => (
+                      <svg
+                        key={index}
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 mr-1 text-yellow-500"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <h4 className="text-md mb-2 font-semibold">
+                    An unforgettable journey
+                  </h4>
+                  <p className="text-gray-600 text-sm">
+                    Volunteering with MyvoteMyvoice has been a life-changing
+                    experience, filled with learning and growth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="get-involved"
+          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+          style={{
+            backgroundImage: "url('/background3.jpg')",
+            backgroundSize: "contain",
+            minHeight: "500px",
+          }}
+        >
+          <h2
+            className="text-xl font-extrabold mt-10 text-center"
+            style={{
+              background:
+                "linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            Get Inovolved
+          </h2>
+          <p className="mb-4 mt-5 text-3xl text-black text-center lg:text-center">
+            Join us in making a difference
+          </p>
+          <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
+            Turning ideas into impact, one community at a time.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-20 mx-60">
+            <div className="flex flex-col items-start">
+              <img
+                src="/ki1.png"
+                alt="Access to help"
+                className="h-12 w-auto"
+              />
+              <h3 className="text-xs font-bold mt-5 text-black">Volunteer</h3>
+              <p className="text-gray-500 text-left text-xs mt-3">
+                Give your time to make an impact.
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img
+                src="/ki2.png"
+                alt="Bring people together"
+                className="h-12 w-auto"
+              />
+              <h3 className="text-xs font-bold mt-5 text-black">Donate</h3>
+              <p className="text-gray-500 text-left text-xs mt-3">
+                Support our cause with a contribution.
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img src="/ki3.png" alt="Stay updated" className="h-12 w-auto" />
+              <h3 className="text-sm font-bold mt-5 text-black">Your Impact</h3>
+              <p className="text-gray-500 text-left text-sm mt-3">
+                Every action makes a difference.
+              </p>
+            </div>
+            <div className="flex flex-col items-start">
+              <img
+                src="/ki4.png"
+                alt="Spreading awareness"
+                className="h-12 w-auto"
+              />
+              <h3 className="text-xs font-bold mt-5 text-black">Join Us</h3>
+              <p className="text-gray-500 text-left text-xs mt-3">
+                Be part of the movement.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="contact"
+          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+          style={{
+            backgroundImage: "url('/background.png')",
+            backgroundSize: "contain",
+            minHeight: "500px",
+          }}
+        >
+          <h2
+            className="text-xl font-extrabold mt-10 text-center"
+            style={{
+              background:
+                "linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            Contact Us
+          </h2>
+          <p className="mb-4 mt-5 text-3xl font-bold text-black text-center lg:text-center">
+            Have questions? Our team is ready to<br /> assist you with anything you need
+          </p>
+          <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
+            Discover our programs making a lasting impact on education, health and equality.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 mt-20 mx-10">
+            <div className="flex items-center justify-center bg-white h-full">
+              <img src="/contact.jpg" alt="Contact" className="rounded-lg h-auto w-full max-w-lg" />
+            </div>
+            <div className="flex items-center justify-center bg-white h-full">
+              <form className="w-full max-w-lg">
+                <div className="mb-4 flex">
+                  <div className="mr-2 w-full">
+                    <div className="flex items-center border border-gray-300 rounded">
+                      <span className="flex items-center pl-2">
+                        {/* User Icon Placeholder */}
+                      </span>
+                      <input
+                        className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
+                        id="name"
+                        type="text"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full">
+                    <div className="flex items-center border border-gray-300 rounded">
+                      <span className="flex items-center pl-2">
+                        {/* Envelope Icon Placeholder */}
+                      </span>
+                      <input
+                        className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
+                        id="email"
+                        type="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-4">
+                  <div className="flex items-center border border-gray-300 rounded">
+                    <span className="flex items-center pl-2">
+                      {/* Document Icon Placeholder */}
+                    </span>
+                    <input
+                      className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
+                      id="subject"
+                      type="text"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="mb-4">
+                  <textarea
+                    className="border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
+                    id="message"
+                    placeholder="Your Message"
+                    required 
+                    rows="7"
+                  ></textarea>
+                </div>
+                <div className="flex items-center justify-between">
+                  <button
+                    className="bg-[#6AA910] hover:bg-[#5F990C] text-white font-bold py-2 px-4 rounded w-full focus:outline-none"
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+          style={{
+            backgroundImage: "url('/background3.jpg')",
+            backgroundSize: "contain",
+            minHeight: "500px",
+          }}
+        >
+          <h2
+            className="text-xl font-extrabold mt-10 text-center"
+            style={{
+              background:
+                "linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            FAQs
+          </h2>
+          <p className="mb-4 mt-5 text-2xl text-black text-center lg:text-center">
+            Join us in making a difference
+          </p>
+          <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
+            Our FAQ section covers everything you need to know.
+          </p>
+          <div className="mt-10 mx-40">
+            {faqs.map((faq, index) => (
+              <div key={index} className="mb-4">
+                <div
+                  className="flex items-center justify-between cursor-pointer border border-gray-300 bg-gray-100 rounded-lg p-3"
+                  onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                >
+                  <h3 className="text-md font-semibold">{faq.question}</h3>
+                  <span className="text-lg">{openIndex === index ? '-' : '+'}</span>
+                </div>
+                {openIndex === index && (
+                  <div className="bg-gray-50 rounded-lg p-3 mt-2">
+                    <p className="text-sm text-gray-600">{faq.answer}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+        <div
+          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 mb-20 bg-no-repeat bg-white"
+          style={{
+            backgroundImage: "url('/background.png')",
+            backgroundSize: "contain",
+            minHeight: "500px",
+          }}
+        >
+        <div
+          className="max-w-7xl py-20 px-4 sm:px-6 lg:px-8 relative mt-40 mx-40 bg-[#6AA910] text-center rounded-lg"
+        >
+          <h2 className="text-3xl font-bold text-white">
+            Join us and let's make a better world, today
+          </h2>
+          <p className="mt-2 mb-6 text-lg text-white">
+            Unite for progress creating impactful solutions for a better world.
+          </p>
+          <div className="max-w-md mx-auto p-1 bg-white rounded">
+            <form className="flex">
+              <input
+                type="email"
+                placeholder="Email"
+                className="border-none rounded-l-lg py-2 px-4 w-full focus:outline-none"
+                style={{ marginRight: '0.5rem' }}
+              />
+              <button
+                type="submit"
+                className="bg-[#5F990C] hover:bg-[#6AA910] text-white font-bold py-2 px-4 rounded-lg w-auto"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div className="flex flex-col items-center bg-white rounded-lg ">
-    <div>
-      <img src="/image-8.png" alt="Healthcare" className="rounded-lg mb-3 h-38 w-auto" />
-    </div>
-    <div className="p-1">
-      <h3 className="text-sm font-bold text-black text-left">Healthcare</h3>
-      <p className="text-gray-500 text-left text-xs mt-2">
-        Helping children and women to stay healthy with better nutrition and care.
-      </p>
-      <div className="mt-auto"> {/* Push button to the bottom */}
-        <Link href="/learn-more-healthcare">
-          <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-2 hover:bg-[#83CC20] hover:text-white">
-            Learn More
-          </button>
-        </Link>
-      </div>
-    </div>
-  </div>
-  <div className="flex flex-col items-center bg-white rounded-lg ">
-    <div>
-      <img src="/image-9.png" alt="Women’s Empowerment" className="rounded-lg mb-3 h-38 w-auto" />
-    </div>
-    <div className="p-1">
-      <h3 className="text-sm font-bold text-black text-left">Women’s Empowerment</h3>
-      <p className="text-gray-500 text-left text-xs mt-2">
-        Support women to start businesses and gain financial independence.
-      </p>
-      <div className="mt-auto"> {/* Push button to the bottom */}
-        <Link href="/learn-more-women-empowerment">
-          <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-2 hover:bg-[#83CC20] hover:text-white">
-            Learn More
-          </button>
-        </Link>
-      </div>
-    </div>
-  </div>
-  <div className="flex flex-col items-center bg-white rounded-lg">
-    <div>
-      <img src="/image-10.png" alt="Civic Engagement" className="rounded-lg mb-3 h-38 w-auto" />
-    </div>
-    <div className="p-1">
-      <h3 className="text-sm font-bold text-black text-left">Civic Engagement</h3>
-      <p className="text-gray-500 text-left text-xs mt-2">
-        Teaching people about their rights and how to make a difference in their communities.
-      </p>
-      <div className="mt-auto"> {/* Push button to the bottom */}
-        <Link href="/learn-more-civic-engagement">
-          <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-2 hover:bg-[#83CC20] hover:text-white">
-            Learn More
-          </button>
-        </Link>
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
+      <Footer />
     </div>
   );
 };
