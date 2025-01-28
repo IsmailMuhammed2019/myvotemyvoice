@@ -588,6 +588,10 @@ const Home = ()=>{
             answer: "Yes, we welcome volunteers! You can sign up on our website to learn more about available opportunities."
         }
     ];
+    const handleComingSoon = (e)=>{
+        e.preventDefault(); // Prevent the default link behavior
+        alert("Coming Soon"); // Show alert message
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
         className: "bg-white",
         children: [
@@ -602,7 +606,7 @@ const Home = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 43,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -621,7 +625,7 @@ const Home = ()=>{
                                                     children: "Big Hearts, Bold Changes"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 48,
+                                                    lineNumber: 53,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
@@ -630,13 +634,13 @@ const Home = ()=>{
                                                     width: "200px"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 51,
+                                                    lineNumber: 56,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 47,
+                                            lineNumber: 52,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -648,7 +652,7 @@ const Home = ()=>{
                                                     children: "better"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 54,
+                                                    lineNumber: 59,
                                                     columnNumber: 28
                                                 }, this),
                                                 " ",
@@ -656,7 +660,7 @@ const Home = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 53,
+                                            lineNumber: 58,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -664,30 +668,31 @@ const Home = ()=>{
                                             children: "Helping everyone learn, stay healthy, and work together."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 57,
+                                            lineNumber: 62,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                             className: "mt-4 mb-4 flex justify-center lg:justify-start",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/donate",
+                                                onClick: handleComingSoon,
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                                     className: "h-12",
                                                     src: "/button.png",
                                                     alt: "click"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 62,
+                                                    lineNumber: 67,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 61,
+                                                lineNumber: 66,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 60,
+                                            lineNumber: 65,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -695,13 +700,13 @@ const Home = ()=>{
                                             children: "Let's help people MyvoteMyvoice is an NGO that makes schools better, helps with health, and supports women in small villages."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 65,
+                                            lineNumber: 70,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 46,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -712,29 +717,29 @@ const Home = ()=>{
                                         alt: "Placeholder"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 71,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 70,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 45,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 44,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 34,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -755,7 +760,7 @@ const Home = ()=>{
                         children: "Benefits"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 84,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -770,7 +775,7 @@ const Home = ()=>{
                                         className: "h-12 w-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 97,
+                                        lineNumber: 102,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -778,7 +783,7 @@ const Home = ()=>{
                                         children: "Access to help"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 98,
+                                        lineNumber: 103,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -786,13 +791,13 @@ const Home = ()=>{
                                         children: "Find information on education and healthcare."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 101,
+                                        lineNumber: 106,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 96,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -804,7 +809,7 @@ const Home = ()=>{
                                         className: "h-12 w-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 106,
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -812,7 +817,7 @@ const Home = ()=>{
                                         children: "Bring people together"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 111,
+                                        lineNumber: 116,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -820,13 +825,13 @@ const Home = ()=>{
                                         children: "Connect with others to work on important projects."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 114,
+                                        lineNumber: 119,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 105,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -838,7 +843,7 @@ const Home = ()=>{
                                         className: "h-12 w-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 119,
+                                        lineNumber: 124,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -846,7 +851,7 @@ const Home = ()=>{
                                         children: "Stay updated"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 120,
+                                        lineNumber: 125,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -854,13 +859,13 @@ const Home = ()=>{
                                         children: "Get the latest news on program and success stories."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 121,
+                                        lineNumber: 126,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 118,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -872,7 +877,7 @@ const Home = ()=>{
                                         className: "h-12 w-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 126,
+                                        lineNumber: 131,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -880,7 +885,7 @@ const Home = ()=>{
                                         children: "Spreading awareness"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 131,
+                                        lineNumber: 136,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -888,25 +893,25 @@ const Home = ()=>{
                                         children: "Learn about issues and how you can make a difference."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 134,
+                                        lineNumber: 139,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 125,
+                                lineNumber: 130,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 95,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 76,
+                lineNumber: 81,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -928,7 +933,7 @@ const Home = ()=>{
                         children: "About Us"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 148,
+                        lineNumber: 153,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -937,20 +942,20 @@ const Home = ()=>{
                             "Working to empower communities through ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 160,
+                                lineNumber: 165,
                                 columnNumber: 50
                             }, this),
                             " education,health women's support and ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 161,
+                                lineNumber: 166,
                                 columnNumber: 23
                             }, this),
                             "civic awareness"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 159,
+                        lineNumber: 164,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -958,7 +963,7 @@ const Home = ()=>{
                         children: "Creating opportunities, changing lives, Building stronger communities."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 164,
+                        lineNumber: 169,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -978,12 +983,12 @@ const Home = ()=>{
                                                     alt: "Placeholder"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 171,
+                                                    lineNumber: 176,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 170,
+                                                lineNumber: 175,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -994,7 +999,7 @@ const Home = ()=>{
                                                         alt: "Placeholder"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 178,
+                                                        lineNumber: 183,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
@@ -1003,19 +1008,19 @@ const Home = ()=>{
                                                         alt: "Placeholder"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 183,
+                                                        lineNumber: 188,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 177,
+                                                lineNumber: 182,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 169,
+                                        lineNumber: 174,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1025,18 +1030,18 @@ const Home = ()=>{
                                             alt: "Placeholder"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 191,
+                                            lineNumber: 196,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 190,
+                                        lineNumber: 195,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 168,
+                                lineNumber: 173,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1052,7 +1057,7 @@ const Home = ()=>{
                                                 className: "h-10 w-auto mr-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 202,
+                                                lineNumber: 207,
                                                 columnNumber: 15
                                             }, this),
                                             " ",
@@ -1063,7 +1068,7 @@ const Home = ()=>{
                                                         children: "Access to Education in Rural Areas"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 209,
+                                                        lineNumber: 214,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1071,19 +1076,19 @@ const Home = ()=>{
                                                         children: "We create rural learning centers and promote quality education to empower communities and build a strong democratic society."
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 212,
+                                                        lineNumber: 217,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 208,
+                                                lineNumber: 213,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 199,
+                                        lineNumber: 204,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1096,7 +1101,7 @@ const Home = ()=>{
                                                 className: "h-10 w-auto mr-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 221,
+                                                lineNumber: 226,
                                                 columnNumber: 15
                                             }, this),
                                             " ",
@@ -1107,7 +1112,7 @@ const Home = ()=>{
                                                         children: "Health Advocacy"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 228,
+                                                        lineNumber: 233,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1115,19 +1120,19 @@ const Home = ()=>{
                                                         children: "We support better access to healthcare, improve child and women's nutrition and promote wellness programs to reduce inequalities and create healthier communities."
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 229,
+                                                        lineNumber: 234,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 227,
+                                                lineNumber: 232,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 218,
+                                        lineNumber: 223,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1140,7 +1145,7 @@ const Home = ()=>{
                                                 className: "h-10 w-auto mr-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 239,
+                                                lineNumber: 244,
                                                 columnNumber: 15
                                             }, this),
                                             " ",
@@ -1151,7 +1156,7 @@ const Home = ()=>{
                                                         children: "Women's Empowerment"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 246,
+                                                        lineNumber: 251,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1159,53 +1164,54 @@ const Home = ()=>{
                                                         children: "We help women succeed by supporting women-owned businesses and creating opportunities for economic independence and leadership."
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 247,
+                                                        lineNumber: 252,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 245,
+                                                lineNumber: 250,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 236,
+                                        lineNumber: 241,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "flex justify-center mx-auto",
+                                        className: "flex flex-col items-center",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                             src: "/button-6.png",
                                             alt: "prod",
-                                            className: "h-10 w-auto "
+                                            className: "h-10 w-auto",
+                                            onClick: handleComingSoon
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 255,
+                                            lineNumber: 260,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 254,
+                                        lineNumber: 259,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 198,
+                                lineNumber: 203,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 167,
+                        lineNumber: 172,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 140,
+                lineNumber: 145,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1226,7 +1232,7 @@ const Home = ()=>{
                         children: "What We Do"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 268,
+                        lineNumber: 273,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1234,7 +1240,7 @@ const Home = ()=>{
                         children: "We Make a Difference"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 279,
+                        lineNumber: 284,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1242,7 +1248,7 @@ const Home = ()=>{
                         children: "Turning ideas into impact, one community at a time."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 282,
+                        lineNumber: 287,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1258,13 +1264,13 @@ const Home = ()=>{
                                         children: "At the heart of everything we do is the drive to create meaningful change. From building education programs in rural areas to supporting healthcare initiatives and empowering women, we are committed to improving lives. By raising awareness about civic responsibilities and fostering community engagement, we help individuals take charge of their futures. Together, we are making the world a healthier, fairer, and more hopeful place—one step at a time."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 291,
+                                        lineNumber: 296,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 288,
+                                lineNumber: 293,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1282,7 +1288,7 @@ const Home = ()=>{
                                                 children: "150K"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 307,
+                                                lineNumber: 312,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1290,13 +1296,13 @@ const Home = ()=>{
                                                 children: "Human impact"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 310,
+                                                lineNumber: 315,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 305,
+                                        lineNumber: 310,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1310,7 +1316,7 @@ const Home = ()=>{
                                                 children: "800"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 314,
+                                                lineNumber: 319,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1318,13 +1324,13 @@ const Home = ()=>{
                                                 children: "Assisted communities"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 317,
+                                                lineNumber: 322,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 312,
+                                        lineNumber: 317,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1338,7 +1344,7 @@ const Home = ()=>{
                                                 children: "200K"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 321,
+                                                lineNumber: 326,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1346,13 +1352,13 @@ const Home = ()=>{
                                                 children: "Donations"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 324,
+                                                lineNumber: 329,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 319,
+                                        lineNumber: 324,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1366,7 +1372,7 @@ const Home = ()=>{
                                                 children: "800K"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 328,
+                                                lineNumber: 333,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1374,31 +1380,31 @@ const Home = ()=>{
                                                 children: "Collaborations"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 331,
+                                                lineNumber: 336,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 326,
+                                        lineNumber: 331,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 302,
+                                lineNumber: 307,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 285,
+                        lineNumber: 290,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 260,
+                lineNumber: 265,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1420,7 +1426,7 @@ const Home = ()=>{
                         children: "Our Intitiative"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 344,
+                        lineNumber: 349,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1428,7 +1434,7 @@ const Home = ()=>{
                         children: "Empowering communities through action"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 355,
+                        lineNumber: 360,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1436,7 +1442,7 @@ const Home = ()=>{
                         children: "Discover our programs making a lasting impact on education, health and equality."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 358,
+                        lineNumber: 363,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1453,12 +1459,12 @@ const Home = ()=>{
                                             className: "rounded-lg mb-3 h-38 w-auto"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 368,
+                                            lineNumber: 373,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 367,
+                                        lineNumber: 372,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1472,7 +1478,7 @@ const Home = ()=>{
                                                         children: "Education"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 378,
+                                                        lineNumber: 383,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1480,13 +1486,13 @@ const Home = ()=>{
                                                         children: "Building learning centers and improving schools in rural areas."
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 381,
+                                                        lineNumber: 386,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 377,
+                                                lineNumber: 382,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1494,36 +1500,37 @@ const Home = ()=>{
                                                 children: [
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/learn-more-education",
+                                                        href: "#",
+                                                        onClick: handleComingSoon,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                                                             className: "mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white",
                                                             children: "Learn More"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 390,
+                                                            lineNumber: 395,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 389,
+                                                        lineNumber: 394,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 386,
+                                                lineNumber: 391,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 374,
+                                        lineNumber: 379,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 364,
+                                lineNumber: 369,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1537,12 +1544,12 @@ const Home = ()=>{
                                             className: "rounded-lg mb-3 h-38 w-auto"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 401,
+                                            lineNumber: 406,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 400,
+                                        lineNumber: 405,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1556,7 +1563,7 @@ const Home = ()=>{
                                                         children: "Healthcare"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 411,
+                                                        lineNumber: 416,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1564,13 +1571,13 @@ const Home = ()=>{
                                                         children: "Helping children and women to stay healthy with better nutrition and care."
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 414,
+                                                        lineNumber: 419,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 410,
+                                                lineNumber: 415,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1578,36 +1585,37 @@ const Home = ()=>{
                                                 children: [
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/learn-more-healthcare",
+                                                        href: "#",
+                                                        onClick: handleComingSoon,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                                                             className: "mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white",
                                                             children: "Learn More"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 423,
+                                                            lineNumber: 428,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 422,
+                                                        lineNumber: 427,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 419,
+                                                lineNumber: 424,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 407,
+                                        lineNumber: 412,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 397,
+                                lineNumber: 402,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1621,12 +1629,12 @@ const Home = ()=>{
                                             className: "rounded-lg mb-3 h-38 w-auto"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 434,
+                                            lineNumber: 439,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 433,
+                                        lineNumber: 438,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1640,7 +1648,7 @@ const Home = ()=>{
                                                         children: "Women's Empowerment"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 444,
+                                                        lineNumber: 449,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1648,13 +1656,13 @@ const Home = ()=>{
                                                         children: "Support women to start businesses and gain financial independence."
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 447,
+                                                        lineNumber: 452,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 443,
+                                                lineNumber: 448,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1662,36 +1670,37 @@ const Home = ()=>{
                                                 children: [
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/learn-more-women-empowerment",
+                                                        href: "#",
+                                                        onClick: handleComingSoon,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                                                             className: "mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white",
                                                             children: "Learn More"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 456,
+                                                            lineNumber: 461,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 455,
+                                                        lineNumber: 460,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 452,
+                                                lineNumber: 457,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 440,
+                                        lineNumber: 445,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 430,
+                                lineNumber: 435,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1705,12 +1714,12 @@ const Home = ()=>{
                                             className: "rounded-lg mb-3 h-38 w-auto"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 467,
+                                            lineNumber: 472,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 466,
+                                        lineNumber: 471,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1724,7 +1733,7 @@ const Home = ()=>{
                                                         children: "Civic Engagement"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 477,
+                                                        lineNumber: 482,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1732,13 +1741,13 @@ const Home = ()=>{
                                                         children: "Teaching people about their rights and how to make a difference in their communities."
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 480,
+                                                        lineNumber: 485,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 476,
+                                                lineNumber: 481,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1746,42 +1755,43 @@ const Home = ()=>{
                                                 children: [
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/learn-more-civic-engagement",
+                                                        href: "#",
+                                                        onClick: handleComingSoon,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                                                             className: "mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white",
                                                             children: "Learn More"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 489,
+                                                            lineNumber: 494,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 488,
+                                                        lineNumber: 493,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 485,
+                                                lineNumber: 490,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 473,
+                                        lineNumber: 478,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 463,
+                                lineNumber: 468,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 363,
+                        lineNumber: 368,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1803,7 +1813,7 @@ const Home = ()=>{
                                 children: "Testimonials"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 505,
+                                lineNumber: 510,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1811,7 +1821,7 @@ const Home = ()=>{
                                 children: "Our Impact in Their Words"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 516,
+                                lineNumber: 521,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1819,7 +1829,7 @@ const Home = ()=>{
                                 children: "These stories reflect the real change we are creating together."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 519,
+                                lineNumber: 524,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1837,7 +1847,7 @@ const Home = ()=>{
                                                         className: "rounded-full h-12 w-12 mr-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 525,
+                                                        lineNumber: 530,
                                                         columnNumber: 17
                                                     }, this),
                                                     " ",
@@ -1848,7 +1858,7 @@ const Home = ()=>{
                                                                 children: "Daniel Grey"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 532,
+                                                                lineNumber: 537,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1856,7 +1866,7 @@ const Home = ()=>{
                                                                 children: "Volunteer"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 533,
+                                                                lineNumber: 538,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1872,17 +1882,17 @@ const Home = ()=>{
                                                                             d: "M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/index.js",
-                                                                            lineNumber: 544,
+                                                                            lineNumber: 549,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     }, index, false, {
                                                                         fileName: "[project]/pages/index.js",
-                                                                        lineNumber: 537,
+                                                                        lineNumber: 542,
                                                                         columnNumber: 23
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 534,
+                                                                lineNumber: 539,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -1890,7 +1900,7 @@ const Home = ()=>{
                                                                 children: "A great experience"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 548,
+                                                                lineNumber: 553,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1898,19 +1908,19 @@ const Home = ()=>{
                                                                 children: "Volunteering with MyvoteMyvoice gave me a new perspective on the importance of community. It's amazing to be part of an organization that truly makes a difference."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 551,
+                                                                lineNumber: 556,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 531,
+                                                        lineNumber: 536,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 524,
+                                                lineNumber: 529,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1922,7 +1932,7 @@ const Home = ()=>{
                                                         className: "rounded-full h-12 w-12 mr-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 559,
+                                                        lineNumber: 564,
                                                         columnNumber: 17
                                                     }, this),
                                                     " ",
@@ -1933,7 +1943,7 @@ const Home = ()=>{
                                                                 children: "Jane Doe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 566,
+                                                                lineNumber: 571,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1941,7 +1951,7 @@ const Home = ()=>{
                                                                 children: "Volunteer"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 567,
+                                                                lineNumber: 572,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1957,17 +1967,17 @@ const Home = ()=>{
                                                                             d: "M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/index.js",
-                                                                            lineNumber: 578,
+                                                                            lineNumber: 583,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     }, index, false, {
                                                                         fileName: "[project]/pages/index.js",
-                                                                        lineNumber: 571,
+                                                                        lineNumber: 576,
                                                                         columnNumber: 23
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 568,
+                                                                lineNumber: 573,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -1975,7 +1985,7 @@ const Home = ()=>{
                                                                 children: "An inspiring journey"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 582,
+                                                                lineNumber: 587,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1983,25 +1993,25 @@ const Home = ()=>{
                                                                 children: "My time with MyvoteMyvoice has been transformative, allowing me to connect with the community and make a real impact."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 585,
+                                                                lineNumber: 590,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 565,
+                                                        lineNumber: 570,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 558,
+                                                lineNumber: 563,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 523,
+                                        lineNumber: 528,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2016,7 +2026,7 @@ const Home = ()=>{
                                                         className: "rounded-full h-12 w-12 mr-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 594,
+                                                        lineNumber: 599,
                                                         columnNumber: 17
                                                     }, this),
                                                     " ",
@@ -2027,7 +2037,7 @@ const Home = ()=>{
                                                                 children: "John Smith"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 601,
+                                                                lineNumber: 606,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2035,7 +2045,7 @@ const Home = ()=>{
                                                                 children: "Volunteer"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 602,
+                                                                lineNumber: 607,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2051,17 +2061,17 @@ const Home = ()=>{
                                                                             d: "M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/index.js",
-                                                                            lineNumber: 613,
+                                                                            lineNumber: 618,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     }, index, false, {
                                                                         fileName: "[project]/pages/index.js",
-                                                                        lineNumber: 606,
+                                                                        lineNumber: 611,
                                                                         columnNumber: 23
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 603,
+                                                                lineNumber: 608,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -2069,7 +2079,7 @@ const Home = ()=>{
                                                                 children: "A rewarding experience"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 617,
+                                                                lineNumber: 622,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2077,19 +2087,19 @@ const Home = ()=>{
                                                                 children: "Being a part of MyvoteMyvoice has opened my eyes to the power of community service and collaboration."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 620,
+                                                                lineNumber: 625,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 600,
+                                                        lineNumber: 605,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 593,
+                                                lineNumber: 598,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2101,7 +2111,7 @@ const Home = ()=>{
                                                         className: "rounded-full h-12 w-12 mr-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 627,
+                                                        lineNumber: 632,
                                                         columnNumber: 17
                                                     }, this),
                                                     " ",
@@ -2112,7 +2122,7 @@ const Home = ()=>{
                                                                 children: "Emily Johnson"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 634,
+                                                                lineNumber: 639,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2120,7 +2130,7 @@ const Home = ()=>{
                                                                 children: "Volunteer"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 635,
+                                                                lineNumber: 640,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2136,17 +2146,17 @@ const Home = ()=>{
                                                                             d: "M10 15.27L16.18 19l-1.64-7.03L20 7.24l-7.19-.61L10 0 7.19 6.63 0 7.24l5.46 4.73L3.82 19z"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/index.js",
-                                                                            lineNumber: 646,
+                                                                            lineNumber: 651,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     }, index, false, {
                                                                         fileName: "[project]/pages/index.js",
-                                                                        lineNumber: 639,
+                                                                        lineNumber: 644,
                                                                         columnNumber: 23
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 636,
+                                                                lineNumber: 641,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -2154,7 +2164,7 @@ const Home = ()=>{
                                                                 children: "An unforgettable journey"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 650,
+                                                                lineNumber: 655,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2162,37 +2172,37 @@ const Home = ()=>{
                                                                 children: "Volunteering with MyvoteMyvoice has been a life-changing experience, filled with learning and growth."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 653,
+                                                                lineNumber: 658,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 633,
+                                                        lineNumber: 638,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 626,
+                                                lineNumber: 631,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 592,
+                                        lineNumber: 597,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 522,
+                                lineNumber: 527,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 497,
+                        lineNumber: 502,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2214,7 +2224,7 @@ const Home = ()=>{
                                 children: "Get Inovolved"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 670,
+                                lineNumber: 675,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2222,7 +2232,7 @@ const Home = ()=>{
                                 children: "Join us in making a difference"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 681,
+                                lineNumber: 686,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2230,7 +2240,7 @@ const Home = ()=>{
                                 children: "Turning ideas into impact, one community at a time."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 684,
+                                lineNumber: 689,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2245,7 +2255,7 @@ const Home = ()=>{
                                                 className: "h-12 w-auto"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 689,
+                                                lineNumber: 694,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -2253,7 +2263,7 @@ const Home = ()=>{
                                                 children: "Volunteer"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 694,
+                                                lineNumber: 699,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2261,13 +2271,13 @@ const Home = ()=>{
                                                 children: "Give your time to make an impact."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 695,
+                                                lineNumber: 700,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 688,
+                                        lineNumber: 693,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2279,7 +2289,7 @@ const Home = ()=>{
                                                 className: "h-12 w-auto"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 700,
+                                                lineNumber: 705,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -2287,7 +2297,7 @@ const Home = ()=>{
                                                 children: "Donate"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 705,
+                                                lineNumber: 710,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2295,13 +2305,13 @@ const Home = ()=>{
                                                 children: "Support our cause with a contribution."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 706,
+                                                lineNumber: 711,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 699,
+                                        lineNumber: 704,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2313,7 +2323,7 @@ const Home = ()=>{
                                                 className: "h-12 w-auto"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 711,
+                                                lineNumber: 716,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -2321,7 +2331,7 @@ const Home = ()=>{
                                                 children: "Your Impact"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 712,
+                                                lineNumber: 717,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2329,13 +2339,13 @@ const Home = ()=>{
                                                 children: "Every action makes a difference."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 713,
+                                                lineNumber: 718,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 710,
+                                        lineNumber: 715,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2347,7 +2357,7 @@ const Home = ()=>{
                                                 className: "h-12 w-auto"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 718,
+                                                lineNumber: 723,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
@@ -2355,7 +2365,7 @@ const Home = ()=>{
                                                 children: "Join Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 723,
+                                                lineNumber: 728,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2363,25 +2373,25 @@ const Home = ()=>{
                                                 children: "Be part of the movement."
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 724,
+                                                lineNumber: 729,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 717,
+                                        lineNumber: 722,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 687,
+                                lineNumber: 692,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 662,
+                        lineNumber: 667,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2403,7 +2413,7 @@ const Home = ()=>{
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 738,
+                                lineNumber: 743,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2412,14 +2422,14 @@ const Home = ()=>{
                                     "Have questions? Our team is ready to",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 750,
+                                        lineNumber: 755,
                                         columnNumber: 49
                                     }, this),
                                     " assist you with anything you need"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 749,
+                                lineNumber: 754,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2427,7 +2437,7 @@ const Home = ()=>{
                                 children: "Discover our programs making a lasting impact on education, health and equality."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 752,
+                                lineNumber: 757,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2441,12 +2451,12 @@ const Home = ()=>{
                                             className: "rounded-lg h-auto w-full max-w-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 757,
+                                            lineNumber: 762,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 756,
+                                        lineNumber: 761,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2466,7 +2476,7 @@ const Home = ()=>{
                                                                         className: "flex items-center pl-2"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
-                                                                        lineNumber: 764,
+                                                                        lineNumber: 769,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -2477,18 +2487,18 @@ const Home = ()=>{
                                                                         required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
-                                                                        lineNumber: 767,
+                                                                        lineNumber: 772,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 763,
+                                                                lineNumber: 768,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 762,
+                                                            lineNumber: 767,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2500,7 +2510,7 @@ const Home = ()=>{
                                                                         className: "flex items-center pl-2"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
-                                                                        lineNumber: 778,
+                                                                        lineNumber: 783,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -2511,24 +2521,24 @@ const Home = ()=>{
                                                                         required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.js",
-                                                                        lineNumber: 781,
+                                                                        lineNumber: 786,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 777,
+                                                                lineNumber: 782,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 776,
+                                                            lineNumber: 781,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 761,
+                                                    lineNumber: 766,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2540,7 +2550,7 @@ const Home = ()=>{
                                                                 className: "flex items-center pl-2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 793,
+                                                                lineNumber: 798,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -2551,18 +2561,18 @@ const Home = ()=>{
                                                                 required: true
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.js",
-                                                                lineNumber: 796,
+                                                                lineNumber: 801,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 792,
+                                                        lineNumber: 797,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 791,
+                                                    lineNumber: 796,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2575,12 +2585,12 @@ const Home = ()=>{
                                                         rows: "7"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 806,
+                                                        lineNumber: 811,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 805,
+                                                    lineNumber: 810,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2591,35 +2601,35 @@ const Home = ()=>{
                                                         children: "Send Message"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 815,
+                                                        lineNumber: 820,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 814,
+                                                    lineNumber: 819,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 760,
+                                            lineNumber: 765,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 759,
+                                        lineNumber: 764,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 755,
+                                lineNumber: 760,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 730,
+                        lineNumber: 735,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2640,7 +2650,7 @@ const Home = ()=>{
                                 children: "FAQs"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 834,
+                                lineNumber: 839,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2648,7 +2658,7 @@ const Home = ()=>{
                                 children: "Join us in making a difference"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 845,
+                                lineNumber: 850,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2656,7 +2666,7 @@ const Home = ()=>{
                                 children: "Our FAQ section covers everything you need to know."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 848,
+                                lineNumber: 853,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2673,7 +2683,7 @@ const Home = ()=>{
                                                         children: faq.question
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 858,
+                                                        lineNumber: 863,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -2681,13 +2691,13 @@ const Home = ()=>{
                                                         children: openIndex === index ? '-' : '+'
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 859,
+                                                        lineNumber: 864,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 854,
+                                                lineNumber: 859,
                                                 columnNumber: 17
                                             }, this),
                                             openIndex === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2697,29 +2707,29 @@ const Home = ()=>{
                                                     children: faq.answer
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 863,
+                                                    lineNumber: 868,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 862,
+                                                lineNumber: 867,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 853,
+                                        lineNumber: 858,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 851,
+                                lineNumber: 856,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 826,
+                        lineNumber: 831,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2737,7 +2747,7 @@ const Home = ()=>{
                                     children: "Join us and let's make a better world, today"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 881,
+                                    lineNumber: 886,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -2745,7 +2755,7 @@ const Home = ()=>{
                                     children: "Unite for progress creating impactful solutions for a better world."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 884,
+                                    lineNumber: 889,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -2762,7 +2772,7 @@ const Home = ()=>{
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 889,
+                                                lineNumber: 894,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -2771,46 +2781,46 @@ const Home = ()=>{
                                                 children: "Subscribe"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 895,
+                                                lineNumber: 900,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 888,
+                                        lineNumber: 893,
                                         columnNumber: 13
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 887,
+                                    lineNumber: 892,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 878,
+                            lineNumber: 883,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 870,
+                        lineNumber: 875,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 336,
+                lineNumber: 341,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 906,
+                lineNumber: 911,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 33,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 };

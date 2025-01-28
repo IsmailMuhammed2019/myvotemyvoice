@@ -29,6 +29,11 @@ const Home = () => {
     }
   ];
 
+  const handleComingSoon = (e) => {
+    e.preventDefault(); // Prevent the default link behavior
+    alert("Coming Soon"); // Show alert message
+  };
+
   return (
     <div className="bg-white">
       <div
@@ -58,7 +63,7 @@ const Home = () => {
                 Helping everyone learn, stay healthy, and work together.
               </p>
               <div className="mt-4 mb-4 flex justify-center lg:justify-start">
-                <Link href="/donate">
+                <Link href="/donate" onClick={handleComingSoon}>
                   <img className="h-12" src="/button.png" alt="click" />
                 </Link>
               </div>
@@ -251,8 +256,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center mx-auto">
-              <img src="/button-6.png" alt="prod" className="h-10 w-auto " />
+            <div className="flex flex-col items-center">
+              <img src="/button-6.png" alt="prod" className="h-10 w-auto" onClick={handleComingSoon} />
             </div>
           </div>
         </div>
@@ -386,7 +391,7 @@ const Home = () => {
               <div className="mt-auto">
                 {" "}
                 {/* Push button to the bottom */}
-                <Link href="/learn-more-education">
+                <Link href="#" onClick={handleComingSoon}>
                   <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
                     Learn More
                   </button>
@@ -419,7 +424,7 @@ const Home = () => {
               <div className="mt-auto">
                 {" "}
                 {/* Push button to the bottom */}
-                <Link href="/learn-more-healthcare">
+                <Link href="#" onClick={handleComingSoon}>
                   <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
                     Learn More
                   </button>
@@ -452,7 +457,7 @@ const Home = () => {
               <div className="mt-auto">
                 {" "}
                 {/* Push button to the bottom */}
-                <Link href="/learn-more-women-empowerment">
+                <Link href="#" onClick={handleComingSoon}>
                   <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
                     Learn More
                   </button>
@@ -485,7 +490,7 @@ const Home = () => {
               <div className="mt-auto">
                 {" "}
                 {/* Push button to the bottom */}
-                <Link href="/learn-more-civic-engagement">
+                <Link href="#" onClick={handleComingSoon}>
                   <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
                     Learn More
                   </button>
