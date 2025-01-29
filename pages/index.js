@@ -486,8 +486,8 @@ const Home = () => {
             These stories reflect the real change we are creating together.
           </p>
           <div className="flex flex-col gap-6 mt-15 mx-4 sm:mx-0">
-            <div className="flex w-full gap-4">
-              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full md:w-1/2">
+            <div className="flex flex-col md:flex-row gap-4">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full">
                 <img
                   src="/test1.png"
                   alt="Daniel Grey"
@@ -520,7 +520,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full md:w-1/2">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full">
                 <img
                   src="/test2.png"
                   alt="Jane Doe"
@@ -553,8 +553,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="flex w-full gap-4">
-              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full md:w-1/2">
+            <div className="flex flex-col md:flex-row gap-4">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full">
                 <img
                   src="/test3.png"
                   alt="John Smith"
@@ -586,7 +586,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full md:w-1/2">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full">
                 <img
                   src="/test4.png"
                   alt="Emily Johnson"
