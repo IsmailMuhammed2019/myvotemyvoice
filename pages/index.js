@@ -16,7 +16,7 @@ const Home = () => {
       answer: "You can get involved by participating in our events, volunteering, or joining our programs."
     },
     {
-      question: "How can I donate or support MyVoteMyVoice &apos;s initiatives?",
+      question: "How can I donate or support MyVoteMyVoice's initiatives?",
       answer: "You can donate through our website or participate in fundraising events to support our initiatives."
     },
     {
@@ -40,13 +40,13 @@ const Home = () => {
         className="relative min-h-screen bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/map.png')",
-          backgroundSize: "480px auto",
-          backgroundPosition: "right 174px top 0px",
+          backgroundPosition: "right 174px top 10px",
           backgroundRepeat: "no-repeat",
+          backgroundSize: "400px"
         }}
       >
         <Navbar />
-        <div className="max-w-7xl mx-auto mt-48 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto pt-56 px-4 sm:px-6 lg:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8">
             <div className="flex flex-col justify-center">
               <div className="text-center lg:text-left">
@@ -78,8 +78,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* Benefits Section */}
       <div
-        className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white"
+        className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-7 relative bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background.png')",
           backgroundSize: "contain",
@@ -87,7 +89,7 @@ const Home = () => {
         }}
       >
         <h2
-          className="text-xl font-extrabold mt-10 text-center"
+          className="text-xl font-extrabold mt-7 text-center"
           style={{
             background:
               "linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)",
@@ -97,12 +99,10 @@ const Home = () => {
         >
           Benefits
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-20 mx-44">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-10 mx-4 sm:mx-0">
           <div className="flex flex-col items-start">
             <img src="/1.png" alt="Access to help" className="h-12 w-auto" />
-            <h3 className="text-sm font-bold mt-5 text-black">
-              Access to help
-            </h3>
+            <h3 className="text-sm font-bold mt-5 text-black">Access to help</h3>
             <p className="text-gray-500 text-left text-sm mt-3">
               Find information on education and healthcare.
             </p>
@@ -113,9 +113,7 @@ const Home = () => {
               alt="Bring people together"
               className="h-12 w-auto"
             />
-            <h3 className="text-sm font-bold mt-5 text-black">
-              Bring people together
-            </h3>
+            <h3 className="text-sm font-bold mt-5 text-black">Bring people together</h3>
             <p className="text-gray-500 text-left text-sm mt-3">
               Connect with others to work on important projects.
             </p>
@@ -133,17 +131,17 @@ const Home = () => {
               alt="Spreading awareness"
               className="h-12 w-auto"
             />
-            <h3 className="text-sm font-bold mt-5 text-black">
-              Spreading awareness
-            </h3>
+            <h3 className="text-sm font-bold mt-5 text-black">Spreading awareness</h3>
             <p className="text-gray-500 text-left text-sm mt-3">
               Learn about issues and how you can make a difference.
             </p>
           </div>
         </div>
       </div>
+
+      {/* About Us Section */}
       <div id="about"
-        className="max-w-7xl mx-auto mt-20 py-5 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white"
+        className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background2.png')",
           backgroundSize: "contain",
@@ -162,14 +160,14 @@ const Home = () => {
           About Us
         </h2>
         <p className="mb-4 mt-5 text-3xl text-black text-center lg:text-center">
-          Working to empower communities through <br /> education,health women&apos;s
+          Working to empower communities through <br /> education, health, women's
           support and <br />
           civic awareness
         </p>
         <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
           Creating opportunities, changing lives, Building stronger communities.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-14 mt-20 mx-44">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-14 mt-10 mx-4 sm:mx-0">
           <div className="flex flex-col items-center">
             <div className="flex">
               <div className="mb-5 mr-5">
@@ -202,14 +200,11 @@ const Home = () => {
           </div>
           <div className="flex flex-col items-start">
             <div className="flex items-start mb-10">
-              {" "}
-              {/* Flex container for title and subtext */}
               <img
                 src="/group1.png"
                 alt="Access to Education"
                 className="h-10 w-auto mr-4"
-              />{" "}
-              {/* Image beside text */}
+              />
               <div>
                 <h3 className="text-black font-bold">
                   Access to Education in Rural Areas
@@ -221,34 +216,28 @@ const Home = () => {
               </div>
             </div>
             <div className="flex items-start mb-10">
-              {" "}
-              {/* Flex container for title and subtext */}
               <img
                 src="/group2.png"
                 alt="Health Advocacy"
                 className="h-10 w-auto mr-4"
-              />{" "}
-              {/* Image beside text */}
+              />
               <div>
                 <h3 className="text-black font-bold">Health Advocacy</h3>
                 <p className="text-gray-500 text-xs">
                   We support better access to healthcare, improve child and
-                  women&apos;s nutrition and promote wellness programs to reduce
+                  women's nutrition and promote wellness programs to reduce
                   inequalities and create healthier communities.
                 </p>
               </div>
             </div>
             <div className="flex items-start mb-10">
-              {" "}
-              {/* Flex container for title and subtext */}
               <img
                 src="/group3.png"
                 alt="Womens Empowerment"
                 className="h-10 w-auto mr-4"
-              />{" "}
-              {/* Image beside text */}
+              />
               <div>
-                <h3 className="text-black font-bold">Women&apos;s Empowerment</h3>
+                <h3 className="text-black font-bold">Women's Empowerment</h3>
                 <p className="text-gray-500 text-xs">
                   We help women succeed by supporting women-owned businesses and
                   creating opportunities for economic independence and
@@ -262,8 +251,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* What We Do Section */}
       <div
-        className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+        className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background.png')",
           backgroundSize: "contain",
@@ -287,12 +278,8 @@ const Home = () => {
         <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
           Turning ideas into impact, one community at a time.
         </p>
-        <div className="flex flex-col lg:flex-row gap-15 mt-15 mx-40">
-          {" "}
-          {/* Use flexbox for layout */}
+        <div className="flex flex-col lg:flex-row gap-15 mt-15 mx-4 sm:mx-0">
           <div className="flex-1 flex flex-col items-start mr-10">
-            {" "}
-            {/* Left div with paragraph */}
             <p className="text-black">
               At the heart of everything we do is the drive to create meaningful
               change. From building education programs in rural areas to
@@ -305,31 +292,25 @@ const Home = () => {
             </p>
           </div>
           <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-5">
-            {" "}
-            {/* Right div with statistics */}
             <div className="flex flex-col justify-center items-center bg-[#E5FBE6] rounded-lg p-2">
-              {/* First div */}
               <h3 className="text-2xl font-bold" style={{ color: "#83CC20" }}>
                 150K
               </h3>
               <p className="text-gray-500 text-sm">Human impact</p>
             </div>
             <div className="flex flex-col justify-center items-center bg-[#EBF2FE] rounded-lg p-2">
-              {/* Second div */}
               <h3 className="text-2xl font-bold" style={{ color: "#1168F5" }}>
                 800
               </h3>
               <p className="text-gray-500 text-sm">Assisted communities</p>
             </div>
             <div className="flex flex-col justify-center items-center bg-[#FEF3E9] rounded-lg p-2">
-              {/* Third div */}
               <h3 className="text-2xl font-bold" style={{ color: "#F88115" }}>
                 200K
               </h3>
               <p className="text-gray-500 text-sm">Donations</p>
             </div>
             <div className="flex flex-col justify-center items-center bg-[#FDF7E1] rounded-lg p-2">
-              {/* Fourth div */}
               <h3 className="text-2xl font-bold" style={{ color: "#E2B10C" }}>
                 800K
               </h3>
@@ -338,8 +319,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* Our Initiative Section */}
       <div id="initiative"
-        className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+        className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background2.png')",
           backgroundSize: "contain",
@@ -355,7 +338,7 @@ const Home = () => {
             WebkitTextFillColor: "transparent",
           }}
         >
-          Our Intitiative
+          Our Initiative
         </h2>
         <p className="mb-4 mt-5 text-3xl text-black text-center lg:text-center">
           Empowering communities through action
@@ -365,10 +348,8 @@ const Home = () => {
           equality.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-20 mx-44">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-20 mx-4 sm:mx-0">
           <div className="flex flex-col items-center bg-white rounded-lg h-full">
-            {" "}
-            {/* Added h-full to ensure full height */}
             <div>
               <img
                 src="/image-6.png"
@@ -377,8 +358,6 @@ const Home = () => {
               />
             </div>
             <div className="p-1 flex flex-col justify-between flex-grow">
-              {" "}
-              {/* Added flex-grow to fill space */}
               <div>
                 <h3 className="text-sm font-bold text-black text-left">
                   Education
@@ -389,8 +368,6 @@ const Home = () => {
                 </p>
               </div>
               <div className="mt-auto">
-                {" "}
-                {/* Push button to the bottom */}
                 <Link href="#" onClick={handleComingSoon}>
                   <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
                     Learn More
@@ -400,8 +377,6 @@ const Home = () => {
             </div>
           </div>
           <div className="flex flex-col items-center bg-white rounded-lg h-full">
-            {" "}
-            {/* Added h-full to ensure full height */}
             <div>
               <img
                 src="/image-8.png"
@@ -410,8 +385,6 @@ const Home = () => {
               />
             </div>
             <div className="p-1 flex flex-col justify-between flex-grow">
-              {" "}
-              {/* Added flex-grow to fill space */}
               <div>
                 <h3 className="text-sm font-bold text-black text-left">
                   Healthcare
@@ -422,8 +395,6 @@ const Home = () => {
                 </p>
               </div>
               <div className="mt-auto">
-                {" "}
-                {/* Push button to the bottom */}
                 <Link href="#" onClick={handleComingSoon}>
                   <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
                     Learn More
@@ -433,8 +404,6 @@ const Home = () => {
             </div>
           </div>
           <div className="flex flex-col items-center bg-white rounded-lg h-full">
-            {" "}
-            {/* Added h-full to ensure full height */}
             <div>
               <img
                 src="/image-9.png"
@@ -443,11 +412,9 @@ const Home = () => {
               />
             </div>
             <div className="p-1 flex flex-col justify-between flex-grow">
-              {" "}
-              {/* Added flex-grow to fill space */}
               <div>
                 <h3 className="text-sm font-bold text-black text-left">
-                  Women&apos;s Empowerment
+                  Women's Empowerment
                 </h3>
                 <p className="text-gray-500 text-left text-xs mt-2">
                   Support women to start businesses and gain financial
@@ -455,8 +422,6 @@ const Home = () => {
                 </p>
               </div>
               <div className="mt-auto">
-                {" "}
-                {/* Push button to the bottom */}
                 <Link href="#" onClick={handleComingSoon}>
                   <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
                     Learn More
@@ -466,8 +431,6 @@ const Home = () => {
             </div>
           </div>
           <div className="flex flex-col items-center bg-white rounded-lg h-full">
-            {" "}
-            {/* Added h-full to ensure full height */}
             <div>
               <img
                 src="/image-10.png"
@@ -476,8 +439,6 @@ const Home = () => {
               />
             </div>
             <div className="p-1 flex flex-col justify-between flex-grow">
-              {" "}
-              {/* Added flex-grow to fill space */}
               <div>
                 <h3 className="text-sm font-bold text-black text-left">
                   Civic Engagement
@@ -488,8 +449,6 @@ const Home = () => {
                 </p>
               </div>
               <div className="mt-auto">
-                {" "}
-                {/* Push button to the bottom */}
                 <Link href="#" onClick={handleComingSoon}>
                   <button className="mt-3 border border-[#83CC20] text-[#83CC20] bg-white rounded-lg px-4 py-1 hover:bg-[#83CC20] hover:text-white">
                     Learn More
@@ -499,8 +458,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* Testimonials Section */}
         <div id="testimonials"
-          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+          className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
           style={{
             backgroundImage: "url('/background.png')",
             backgroundSize: "contain",
@@ -524,15 +485,14 @@ const Home = () => {
           <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
             These stories reflect the real change we are creating together.
           </p>
-          <div className="flex flex-col gap-6 mt-15 mx-40">
+          <div className="flex flex-col gap-6 mt-15 mx-4 sm:mx-0">
             <div className="flex w-full gap-4">
-              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-1/2">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full md:w-1/2">
                 <img
                   src="/test1.png"
                   alt="Daniel Grey"
                   className="rounded-full h-12 w-12 mr-4"
-                />{" "}
-                {/* Circular image */}
+                />
                 <div>
                   <h3 className="text-sm mb-2 font-bold">Daniel Grey</h3>
                   <p className="text-sm mb-2 text-gray-500">Volunteer</p>
@@ -560,13 +520,12 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-1/2">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full md:w-1/2">
                 <img
                   src="/test2.png"
                   alt="Jane Doe"
                   className="rounded-full h-12 w-12 mr-4"
-                />{" "}
-                {/* Circular image */}
+                />
                 <div>
                   <h3 className="text-sm mb-2 font-bold">Jane Doe</h3>
                   <p className="text-sm mb-2 text-gray-500">Volunteer</p>
@@ -576,7 +535,7 @@ const Home = () => {
                       <svg
                         key={index}
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 . mr-1 text-yellow-500"
+                        className="h-4 w-4 mr-1 text-yellow-500"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                       >
@@ -595,13 +554,12 @@ const Home = () => {
               </div>
             </div>
             <div className="flex w-full gap-4">
-              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-1/2">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full md:w-1/2">
                 <img
                   src="/test3.png"
                   alt="John Smith"
                   className="rounded-full h-12 w-12 mr-4"
-                />{" "}
-                {/* Circular image */}
+                />
                 <div>
                   <h3 className="text-sm mb-2 font-bold">John Smith</h3>
                   <p className="text-sm mb-2 text-gray-500">Volunteer</p>
@@ -628,13 +586,12 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-1/2">
+              <div className="flex items-start bg-white border border-gray-300 rounded-lg shadow-md p-4 w-full md:w-1/2">
                 <img
                   src="/test4.png"
                   alt="Emily Johnson"
                   className="rounded-full h-12 w-12 mr-4"
-                />{" "}
-                {/* Circular image */}
+                />
                 <div>
                   <h3 className="text-sm mb-2 font-bold">Emily Johnson</h3>
                   <p className="text-sm mb-2 text-gray-500">Volunteer</p>
@@ -664,8 +621,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* Get Involved Section */}
         <div id="get-involved"
-          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+          className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
           style={{
             backgroundImage: "url('/background3.jpg')",
             backgroundSize: "contain",
@@ -681,7 +640,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Get Inovolved
+            Get Involved
           </h2>
           <p className="mb-4 mt-5 text-3xl text-black text-center lg:text-center">
             Join us in making a difference
@@ -689,7 +648,7 @@ const Home = () => {
           <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
             Turning ideas into impact, one community at a time.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-20 mx-60">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-20 mx-4 sm:mx-0">
             <div className="flex flex-col items-start">
               <img
                 src="/ki1.png"
@@ -732,8 +691,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* Contact Section */}
         <div id="contact"
-          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+          className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
           style={{
             backgroundImage: "url('/background.png')",
             backgroundSize: "contain",
@@ -757,7 +718,7 @@ const Home = () => {
           <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
             Discover our programs making a lasting impact on education, health and equality.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 mt-20 mx-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 mt-20 mx-4 sm:mx-0">
             <div className="flex items-center justify-center bg-white h-full">
               <img src="/contact.jpg" alt="Contact" className="rounded-lg h-auto w-full max-w-lg" />
             </div>
@@ -828,10 +789,12 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* FAQs Section */}
         <div
-          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 bg-no-repeat bg-white"
+          className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative mt-20 mb-20 bg-no-repeat bg-white"
           style={{
-            backgroundImage: "url('/background3.jpg')",
+            backgroundImage: "url('/background.png')",
             backgroundSize: "contain",
             minHeight: "500px",
           }}
@@ -853,7 +816,7 @@ const Home = () => {
           <p className="mt-2 mb-7 text-sm text-gray-400 text-center lg:text-center">
             Our FAQ section covers everything you need to know.
           </p>
-          <div className="mt-10 mx-40">
+          <div className="mt-10 mx-4 sm:mx-0">
             {faqs.map((faq, index) => (
               <div key={index} className="mb-4">
                 <div
@@ -872,40 +835,42 @@ const Home = () => {
             ))}
           </div>
         </div>
+
+        {/* Call to Action Section */}
         <div
-          className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8 relative mt-20 mb-20 bg-no-repeat bg-white"
+          className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative mt-20 mb-20 bg-no-repeat bg-white"
           style={{
             backgroundImage: "url('/background.png')",
             backgroundSize: "contain",
             minHeight: "500px",
           }}
         >
-        <div
-          className="max-w-7xl py-20 px-4 sm:px-6 lg:px-8 relative mt-40 mx-40 bg-[#6AA910] text-center rounded-lg"
-        >
-          <h2 className="text-3xl font-bold text-white">
-            Join us and let&apos;s make a better world, today
-          </h2>
-          <p className="mt-2 mb-6 text-lg text-white">
-            Unite for progress creating impactful solutions for a better world.
-          </p>
-          <div className="max-w-md mx-auto p-1 bg-white rounded">
-            <form className="flex">
-              <input
-                type="email"
-                placeholder="Email"
-                className="border-none rounded-l-lg py-2 px-4 w-full focus:outline-none"
-                style={{ marginRight: '0.5rem' }}
-              />
-              <button
-                type="submit"
-                className="bg-[#5F990C] hover:bg-[#6AA910] text-white font-bold py-2 px-4 rounded-lg w-auto"
-              >
-                Subscribe
-              </button>
-            </form>
+          <div
+            className="max-w-7xl py-20 px-4 sm:px-6 lg:px-8 relative mt-40 mx-4 sm:mx-0 bg-[#6AA910] text-center rounded-lg"
+          >
+            <h2 className="text-3xl font-bold text-white">
+              Join us and let&apos;s make a better world, today
+            </h2>
+            <p className="mt-2 mb-6 text-lg text-white">
+              Unite for progress creating impactful solutions for a better world.
+            </p>
+            <div className="max-w-md mx-auto p-1 bg-white rounded">
+              <form className="flex">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="border-none rounded-l-lg py-2 px-4 w-full focus:outline-none"
+                  style={{ marginRight: '0.5rem' }}
+                />
+                <button
+                  type="submit"
+                  className="bg-[#5F990C] hover:bg-[#6AA910] text-white font-bold py-2 px-4 rounded-lg w-auto"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
           </div>
-        </div>
         </div>
       </div>
       <Footer />

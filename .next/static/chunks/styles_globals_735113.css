@@ -389,6 +389,11 @@ img, video {
   margin-bottom: 1.25rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -495,6 +500,10 @@ img, video {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .flex {
@@ -804,12 +813,34 @@ img, video {
   padding-bottom: 1.25rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pl-2 {
   padding-left: .5rem;
 }
 
 .pt-28 {
   padding-top: 7rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-56 {
+  padding-top: 14rem;
 }
 
 .text-left {
@@ -1004,6 +1035,11 @@ body {
 }
 
 @media (width >= 640px) {
+  .sm\:mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1031,6 +1067,10 @@ body {
   .md\:flex {
     display: flex;
   }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
 }
 
 @media (width >= 1024px) {
@@ -1057,6 +1097,16 @@ body {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .lg\:text-left {
