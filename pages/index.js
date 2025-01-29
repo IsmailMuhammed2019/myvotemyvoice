@@ -81,7 +81,7 @@ const Home = () => {
 
       {/* Benefits Section */}
       <div
-        className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-7 relative bg-no-repeat bg-white"
+        className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-7 relative bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background.png')",
           backgroundSize: "contain",
@@ -89,7 +89,7 @@ const Home = () => {
         }}
       >
         <h2
-          className="text-xl font-extrabold mt-7 text-center"
+          className="text-xl font-extrabold text-center"
           style={{
             background:
               "linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)",
@@ -141,7 +141,7 @@ const Home = () => {
 
       {/* About Us Section */}
       <div id="about"
-        className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white"
+        className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 relative bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/background2.png')",
           backgroundSize: "contain",
@@ -149,7 +149,7 @@ const Home = () => {
         }}
       >
         <h2
-          className="text-xl font-extrabold mt-10 text-center"
+          className="text-xl font-extrabold text-center"
           style={{
             background:
               "linear-gradient(90deg, #6AA910 0%, #EEC329 77.24%, #6AA910 154.48%)",
