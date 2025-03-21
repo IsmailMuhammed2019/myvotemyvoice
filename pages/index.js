@@ -40,7 +40,7 @@ const Home = () => {
         className="relative min-h-screen bg-no-repeat bg-white"
         style={{
           backgroundImage: "url('/map.png')",
-          backgroundPosition: "right 174px top 10px",
+          backgroundPosition: "right 0px top 10px",
           backgroundRepeat: "no-repeat",
           backgroundSize: "400px"
         }}
